@@ -1,0 +1,28 @@
+2026-01-02 14:46:28.744 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-02 14:46:28.749 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-02 14:46:29.218 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Login
+2026-01-02 14:46:29.320 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-02 14:46:29.322 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-02 14:46:29.323 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-02 14:46:29.324 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-02 14:46:29.325 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-02 14:46:29.328 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-02 14:46:30.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:30.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/LG-01
+2026-01-02 14:46:30.741 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:30.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/LG-01
+2026-01-02 14:46:30.752 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:30.752 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/LO-01
+2026-01-02 14:46:30.753 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:30.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/LO-01
+2026-01-02 14:46:30.760 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:30.761 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/LG-02
+2026-01-02 14:46:30.763 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:30.766 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/LG-02
+2026-01-02 14:46:30.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:30.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/LG-03
+2026-01-02 14:46:30.774 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:30.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/LG-03
+2026-01-02 14:46:30.854 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-02 14:46:30.855 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Login
+2026-01-02 14:46:30.855 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

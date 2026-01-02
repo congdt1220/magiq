@@ -1,0 +1,355 @@
+2026-01-02 14:58:28.809 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-02 14:58:28.814 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-02 14:58:29.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_LGG
+2026-01-02 14:58:29.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-02 14:58:29.580 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-02 14:58:29.581 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-02 14:58:29.583 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-02 14:58:29.584 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-02 14:58:29.585 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-02 14:58:31.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:58:31.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-01
+2026-01-02 14:58:31.455 DEBUG testcase.LG-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-02 14:58:31.459 DEBUG testcase.LG-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-02 14:58:31.463 DEBUG testcase.LG-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-02 14:58:31.467 DEBUG testcase.LG-01                           - 4: openBrowser("")
+2026-01-02 14:58:31.886 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-02 14:58:31.898 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-02 14:58:32.001 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 02, 2026 2:58:33 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 02, 2026 2:58:33 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-02 14:58:35.809 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0a960d05f6b50171f6d44c2c52440d54
+2026-01-02 14:58:35.830 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-02 14:58:35.844 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-02 14:58:35.849 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-02 14:58:35.918 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-02 14:58:36.097 DEBUG testcase.LG-01                           - 5: maximizeWindow()
+2026-01-02 14:58:36.202 DEBUG testcase.LG-01                           - 6: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-02 14:58:36.378 DEBUG testcase.LG-01                           - 7: waitForPageLoad(LOCAL_PAGELOAD)
+2026-01-02 14:58:37.844 DEBUG testcase.LG-01                           - 8: spanContinueAsGuest = new com.kms.katalon.core.testobject.TestObject(span_continue_as_guest)
+2026-01-02 14:58:37.862 DEBUG testcase.LG-01                           - 9: spanContinueAsGuest.addProperty("css", EQUALS, "span.mdc-button__label")
+2026-01-02 14:58:37.879 DEBUG testcase.LG-01                           - 10: spanContinueAsGuest.addProperty("xpath", EQUALS, "//*[self::span and contains(concat(' ', normalize-space(@class), ' '), ' mdc-button__label ') and normalize-space(text())='Continue as Guest']")
+2026-01-02 14:58:37.882 DEBUG testcase.LG-01                           - 11: targetVisible = false
+2026-01-02 14:58:37.885 DEBUG testcase.LG-01                           - 12: attempts = 0
+2026-01-02 14:58:37.887 DEBUG testcase.LG-01                           - 13: while (attempts <= MAX_RELOAD_ATTEMPTS)
+2026-01-02 14:58:37.894 DEBUG testcase.LG-01                           - 1: targetVisible = waitForElementVisible(spanContinueAsGuest, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)
+2026-01-02 14:58:41.424 DEBUG testcase.LG-01                           - 2: if (targetVisible)
+2026-01-02 14:58:41.428 DEBUG testcase.LG-01                           - 1: break
+2026-01-02 14:58:41.429 DEBUG testcase.LG-01                           - 14: if (targetVisible)
+2026-01-02 14:58:41.432 DEBUG testcase.LG-01                           - 1: verifyElementPresent(spanContinueAsGuest, 10, STOP_ON_FAILURE)
+2026-01-02 14:58:41.698 DEBUG testcase.LG-01                           - 2: comment("✅ Tồn tại: <span class='mdc-button__label'>Continue as Guest</span> trên trang login.")
+2026-01-02 14:58:41.720 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Tồn tại: <span class='mdc-button__label'>Continue as Guest</span> trên trang login.
+2026-01-02 14:58:41.723 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-01
+2026-01-02 14:58:41.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:58:41.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-02
+2026-01-02 14:58:41.952 DEBUG testcase.LG-02                           - 1: LOCAL_PAGELOAD = 300
+2026-01-02 14:58:41.956 DEBUG testcase.LG-02                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-02 14:58:41.959 DEBUG testcase.LG-02                           - 3: MAX_RELOAD_ATTEMPTS = 2
+2026-01-02 14:58:41.962 DEBUG testcase.LG-02                           - 4: btnContinueAsGuest = new com.kms.katalon.core.testobject.TestObject(btn_continue_as_guest)
+2026-01-02 14:58:41.966 DEBUG testcase.LG-02                           - 5: btnContinueAsGuest.addProperty("xpath", EQUALS, "//button[@aria-label='Continue as Guest']")
+2026-01-02 14:58:41.970 DEBUG testcase.LG-02                           - 6: guestMarker = new com.kms.katalon.core.testobject.TestObject(guestMarker)
+2026-01-02 14:58:41.975 DEBUG testcase.LG-02                           - 7: guestMarker.addProperty("xpath", EQUALS, "//*[contains(@class,'list-organisation')]")
+2026-01-02 14:58:41.979 DEBUG testcase.LG-02                           - 8: btnVisible = false
+2026-01-02 14:58:41.982 DEBUG testcase.LG-02                           - 9: attempts = 0
+2026-01-02 14:58:41.985 DEBUG testcase.LG-02                           - 10: MAX_WAIT_SECONDS = 60
+2026-01-02 14:58:41.988 DEBUG testcase.LG-02                           - 11: POLL_INTERVAL = 10
+2026-01-02 14:58:41.992 DEBUG testcase.LG-02                           - 12: waited = 0
+2026-01-02 14:58:41.995 DEBUG testcase.LG-02                           - 13: btnVisible = waitForElementVisible(btnContinueAsGuest, POLL_INTERVAL, OPTIONAL)
+2026-01-02 14:58:42.293 DEBUG testcase.LG-02                           - 14: if (!(btnVisible))
+2026-01-02 14:58:42.297 DEBUG testcase.LG-02                           - 15: if (!(btnVisible))
+2026-01-02 14:58:42.300 DEBUG testcase.LG-02                           - 16: clickable = waitForElementClickable(btnContinueAsGuest, 20, OPTIONAL)
+2026-01-02 14:58:42.650 DEBUG testcase.LG-02                           - 17: if (!(clickable))
+2026-01-02 14:58:42.662 DEBUG testcase.LG-02                           - 18: if (!(clickable))
+2026-01-02 14:58:42.665 DEBUG testcase.LG-02                           - 19: click(btnContinueAsGuest)
+2026-01-02 14:58:43.451 DEBUG testcase.LG-02                           - 20: comment("🖱️ Đã click button aria-label='Continue as Guest'.")
+2026-01-02 14:58:43.457 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã click button aria-label='Continue as Guest'.
+2026-01-02 14:58:43.460 DEBUG testcase.LG-02                           - 21: guestLoaded = waitForElementVisible(guestMarker, 60, OPTIONAL)
+2026-01-02 14:58:45.871 DEBUG testcase.LG-02                           - 22: if (guestLoaded)
+2026-01-02 14:58:45.873 DEBUG testcase.LG-02                           - 1: comment("✅ Thành công: Đã thấy marker giao diện sau khi vào chế độ Guest.")
+2026-01-02 14:58:45.876 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Thành công: Đã thấy marker giao diện sau khi vào chế độ Guest.
+2026-01-02 14:58:45.877 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-02
+2026-01-02 14:58:45.881 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:58:45.881 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-03
+2026-01-02 14:58:45.966 DEBUG testcase.LG-03                           - 1: LOCAL_PAGELOAD = 300
+2026-01-02 14:58:45.967 DEBUG testcase.LG-03                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-02 14:58:45.969 DEBUG testcase.LG-03                           - 3: MAX_RELOAD_ATTEMPTS = 2
+2026-01-02 14:58:45.971 DEBUG testcase.LG-03                           - 4: btnContinueAsGuest = new com.kms.katalon.core.testobject.TestObject(btn_continue_as_guest)
+2026-01-02 14:58:45.973 DEBUG testcase.LG-03                           - 5: btnContinueAsGuest.addProperty("xpath", EQUALS, "//button[@aria-label='Continue as Guest']")
+2026-01-02 14:58:45.975 DEBUG testcase.LG-03                           - 6: guestMarker = new com.kms.katalon.core.testobject.TestObject(guestMarker)
+2026-01-02 14:58:45.978 DEBUG testcase.LG-03                           - 7: guestMarker.addProperty("xpath", EQUALS, "//h3[@class='blazored-modal-title' and normalize-space()='Select Organisation']")
+2026-01-02 14:58:45.980 DEBUG testcase.LG-03                           - 8: guestLoaded = waitForElementVisible(guestMarker, 60, OPTIONAL)
+2026-01-02 14:58:46.231 DEBUG testcase.LG-03                           - 9: if (guestLoaded)
+2026-01-02 14:58:46.233 DEBUG testcase.LG-03                           - 1: comment("✅ Thành công: Đã thấy marker giao diện sau khi vào chế độ Guest.")
+2026-01-02 14:58:46.236 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Thành công: Đã thấy marker giao diện sau khi vào chế độ Guest.
+2026-01-02 14:58:46.238 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-03
+2026-01-02 14:58:46.242 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:58:46.242 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-05
+2026-01-02 14:58:46.374 DEBUG testcase.LG-05                           - 1: PAGELOAD_TIMEOUT = 120
+2026-01-02 14:58:46.375 DEBUG testcase.LG-05                           - 2: WAIT_TIMEOUT = 129
+2026-01-02 14:58:46.377 DEBUG testcase.LG-05                           - 3: aWestCoast = new com.kms.katalon.core.testobject.TestObject(a_west_coast_council)
+2026-01-02 14:58:46.380 DEBUG testcase.LG-05                           - 4: aWestCoast.addProperty("xpath", EQUALS, "//h6[normalize-space(.)='a-West Coast Council']")
+2026-01-02 14:58:46.383 DEBUG testcase.LG-05                           - 5: isPresent = waitForElementPresent(aWestCoast, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:58:46.633 DEBUG testcase.LG-05                           - 6: isVisible = waitForElementVisible(aWestCoast, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:58:46.899 DEBUG testcase.LG-05                           - 7: isClickable = waitForElementClickable(aWestCoast, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:58:47.163 DEBUG testcase.LG-05                           - 8: if (!(isPresent && isVisible))
+2026-01-02 14:58:47.166 DEBUG testcase.LG-05                           - 9: if (isClickable)
+2026-01-02 14:58:47.168 DEBUG testcase.LG-05                           - 1: click(aWestCoast)
+2026-01-02 14:58:47.514 DEBUG testcase.LG-05                           - 2: comment("✅ Đã click '<a> West Coast Council' bằng WebUI.click (không dùng JS, không scroll).")
+2026-01-02 14:58:47.517 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click '<a> West Coast Council' bằng WebUI.click (không dùng JS, không scroll).
+2026-01-02 14:58:47.518 DEBUG testcase.LG-05                           - 11: targetUrl = "https://www.westcoast.tas.gov.au/"
+2026-01-02 14:58:47.519 DEBUG testcase.LG-05                           - 12: aTasGov = new com.kms.katalon.core.testobject.TestObject(a_westcoast_tas_gov)
+2026-01-02 14:58:47.521 DEBUG testcase.LG-05                           - 13: aTasGov.addProperty("xpath", EQUALS, "//a[@target='_blank' and @href='" + targetUrl + "']")
+2026-01-02 14:58:47.528 DEBUG testcase.LG-05                           - 14: linkExists = waitForElementPresent(aTasGov, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:59:02.194 DEBUG testcase.LG-05                           - 15: if (linkExists)
+2026-01-02 14:59:02.195 DEBUG testcase.LG-05                           - 1: comment(✅ Tìm thấy thẻ <a> với href='$targetUrl' và target='_blank'.)
+2026-01-02 14:59:02.213 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Tìm thấy thẻ <a> với href='https://www.westcoast.tas.gov.au/' và target='_blank'.
+2026-01-02 14:59:02.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-05
+2026-01-02 14:59:02.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:59:02.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-07
+2026-01-02 14:59:02.441 DEBUG testcase.LG-07                           - 1: PAGELOAD_TIMEOUT = 120
+2026-01-02 14:59:02.442 DEBUG testcase.LG-07                           - 2: WAIT_TIMEOUT = 120
+2026-01-02 14:59:02.444 DEBUG testcase.LG-07                           - 3: try
+2026-01-02 14:59:02.445 DEBUG testcase.LG-07                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-02 14:59:02.536 DEBUG testcase.LG-07                           - 2: x = 5
+2026-01-02 14:59:02.538 DEBUG testcase.LG-07                           - 3: y = height - 5
+2026-01-02 14:59:02.578 DEBUG testcase.LG-07                           - 4: robot = new java.awt.Robot()
+2026-01-02 14:59:02.586 DEBUG testcase.LG-07                           - 5: robot.mouseMove(x, y)
+2026-01-02 14:59:02.595 DEBUG testcase.LG-07                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-02 14:59:02.598 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-02 14:59:02.600 DEBUG testcase.LG-07                           - 7: Thread.sleep(400)
+2026-01-02 14:59:03.020 DEBUG testcase.LG-07                           - 6: driver = getWebDriver()
+2026-01-02 14:59:03.022 DEBUG testcase.LG-07                           - 7: bodyEl = driver.findElement(By.tagName("body"))
+2026-01-02 14:59:12.857 DEBUG testcase.LG-07                           - 8: actions = new org.openqa.selenium.interactions.Actions(driver)
+2026-01-02 14:59:12.870 DEBUG testcase.LG-07                           - 9: targetX = 0
+2026-01-02 14:59:12.871 DEBUG testcase.LG-07                           - 10: targetY = 300
+2026-01-02 14:59:12.873 DEBUG testcase.LG-07                           - 11: moveToElement(bodyEl, targetX, targetY).perform()
+2026-01-02 14:59:13.015 DEBUG testcase.LG-07                           - 12: comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)
+2026-01-02 14:59:13.018 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã move Actions tới body offset (x=0, y=300).
+2026-01-02 14:59:13.019 DEBUG testcase.LG-07                           - 13: click().perform()
+2026-01-02 14:59:13.029 DEBUG testcase.LG-07                           - 14: comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)
+2026-01-02 14:59:13.032 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+2026-01-02 14:59:13.033 DEBUG testcase.LG-07                           - 15: aAccount = new com.kms.katalon.core.testobject.TestObject(a_account)
+2026-01-02 14:59:13.034 DEBUG testcase.LG-07                           - 16: aAccount.addProperty("xpath", EQUALS, "//a[@href='account']")
+2026-01-02 14:59:13.036 DEBUG testcase.LG-07                           - 17: present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:59:17.245 DEBUG testcase.LG-07                           - 18: visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:59:17.480 DEBUG testcase.LG-07                           - 19: clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:59:17.727 DEBUG testcase.LG-07                           - 20: if (!(present && visible))
+2026-01-02 14:59:17.728 DEBUG testcase.LG-07                           - 21: if (clickable)
+2026-01-02 14:59:17.730 DEBUG testcase.LG-07                           - 1: click(aAccount)
+2026-01-02 14:59:18.085 DEBUG testcase.LG-07                           - 2: comment("✅ Đã click vào liên kết account.")
+2026-01-02 14:59:18.088 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click vào liên kết account.
+2026-01-02 14:59:18.091 DEBUG testcase.LG-07                           - 23: h4Guest = new com.kms.katalon.core.testobject.TestObject(h4_guest_account)
+2026-01-02 14:59:18.095 DEBUG testcase.LG-07                           - 24: h4Guest.addProperty("xpath", EQUALS, "//h4[@class='mat-h4' and normalize-space(.)='Guest Account!']")
+2026-01-02 14:59:18.100 DEBUG testcase.LG-07                           - 25: h4Present = waitForElementPresent(h4Guest, 30, OPTIONAL)
+2026-01-02 14:59:18.537 DEBUG testcase.LG-07                           - 26: if (!(h4Present))
+2026-01-02 14:59:18.537 DEBUG testcase.LG-07                           - 27: h4Visible = waitForElementVisible(h4Guest, 30, OPTIONAL)
+2026-01-02 14:59:18.771 DEBUG testcase.LG-07                           - 28: if (!(h4Visible))
+2026-01-02 14:59:18.772 DEBUG testcase.LG-07                           - 29: h4Text = getText(h4Guest)
+2026-01-02 14:59:19.027 DEBUG testcase.LG-07                           - 30: if (h4Text.trim() != "Guest Account!")
+2026-01-02 14:59:19.028 DEBUG testcase.LG-07                           - 31: comment("✅ Xác nhận: <h4 class='mat-h4'>Guest Account!</h4> tồn tại và hiển thị đúng.")
+2026-01-02 14:59:19.030 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Xác nhận: <h4 class='mat-h4'>Guest Account!</h4> tồn tại và hiển thị đúng.
+2026-01-02 14:59:19.032 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-07
+2026-01-02 14:59:19.034 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:59:19.034 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-08
+2026-01-02 14:59:19.116 DEBUG testcase.LG-08                           - 1: PAGELOAD_TIMEOUT = 120
+2026-01-02 14:59:19.117 DEBUG testcase.LG-08                           - 2: WAIT_TIMEOUT = 120
+2026-01-02 14:59:19.118 DEBUG testcase.LG-08                           - 3: h4ModalMsg = new com.kms.katalon.core.testobject.TestObject(h4_modal_message)
+2026-01-02 14:59:19.119 DEBUG testcase.LG-08                           - 4: h4ModalMsg.addProperty("xpath", EQUALS, "//h4[@class='modal-message' and normalize-space(.)='Please create a user account before accessing further information.']")
+2026-01-02 14:59:19.120 DEBUG testcase.LG-08                           - 5: modalPresent = waitForElementPresent(h4ModalMsg, 30, OPTIONAL)
+2026-01-02 14:59:19.353 DEBUG testcase.LG-08                           - 6: if (!(modalPresent))
+2026-01-02 14:59:19.354 DEBUG testcase.LG-08                           - 7: modalVisible = waitForElementVisible(h4ModalMsg, 30, OPTIONAL)
+2026-01-02 14:59:19.603 DEBUG testcase.LG-08                           - 8: if (!(modalVisible))
+2026-01-02 14:59:19.604 DEBUG testcase.LG-08                           - 9: modalText = getText(h4ModalMsg)
+2026-01-02 14:59:19.851 DEBUG testcase.LG-08                           - 10: expectedText = "Please create a user account before accessing further information."
+2026-01-02 14:59:19.852 DEBUG testcase.LG-08                           - 11: if (modalText.trim() != expectedText)
+2026-01-02 14:59:19.853 DEBUG testcase.LG-08                           - 12: comment("✅ Xác nhận: <h4 class='modal-message'> tồn tại, hiển thị, và đúng nội dung.")
+2026-01-02 14:59:19.855 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Xác nhận: <h4 class='modal-message'> tồn tại, hiển thị, và đúng nội dung.
+2026-01-02 14:59:19.857 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-08
+2026-01-02 14:59:19.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:59:19.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-10
+2026-01-02 14:59:19.935 DEBUG testcase.LG-10                           - 1: PAGELOAD_TIMEOUT = 120
+2026-01-02 14:59:19.936 DEBUG testcase.LG-10                           - 2: WAIT_TIMEOUT = 120
+2026-01-02 14:59:19.938 DEBUG testcase.LG-10                           - 3: h4ModalMsg = new com.kms.katalon.core.testobject.TestObject(h4_modal_message)
+2026-01-02 14:59:19.940 DEBUG testcase.LG-10                           - 4: h4ModalMsg.addProperty("xpath", EQUALS, "//h4[@class='modal-message' and normalize-space(.)='Please create a user account before accessing further information.']")
+2026-01-02 14:59:19.943 DEBUG testcase.LG-10                           - 5: modalPresent = waitForElementPresent(h4ModalMsg, 30, OPTIONAL)
+2026-01-02 14:59:20.184 DEBUG testcase.LG-10                           - 6: if (!(modalPresent))
+2026-01-02 14:59:20.185 DEBUG testcase.LG-10                           - 7: modalVisible = waitForElementVisible(h4ModalMsg, 30, OPTIONAL)
+2026-01-02 14:59:20.429 DEBUG testcase.LG-10                           - 8: if (!(modalVisible))
+2026-01-02 14:59:20.430 DEBUG testcase.LG-10                           - 9: modalText = getText(h4ModalMsg)
+2026-01-02 14:59:20.662 DEBUG testcase.LG-10                           - 10: expectedText = "Please create a user account before accessing further information."
+2026-01-02 14:59:20.663 DEBUG testcase.LG-10                           - 11: if (modalText.trim() != expectedText)
+2026-01-02 14:59:20.664 DEBUG testcase.LG-10                           - 12: comment("✅ Xác nhận: <h4 class='modal-message'> tồn tại, hiển thị, và đúng nội dung.")
+2026-01-02 14:59:20.666 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Xác nhận: <h4 class='modal-message'> tồn tại, hiển thị, và đúng nội dung.
+2026-01-02 14:59:20.667 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-10
+2026-01-02 14:59:20.670 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:59:20.670 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-09
+2026-01-02 14:59:20.768 DEBUG testcase.LG-09                           - 1: PAGELOAD_TIMEOUT = 120
+2026-01-02 14:59:20.769 DEBUG testcase.LG-09                           - 2: WAIT_TIMEOUT = 120
+2026-01-02 14:59:20.770 DEBUG testcase.LG-09                           - 3: btnOk = new com.kms.katalon.core.testobject.TestObject(btn_ok)
+2026-01-02 14:59:20.773 DEBUG testcase.LG-09                           - 4: btnOk.addProperty("xpath", EQUALS, "//button[@aria-label='Ok']")
+2026-01-02 14:59:20.775 DEBUG testcase.LG-09                           - 5: okPresent = waitForElementPresent(btnOk, 20, OPTIONAL)
+2026-01-02 14:59:21.019 DEBUG testcase.LG-09                           - 6: if (!(okPresent))
+2026-01-02 14:59:21.020 DEBUG testcase.LG-09                           - 7: okVisible = waitForElementVisible(btnOk, 15, OPTIONAL)
+2026-01-02 14:59:21.253 DEBUG testcase.LG-09                           - 8: if (!(okVisible))
+2026-01-02 14:59:21.254 DEBUG testcase.LG-09                           - 9: okClickable = waitForElementClickable(btnOk, 10, OPTIONAL)
+2026-01-02 14:59:21.510 DEBUG testcase.LG-09                           - 10: if (!(okClickable))
+2026-01-02 14:59:21.511 DEBUG testcase.LG-09                           - 11: if (!(okClickable))
+2026-01-02 14:59:21.512 DEBUG testcase.LG-09                           - 12: click(btnOk)
+2026-01-02 14:59:21.870 DEBUG testcase.LG-09                           - 13: comment("✅ Đã click <button aria-label='Ok'> bằng WebUI.click (không reload/JS, không dùng role).")
+2026-01-02 14:59:21.873 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click <button aria-label='Ok'> bằng WebUI.click (không reload/JS, không dùng role).
+2026-01-02 14:59:21.876 DEBUG testcase.LG-09                           - 14: h4CreateAcc_Safe = new com.kms.katalon.core.testobject.TestObject(h4_create_account_safe)
+2026-01-02 14:59:21.879 DEBUG testcase.LG-09                           - 15: h4CreateAcc_Safe.addProperty("xpath", EQUALS, "//h4[normalize-space(.)='Create New Account']")
+2026-01-02 14:59:21.881 DEBUG testcase.LG-09                           - 16: presentSafe = waitForElementPresent(h4CreateAcc_Safe, 20, OPTIONAL)
+2026-01-02 14:59:22.329 DEBUG testcase.LG-09                           - 17: if (!(presentSafe))
+2026-01-02 14:59:22.330 DEBUG testcase.LG-09                           - 18: visibleSafe = waitForElementVisible(h4CreateAcc_Safe, 20, OPTIONAL)
+2026-01-02 14:59:22.575 DEBUG testcase.LG-09                           - 19: if (!(visibleSafe))
+2026-01-02 14:59:22.576 DEBUG testcase.LG-09                           - 20: safeText = getText(h4CreateAcc_Safe).trim()
+2026-01-02 14:59:22.817 DEBUG testcase.LG-09                           - 21: if (safeText != "Create New Account")
+2026-01-02 14:59:22.818 DEBUG testcase.LG-09                           - 22: comment("✅ Xác nhận: <h4> 'Create New Account' (safe) tồn tại và hiển thị.")
+2026-01-02 14:59:22.820 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Xác nhận: <h4> 'Create New Account' (safe) tồn tại và hiển thị.
+2026-01-02 14:59:22.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-09
+2026-01-02 14:59:22.823 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:59:22.824 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-11
+2026-01-02 14:59:22.903 DEBUG testcase.LG-11                           - 1: PAGELOAD_TIMEOUT = 120
+2026-01-02 14:59:22.904 DEBUG testcase.LG-11                           - 2: WAIT_TIMEOUT = 120
+2026-01-02 14:59:22.905 DEBUG testcase.LG-11                           - 3: h4CreateAcc_Safe = new com.kms.katalon.core.testobject.TestObject(h4_create_account_safe)
+2026-01-02 14:59:22.907 DEBUG testcase.LG-11                           - 4: h4CreateAcc_Safe.addProperty("xpath", EQUALS, "//h4[normalize-space(.)='Create New Account']")
+2026-01-02 14:59:22.909 DEBUG testcase.LG-11                           - 5: presentSafe = waitForElementPresent(h4CreateAcc_Safe, 20, OPTIONAL)
+2026-01-02 14:59:23.139 DEBUG testcase.LG-11                           - 6: if (!(presentSafe))
+2026-01-02 14:59:23.140 DEBUG testcase.LG-11                           - 7: visibleSafe = waitForElementVisible(h4CreateAcc_Safe, 20, OPTIONAL)
+2026-01-02 14:59:23.379 DEBUG testcase.LG-11                           - 8: if (!(visibleSafe))
+2026-01-02 14:59:23.380 DEBUG testcase.LG-11                           - 9: safeText = getText(h4CreateAcc_Safe).trim()
+2026-01-02 14:59:23.612 DEBUG testcase.LG-11                           - 10: if (safeText != "Create New Account")
+2026-01-02 14:59:23.613 DEBUG testcase.LG-11                           - 11: comment("✅ Xác nhận: <h4> 'Create New Account' (safe) tồn tại và hiển thị.")
+2026-01-02 14:59:23.616 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Xác nhận: <h4> 'Create New Account' (safe) tồn tại và hiển thị.
+2026-01-02 14:59:23.617 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-11
+2026-01-02 14:59:23.620 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:59:23.620 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-12
+2026-01-02 14:59:23.750 DEBUG testcase.LG-12                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-02 14:59:23.752 DEBUG testcase.LG-12                           - 2: WAIT_FIELD = 60
+2026-01-02 14:59:23.753 DEBUG testcase.LG-12                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-02 14:59:23.754 DEBUG testcase.LG-12                           - 4: WAIT_AFTER_CLICK = 90
+2026-01-02 14:59:23.755 DEBUG testcase.LG-12                           - 5: inputEmail = new com.kms.katalon.core.testobject.TestObject(obj_input_email)
+2026-01-02 14:59:23.757 DEBUG testcase.LG-12                           - 6: inputEmail.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='Email']")
+2026-01-02 14:59:23.759 DEBUG testcase.LG-12                           - 7: inputPhone = new com.kms.katalon.core.testobject.TestObject(obj_input_phone)
+2026-01-02 14:59:23.760 DEBUG testcase.LG-12                           - 8: inputPhone.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='Phone Number']")
+2026-01-02 14:59:23.762 DEBUG testcase.LG-12                           - 9: inputNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_new_password)
+2026-01-02 14:59:23.763 DEBUG testcase.LG-12                           - 10: inputNewPassword.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='New Password']")
+2026-01-02 14:59:23.765 DEBUG testcase.LG-12                           - 11: inputReEnterNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_reenter_new_password)
+2026-01-02 14:59:23.766 DEBUG testcase.LG-12                           - 12: inputReEnterNewPassword.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='Re-Enter New Password']")
+2026-01-02 14:59:23.768 DEBUG testcase.LG-12                           - 13: btnCreateAccount = new com.kms.katalon.core.testobject.TestObject(obj_btn_create_account)
+2026-01-02 14:59:23.770 DEBUG testcase.LG-12                           - 14: btnCreateAccount.addProperty("xpath", EQUALS, "//button[@aria-label='Create Account']")
+2026-01-02 14:59:23.771 DEBUG testcase.LG-12                           - 15: h3SelectOrganisation = new com.kms.katalon.core.testobject.TestObject(obj_h3_select_organisation)
+2026-01-02 14:59:23.772 DEBUG testcase.LG-12                           - 16: h3SelectOrganisation.addProperty("xpath", EQUALS, "//h3[normalize-space(.)='Select Organisation']")
+2026-01-02 14:59:23.774 DEBUG testcase.LG-12                           - 17: emailVisible = waitForElementVisible(inputEmail, WAIT_FIELD, OPTIONAL)
+2026-01-02 14:59:24.023 DEBUG testcase.LG-12                           - 18: phoneVisible = waitForElementVisible(inputPhone, WAIT_FIELD, OPTIONAL)
+2026-01-02 14:59:24.266 DEBUG testcase.LG-12                           - 19: newPwVisible = waitForElementVisible(inputNewPassword, WAIT_FIELD, OPTIONAL)
+2026-01-02 14:59:24.513 DEBUG testcase.LG-12                           - 20: reNewPwVisible = waitForElementVisible(inputReEnterNewPassword, WAIT_FIELD, OPTIONAL)
+2026-01-02 14:59:24.762 DEBUG testcase.LG-12                           - 21: if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible))
+2026-01-02 14:59:24.764 DEBUG testcase.LG-12                           - 22: if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible))
+2026-01-02 14:59:24.765 DEBUG testcase.LG-12                           - 23: timestamp = SimpleDateFormat(yyyyMMddHHmmss).format(new java.util.Date())
+2026-01-02 14:59:24.784 DEBUG testcase.LG-12                           - 24: randomEmail = "test" + timestamp + "@gmail.com"
+2026-01-02 14:59:24.785 DEBUG testcase.LG-12                           - 25: logInfo("📧 Email sẽ nhập: " + randomEmail)
+2026-01-02 14:59:24.792 INFO  com.kms.katalon.core.util.KeywordUtil    - 📧 Email sẽ nhập: test20260102145924@gmail.com
+2026-01-02 14:59:24.794 DEBUG testcase.LG-12                           - 26: setText(inputEmail, randomEmail)
+2026-01-02 14:59:25.414 DEBUG testcase.LG-12                           - 27: setText(inputPhone, "123456789")
+2026-01-02 14:59:26.063 DEBUG testcase.LG-12                           - 28: setText(inputNewPassword, "Test@12345678")
+2026-01-02 14:59:26.633 DEBUG testcase.LG-12                           - 29: setText(inputReEnterNewPassword, "Test@12345678")
+2026-01-02 14:59:27.275 DEBUG testcase.LG-12                           - 30: clickable = waitForElementClickable(btnCreateAccount, 30, OPTIONAL)
+2026-01-02 14:59:27.538 DEBUG testcase.LG-12                           - 31: if (!(clickable))
+2026-01-02 14:59:27.539 DEBUG testcase.LG-12                           - 32: if (!(clickable))
+2026-01-02 14:59:27.540 DEBUG testcase.LG-12                           - 33: click(btnCreateAccount)
+2026-01-02 14:59:27.862 DEBUG testcase.LG-12                           - 34: comment("✅ Đã click button aria-label='Create Account'.")
+2026-01-02 14:59:27.864 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click button aria-label='Create Account'.
+2026-01-02 14:59:27.865 DEBUG testcase.LG-12                           - 35: comment("⏳ Chờ UI render sau khi tạo tài khoản...")
+2026-01-02 14:59:27.867 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ⏳ Chờ UI render sau khi tạo tài khoản...
+2026-01-02 14:59:27.868 DEBUG testcase.LG-12                           - 36: waitForPageLoad(30)
+2026-01-02 14:59:27.880 DEBUG testcase.LG-12                           - 37: delay(2)
+2026-01-02 14:59:29.898 DEBUG testcase.LG-12                           - 38: btnTextEqualsEmail = new com.kms.katalon.core.testobject.TestObject(obj_btn_text_equals_email)
+2026-01-02 14:59:29.899 DEBUG testcase.LG-12                           - 39: btnTextEqualsEmail.addProperty("xpath", EQUALS, "(//button[normalize-space(.)='" + randomEmail + "']" + " | //*[@role='button' and normalize-space(.)='" + randomEmail + "']" + " | //a[contains(@class,'btn') and normalize-space(.)='" + randomEmail + "'])")
+2026-01-02 14:59:29.901 DEBUG testcase.LG-12                           - 40: btnExactVisible = waitForElementVisible(btnTextEqualsEmail, 15, OPTIONAL)
+2026-01-02 14:59:45.086 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'obj_btn_text_equals_email' located by 'By.xpath: (//button[normalize-space(.)='test20260102145924@gmail.com'] | //*[@role='button' and normalize-space(.)='test20260102145924@gmail.com'] | //a[contains(@class,'btn') and normalize-space(.)='test20260102145924@gmail.com'])' not found
+2026-01-02 14:59:45.087 DEBUG testcase.LG-12                           - 41: if (btnExactVisible)
+2026-01-02 14:59:45.088 DEBUG testcase.LG-12                           - 42: else
+2026-01-02 14:59:45.089 DEBUG testcase.LG-12                           - 1: comment("ℹ️ Chưa thấy button text EXACT = '" + randomEmail + "'. Thử tìm ở chế độ CONTAINS...")
+2026-01-02 14:59:45.091 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ℹ️ Chưa thấy button text EXACT = 'test20260102145924@gmail.com'. Thử tìm ở chế độ CONTAINS...
+2026-01-02 14:59:45.092 DEBUG testcase.LG-12                           - 2: btnTextContainsEmail = new com.kms.katalon.core.testobject.TestObject(obj_btn_text_contains_email)
+2026-01-02 14:59:45.093 DEBUG testcase.LG-12                           - 3: btnTextContainsEmail.addProperty("xpath", EQUALS, "(//button[contains(normalize-space(.), '" + randomEmail + "')]" + " | //*[@role='button' and contains(normalize-space(.), '" + randomEmail + "')]" + " | //a[contains(@class,'btn') and contains(normalize-space(.), '" + randomEmail + "')])")
+2026-01-02 14:59:45.094 DEBUG testcase.LG-12                           - 4: btnContainsVisible = waitForElementVisible(btnTextContainsEmail, 10, OPTIONAL)
+2026-01-02 14:59:45.333 DEBUG testcase.LG-12                           - 5: if (btnContainsVisible)
+2026-01-02 14:59:45.334 DEBUG testcase.LG-12                           - 1: comment("✅ Tìm thấy button có text CHỨA email: '" + randomEmail + "'.")
+2026-01-02 14:59:45.336 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Tìm thấy button có text CHỨA email: 'test20260102145924@gmail.com'.
+2026-01-02 14:59:45.336 DEBUG testcase.LG-12                           - 2: takeScreenshot()
+2026-01-02 14:59:45.662 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-12
+2026-01-02 14:59:45.665 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:59:45.665 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/LGG/LG-13
+2026-01-02 14:59:45.819 DEBUG testcase.LG-13                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-02 14:59:45.819 DEBUG testcase.LG-13                           - 2: WAIT_FIELD = 60
+2026-01-02 14:59:45.820 DEBUG testcase.LG-13                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-02 14:59:45.821 DEBUG testcase.LG-13                           - 4: WAIT_AFTER_CLICK = 90
+2026-01-02 14:59:45.822 DEBUG testcase.LG-13                           - 5: WAIT_TIMEOUT = 120
+2026-01-02 14:59:45.823 DEBUG testcase.LG-13                           - 6: MEDIUM = 15
+2026-01-02 14:59:45.824 DEBUG testcase.LG-13                           - 7: SHORT = 5
+2026-01-02 14:59:45.824 DEBUG testcase.LG-13                           - 8: LONG = 30
+2026-01-02 14:59:45.825 DEBUG testcase.LG-13                           - 9: try
+2026-01-02 14:59:45.826 DEBUG testcase.LG-13                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-02 14:59:45.828 DEBUG testcase.LG-13                           - 2: x = 5
+2026-01-02 14:59:45.828 DEBUG testcase.LG-13                           - 3: y = height - 5
+2026-01-02 14:59:45.829 DEBUG testcase.LG-13                           - 4: robot = new java.awt.Robot()
+2026-01-02 14:59:45.831 DEBUG testcase.LG-13                           - 5: robot.mouseMove(x, y)
+2026-01-02 14:59:45.832 DEBUG testcase.LG-13                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-02 14:59:45.835 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-02 14:59:45.835 DEBUG testcase.LG-13                           - 7: Thread.sleep(400)
+2026-01-02 14:59:46.246 DEBUG testcase.LG-13                           - 12: driver = getWebDriver()
+2026-01-02 14:59:46.248 DEBUG testcase.LG-13                           - 13: bodyEl = driver.findElement(By.tagName("body"))
+2026-01-02 14:59:46.476 DEBUG testcase.LG-13                           - 14: actions = new org.openqa.selenium.interactions.Actions(driver)
+2026-01-02 14:59:46.477 DEBUG testcase.LG-13                           - 15: targetX = 0
+2026-01-02 14:59:46.478 DEBUG testcase.LG-13                           - 16: targetY = 300
+2026-01-02 14:59:46.478 DEBUG testcase.LG-13                           - 17: moveToElement(bodyEl, targetX, targetY).perform()
+2026-01-02 14:59:46.591 DEBUG testcase.LG-13                           - 18: comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)
+2026-01-02 14:59:46.592 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã move Actions tới body offset (x=0, y=300).
+2026-01-02 14:59:46.593 DEBUG testcase.LG-13                           - 19: click().perform()
+2026-01-02 14:59:46.602 DEBUG testcase.LG-13                           - 20: comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)
+2026-01-02 14:59:46.604 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+2026-01-02 14:59:46.604 DEBUG testcase.LG-13                           - 21: aAccount = new com.kms.katalon.core.testobject.TestObject(a_account)
+2026-01-02 14:59:46.606 DEBUG testcase.LG-13                           - 22: aAccount.addProperty("xpath", EQUALS, "//a[@href='account']")
+2026-01-02 14:59:46.607 DEBUG testcase.LG-13                           - 23: present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:59:46.847 DEBUG testcase.LG-13                           - 24: visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:59:47.083 DEBUG testcase.LG-13                           - 25: clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-02 14:59:47.330 DEBUG testcase.LG-13                           - 26: if (!(present && visible))
+2026-01-02 14:59:47.331 DEBUG testcase.LG-13                           - 27: if (clickable)
+2026-01-02 14:59:47.331 DEBUG testcase.LG-13                           - 1: click(aAccount)
+2026-01-02 14:59:47.651 DEBUG testcase.LG-13                           - 2: comment("✅ Đã click vào liên kết account.")
+2026-01-02 14:59:47.655 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click vào liên kết account.
+2026-01-02 14:59:47.656 DEBUG testcase.LG-13                           - 29: spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1)
+2026-01-02 14:59:47.658 DEBUG testcase.LG-13                           - 30: spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]")
+2026-01-02 14:59:47.661 DEBUG testcase.LG-13                           - 31: iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app)
+2026-01-02 14:59:47.663 DEBUG testcase.LG-13                           - 32: iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']")
+2026-01-02 14:59:47.664 DEBUG testcase.LG-13                           - 33: userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName)
+2026-01-02 14:59:47.666 DEBUG testcase.LG-13                           - 34: userNameInput.addProperty("id", EQUALS, "userName")
+2026-01-02 14:59:47.667 DEBUG testcase.LG-13                           - 35: try
+2026-01-02 14:59:47.668 DEBUG testcase.LG-13                           - 1: hoverTopRightWithRobot()
+2026-01-02 14:59:47.669 DEBUG testcase.LG-13                           - 1: try
+2026-01-02 14:59:47.670 DEBUG testcase.LG-13                           - 1: screenSize = getDefaultToolkit().getScreenSize()
+2026-01-02 14:59:47.671 DEBUG testcase.LG-13                           - 2: x = width - 5
+2026-01-02 14:59:47.672 DEBUG testcase.LG-13                           - 3: y = 5
+2026-01-02 14:59:47.673 DEBUG testcase.LG-13                           - 4: robot = new java.awt.Robot()
+2026-01-02 14:59:47.675 DEBUG testcase.LG-13                           - 5: robot.mouseMove(x, y)
+2026-01-02 14:59:47.681 DEBUG testcase.LG-13                           - 6: logInfo(🖱️ Hover đến góc trên bên phải (Robot) tại tọa độ: ($x, $y))
+2026-01-02 14:59:47.684 INFO  com.kms.katalon.core.util.KeywordUtil    - 🖱️ Hover đến góc trên bên phải (Robot) tại tọa độ: (1915, 5)
+2026-01-02 14:59:47.685 DEBUG testcase.LG-13                           - 7: Thread.sleep(500)
+2026-01-02 14:59:48.192 DEBUG testcase.LG-13                           - 2: waitForElementVisible(spanAdmin, MEDIUM, STOP_ON_FAILURE)
+2026-01-02 14:59:49.081 DEBUG testcase.LG-13                           - 3: click(spanAdmin)
+2026-01-02 14:59:49.397 DEBUG testcase.LG-13                           - 4: waitForElementVisible(iExitToApp, MEDIUM, STOP_ON_FAILURE)
+2026-01-02 14:59:49.653 DEBUG testcase.LG-13                           - 5: click(iExitToApp)
+2026-01-02 14:59:49.948 DEBUG testcase.LG-13                           - 6: present = waitForElementPresent(userNameInput, LONG, OPTIONAL)
+2026-01-02 14:59:52.847 DEBUG testcase.LG-13                           - 7: if (present)
+2026-01-02 14:59:52.848 DEBUG testcase.LG-13                           - 1: verifyElementPresent(userNameInput, SHORT, STOP_ON_FAILURE)
+2026-01-02 14:59:53.080 DEBUG testcase.LG-13                           - 2: logInfo("✅ Found element with id="userName" — Test PASSED")
+2026-01-02 14:59:53.081 INFO  com.kms.katalon.core.util.KeywordUtil    - ✅ Found element with id="userName" — Test PASSED
+2026-01-02 14:59:53.082 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/LGG/LG-13
+2026-01-02 14:59:53.632 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-02 14:59:53.633 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_LGG
+2026-01-02 14:59:53.633 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

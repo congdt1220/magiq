@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FP" time="26.325" tests="5" failures="0" errors="0">
+   <testsuite name="TS_FP" tests="5" failures="0" errors="0" time="26.325" skipped="0" timestamp="2026-01-02T07:57:56.785Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TS_FP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_145543\\TS_FP\\20260102_145546"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_145543\\TS_FP\\20260102_145546\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_145543\\TS_FP\\20260102_145546\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.170"/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="sessionId" value="4bb6a4b6a179b2575e3df9e15969e23a"/>
+         <property name="projectName" value="magiq"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FP/FP-01" time="18.413" classname="Test Cases/FP/FP-01" status="PASSED">
+         <system-out><![CDATA[02-01-2026T14:57:58 - [TEST_CASE][PASSED] - Test Cases/FP/FP-01: Test Cases/FP/FP-01
+
+02-01-2026T14:57:58 - [TEST_STEP][PASSED] - LOCAL_PAGELOAD = 300: null
+
+02-01-2026T14:57:58 - [TEST_STEP][PASSED] - WAIT_ELEMENT_BEFORE_RELOAD = 120: null
+
+02-01-2026T14:57:58 - [TEST_STEP][PASSED] - MAX_RELOAD_ATTEMPTS = 2: null
+
+02-01-2026T14:57:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2026T14:57:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2026T14:57:59 - [MESSAGE][INFO] - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+
+02-01-2026T14:57:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2026T14:58:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2026T14:58:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2026T14:58:02 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2026T14:58:02 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.engagement.magiqdev.cloud/login"): Navigate to 'https://qa.engagement.magiqdev.cloud/login' successfully
+
+02-01-2026T14:58:03 - [MESSAGE][PASSED] - Navigate to 'https://qa.engagement.magiqdev.cloud/login' successfully
+
+02-01-2026T14:58:03 - [TEST_STEP][PASSED] - waitForPageLoad(LOCAL_PAGELOAD): Wait for page load successfully
+
+02-01-2026T14:58:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - forgotPasswordLink = new com.kms.katalon.core.testobject.TestObject(forgotPasswordLink): null
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - forgotPasswordLink.addProperty("xpath", EQUALS, "//a[normalize-space(.)='Forgot Password?'] | //button[normalize-space(.)='Forgot Password?'] | //a[.//span[normalize-space(.)='Forgot Password?']]"): null
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - h2ForgotPassword = new com.kms.katalon.core.testobject.TestObject(h2ForgotPassword): null
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - h2ForgotPassword.addProperty("xpath", EQUALS, "//h2[normalize-space(.)='Forgot Password']"): null
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - forgotVisible = false: null
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - attempts = 0: null
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - while (attempts <= MAX_RELOAD_ATTEMPTS): null
+
+02-01-2026T14:58:04 - [TEST_STEP][PASSED] - forgotVisible = waitForElementVisible(forgotPasswordLink, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL): Object 'forgotPasswordLink' is visible
+
+02-01-2026T14:58:15 - [MESSAGE][PASSED] - Object 'forgotPasswordLink' is visible
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - if (forgotVisible): null
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - break: null
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - if (!(forgotVisible)): null
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - clickable = waitForElementClickable(forgotPasswordLink, 20, OPTIONAL): Object 'forgotPasswordLink' is NOT clickable
+
+02-01-2026T14:58:15 - [MESSAGE][PASSED] - Object 'forgotPasswordLink' is NOT clickable
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - if (!(clickable)): null
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - if (!(clickable)): null
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - click(forgotPasswordLink): Object: 'forgotPasswordLink' is clicked on
+
+02-01-2026T14:58:15 - [MESSAGE][PASSED] - Object: 'forgotPasswordLink' is clicked on
+
+02-01-2026T14:58:15 - [TEST_STEP][PASSED] - h2Visible = waitForElementVisible(h2ForgotPassword, 60, OPTIONAL): Object 'h2ForgotPassword' is visible
+
+02-01-2026T14:58:16 - [MESSAGE][PASSED] - Object 'h2ForgotPassword' is visible
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - if (!(h2Visible)): null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - if (h2Visible): ✅ Thành công: H2 'Forgot Password' đã xuất hiện.
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - verifyElementPresent(h2ForgotPassword, 10, STOP_ON_FAILURE): Object 'h2ForgotPassword' is present
+
+02-01-2026T14:58:16 - [MESSAGE][PASSED] - Object 'h2ForgotPassword' is present
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - comment("✅ Thành công: H2 'Forgot Password' đã xuất hiện."): ✅ Thành công: H2 'Forgot Password' đã xuất hiện.
+
+02-01-2026T14:58:16 - [MESSAGE][INFO] - ✅ Thành công: H2 'Forgot Password' đã xuất hiện.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FP/FP-02" time="1.304" classname="Test Cases/FP/FP-02" status="PASSED">
+         <system-out><![CDATA[02-01-2026T14:58:16 - [TEST_CASE][PASSED] - Test Cases/FP/FP-02: Test Cases/FP/FP-02
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - LOCAL_PAGELOAD = 300: null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - WAIT_AFTER_CLICK = 60: null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - RETRY_ON_SLOW = 1: null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - pCancel = new com.kms.katalon.core.testobject.TestObject(obj_p_cancel): null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - pCancel.addProperty("xpath", EQUALS, "//p[normalize-space(.)='Cancel']"): null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - spanResetPassword = new com.kms.katalon.core.testobject.TestObject(obj_span_reset_password): null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - spanResetPassword.addProperty("xpath", EQUALS, "//span[normalize-space(.)='Reset Password']"): null
+
+02-01-2026T14:58:16 - [TEST_STEP][PASSED] - cancelVisible = waitForElementVisible(pCancel, WAIT_AFTER_CLICK, OPTIONAL): Object 'obj_p_cancel' is visible
+
+02-01-2026T14:58:17 - [MESSAGE][PASSED] - Object 'obj_p_cancel' is visible
+
+02-01-2026T14:58:17 - [TEST_STEP][PASSED] - resetVisible = waitForElementVisible(spanResetPassword, WAIT_AFTER_CLICK, OPTIONAL): Object 'obj_span_reset_password' is visible
+
+02-01-2026T14:58:17 - [MESSAGE][PASSED] - Object 'obj_span_reset_password' is visible
+
+02-01-2026T14:58:17 - [TEST_STEP][PASSED] - if (!(cancelVisible) || !(resetVisible)): null
+
+02-01-2026T14:58:17 - [TEST_STEP][PASSED] - if (cancelVisible && resetVisible): ✅ Thành công: thấy p='Cancel' và span='Reset Password' sau khi click Forgot Password.
+
+02-01-2026T14:58:17 - [TEST_STEP][PASSED] - verifyElementPresent(pCancel, 5, STOP_ON_FAILURE): Object 'obj_p_cancel' is present
+
+02-01-2026T14:58:17 - [MESSAGE][PASSED] - Object 'obj_p_cancel' is present
+
+02-01-2026T14:58:17 - [TEST_STEP][PASSED] - verifyElementPresent(spanResetPassword, 5, STOP_ON_FAILURE): Object 'obj_span_reset_password' is present
+
+02-01-2026T14:58:17 - [MESSAGE][PASSED] - Object 'obj_span_reset_password' is present
+
+02-01-2026T14:58:17 - [TEST_STEP][PASSED] - comment("✅ Thành công: thấy p='Cancel' và span='Reset Password' sau khi click Forgot Password."): ✅ Thành công: thấy p='Cancel' và span='Reset Password' sau khi click Forgot Password.
+
+02-01-2026T14:58:17 - [MESSAGE][INFO] - ✅ Thành công: thấy p='Cancel' và span='Reset Password' sau khi click Forgot Password.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FP/FP-04" time="2.627" classname="Test Cases/FP/FP-04" status="PASSED">
+         <system-out><![CDATA[02-01-2026T14:58:17 - [TEST_CASE][PASSED] - Test Cases/FP/FP-04: Test Cases/FP/FP-04
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - emailInput = new com.kms.katalon.core.testobject.TestObject(obj_email_input): null
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - emailInput.addProperty("xpath", EQUALS, "//input[@aria-label='Email']"): null
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - resetBtn = new com.kms.katalon.core.testobject.TestObject(obj_reset_password_btn): null
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - resetBtn.addProperty("xpath", EQUALS, "//button[normalize-space(.)='Reset Password'] | //span[normalize-space(.)='Reset Password']/ancestor::button"): null
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - divTitle = new com.kms.katalon.core.testobject.TestObject(obj_div_title): null
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - divTitle.addProperty("xpath", EQUALS, "//*[@class='div-title']"): null
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - try: ✅ Element với class='div-title' tồn tại.
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - waitForElementVisible(emailInput, 30, STOP_ON_FAILURE): Object 'obj_email_input' is visible
+
+02-01-2026T14:58:18 - [MESSAGE][PASSED] - Object 'obj_email_input' is visible
+
+02-01-2026T14:58:18 - [TEST_STEP][PASSED] - setText(emailInput, "valid@email.com"): Text 'valid@email.com' is set on object 'obj_email_input'
+
+02-01-2026T14:58:19 - [MESSAGE][PASSED] - Text 'valid@email.com' is set on object 'obj_email_input'
+
+02-01-2026T14:58:19 - [TEST_STEP][PASSED] - waitForElementClickable(resetBtn, 30, STOP_ON_FAILURE): Object 'obj_reset_password_btn' is NOT clickable
+
+02-01-2026T14:58:19 - [MESSAGE][PASSED] - Object 'obj_reset_password_btn' is NOT clickable
+
+02-01-2026T14:58:19 - [TEST_STEP][PASSED] - click(resetBtn): Object: 'obj_reset_password_btn' is clicked on
+
+02-01-2026T14:58:19 - [MESSAGE][PASSED] - Object: 'obj_reset_password_btn' is clicked on
+
+02-01-2026T14:58:19 - [TEST_STEP][PASSED] - isVisible = waitForElementVisible(divTitle, 30, OPTIONAL): Object 'obj_div_title' is visible
+
+02-01-2026T14:58:20 - [MESSAGE][PASSED] - Object 'obj_div_title' is visible
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - if (isVisible): ✅ Element với class='div-title' tồn tại.
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - verifyElementPresent(divTitle, 5, STOP_ON_FAILURE): Object 'obj_div_title' is present
+
+02-01-2026T14:58:20 - [MESSAGE][PASSED] - Object 'obj_div_title' is present
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - comment("✅ Element với class='div-title' tồn tại."): ✅ Element với class='div-title' tồn tại.
+
+02-01-2026T14:58:20 - [MESSAGE][INFO] - ✅ Element với class='div-title' tồn tại.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FP/FP-06" time="0.652" classname="Test Cases/FP/FP-06" status="PASSED">
+         <system-out><![CDATA[02-01-2026T14:58:20 - [TEST_CASE][PASSED] - Test Cases/FP/FP-06: Test Cases/FP/FP-06
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - EXPECTED_TEXT = "If the email you entered is associated with an account, you will receive a password reset email shortly.": null
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - divTitle = new com.kms.katalon.core.testobject.TestObject(obj_div_title): null
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - divTitle.addProperty("xpath", EQUALS, "//*[@class='div-title']"): null
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - try: ✅ Text khớp chính xác: 'If the email you entered is associated with an account, you will receive a password reset email shortly.'
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - visible = waitForElementVisible(divTitle, 60, OPTIONAL): Object 'obj_div_title' is visible
+
+02-01-2026T14:58:20 - [MESSAGE][PASSED] - Object 'obj_div_title' is visible
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - if (!(visible)): null
+
+02-01-2026T14:58:20 - [TEST_STEP][PASSED] - actual = getText(divTitle).trim(): Text of object 'obj_div_title' is: 'If the email you entered is associated with an account, you will receive a password reset email shortly.'
+
+02-01-2026T14:58:21 - [MESSAGE][PASSED] - Text of object 'obj_div_title' is: 'If the email you entered is associated with an account, you will receive a password reset email shortly.'
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - matched = actual == EXPECTED_TEXT: null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - if (matched): ✅ Text khớp chính xác: 'If the email you entered is associated with an account, you will receive a password reset email shortly.'
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - comment(✅ Text khớp chính xác: '$EXPECTED_TEXT'): ✅ Text khớp chính xác: 'If the email you entered is associated with an account, you will receive a password reset email shortly.'
+
+02-01-2026T14:58:21 - [MESSAGE][INFO] - ✅ Text khớp chính xác: 'If the email you entered is associated with an account, you will receive a password reset email shortly.']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FP/FP-07" time="1.88" classname="Test Cases/FP/FP-07" status="PASSED">
+         <system-out><![CDATA[02-01-2026T14:58:21 - [TEST_CASE][PASSED] - Test Cases/FP/FP-07: Test Cases/FP/FP-07
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - PAGELOAD_TIMEOUT = 300: null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - WAIT_BEFORE_CLICK = 60: null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - WAIT_AFTER_CLICK = 60: null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - RETRY_ON_SLOW = 1: null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - aBackToLogin = new com.kms.katalon.core.testobject.TestObject(obj_a_back_to_login): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - aBackToLogin.addProperty("xpath", EQUALS, "//a[@href='/login']"): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - userNameInput.addProperty("id", EQUALS, "userName"): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - try: ✅ Thành công: thấy input id='userName' (đã quay về trang login).
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - aVisible = waitForElementVisible(aBackToLogin, WAIT_BEFORE_CLICK, OPTIONAL): Object 'obj_a_back_to_login' is visible
+
+02-01-2026T14:58:21 - [MESSAGE][PASSED] - Object 'obj_a_back_to_login' is visible
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - if (!(aVisible)): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - if (!(aVisible)): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - clickable = waitForElementClickable(aBackToLogin, 20, OPTIONAL): Object 'obj_a_back_to_login' is NOT clickable
+
+02-01-2026T14:58:21 - [MESSAGE][PASSED] - Object 'obj_a_back_to_login' is NOT clickable
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - if (!(clickable)): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - if (!(clickable)): null
+
+02-01-2026T14:58:21 - [TEST_STEP][PASSED] - click(aBackToLogin): Object: 'obj_a_back_to_login' is clicked on
+
+02-01-2026T14:58:22 - [MESSAGE][PASSED] - Object: 'obj_a_back_to_login' is clicked on
+
+02-01-2026T14:58:22 - [TEST_STEP][PASSED] - comment("🖱️ Đã click anchor href='/login' (Back to Login)."): 🖱️ Đã click anchor href='/login' (Back to Login).
+
+02-01-2026T14:58:22 - [MESSAGE][INFO] - 🖱️ Đã click anchor href='/login' (Back to Login).
+
+02-01-2026T14:58:22 - [TEST_STEP][PASSED] - userNameVisible = waitForElementVisible(userNameInput, WAIT_AFTER_CLICK, OPTIONAL): Object 'obj_input_userName' is visible
+
+02-01-2026T14:58:22 - [MESSAGE][PASSED] - Object 'obj_input_userName' is visible
+
+02-01-2026T14:58:22 - [TEST_STEP][PASSED] - if (!(userNameVisible)): null
+
+02-01-2026T14:58:22 - [TEST_STEP][PASSED] - if (userNameVisible): ✅ Thành công: thấy input id='userName' (đã quay về trang login).
+
+02-01-2026T14:58:22 - [TEST_STEP][PASSED] - verifyElementPresent(userNameInput, 10, STOP_ON_FAILURE): Object 'obj_input_userName' is present
+
+02-01-2026T14:58:23 - [MESSAGE][PASSED] - Object 'obj_input_userName' is present
+
+02-01-2026T14:58:23 - [TEST_STEP][PASSED] - comment("✅ Thành công: thấy input id='userName' (đã quay về trang login)."): ✅ Thành công: thấy input id='userName' (đã quay về trang login).
+
+02-01-2026T14:58:23 - [MESSAGE][INFO] - ✅ Thành công: thấy input id='userName' (đã quay về trang login).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2026T14:57:56 - [TEST_SUITE][PASSED] - TS_FP: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

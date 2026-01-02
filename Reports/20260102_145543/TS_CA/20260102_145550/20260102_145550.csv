@@ -1,0 +1,116 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_CA,Chrome 143.0.7499.170,,,02-01-2026 15:00:01,02-01-2026 15:00:38,36.209s,PASSED
+,,,,,,,
+Test Cases/CA/CA-01,Chrome 143.0.7499.170,,,02-01-2026 15:00:03,02-01-2026 15:00:24,20.296s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 15:00:04,02-01-2026 15:00:04,0.004s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 15:00:04,02-01-2026 15:00:04,0.003s,PASSED
+MAX_RELOAD_ATTEMPTS = 5,Chrome 143.0.7499.170,,,02-01-2026 15:00:04,02-01-2026 15:00:04,0.003s,PASSED
+WAIT_AFTER_CLICK = 60,Chrome 143.0.7499.170,,,02-01-2026 15:00:04,02-01-2026 15:00:04,0.003s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,02-01-2026 15:00:04,02-01-2026 15:00:09,5.496s,PASSED
+maximizeWindow(),Chrome 143.0.7499.170,,,02-01-2026 15:00:09,02-01-2026 15:00:09,0.100s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/login"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:09,02-01-2026 15:00:18,8.693s,PASSED
+waitForPageLoad(LOCAL_PAGELOAD),Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:18,0.183s,PASSED
+aAccountRegister = new com.kms.katalon.core.testobject.TestObject(a_account_register),Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:18,0.016s,PASSED
+"aAccountRegister.addProperty(""xpath"", EQUALS, ""//a[@href='/accountregister']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:18,0.011s,PASSED
+divAlignmentHeader = new com.kms.katalon.core.testobject.TestObject(div_alignment_header),Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:18,0.002s,PASSED
+"divAlignmentHeader.addProperty(""xpath"", EQUALS, ""//*[contains(concat(' ', normalize-space(@class), ' '), ' div-alignment-header ')]"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:18,0.003s,PASSED
+linkVisible = false,Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:18,0.003s,PASSED
+attempts = 0,Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:18,0.003s,PASSED
+while (attempts <= MAX_RELOAD_ATTEMPTS),Chrome 143.0.7499.170,,,02-01-2026 15:00:18,02-01-2026 15:00:22,3.283s,PASSED
+if (!(linkVisible)),Chrome 143.0.7499.170,,,02-01-2026 15:00:22,02-01-2026 15:00:22,0.003s,PASSED
+"clickable = waitForElementClickable(aAccountRegister, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:22,02-01-2026 15:00:22,0.362s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 15:00:22,02-01-2026 15:00:22,0.002s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 15:00:22,02-01-2026 15:00:22,0.002s,PASSED
+click(aAccountRegister),Chrome 143.0.7499.170,,,02-01-2026 15:00:22,02-01-2026 15:00:22,0.452s,PASSED
+"comment(""🖱️ Đã click /accountregister."")",Chrome 143.0.7499.170,,,02-01-2026 15:00:22,02-01-2026 15:00:22,0.030s,PASSED
+"headerVisible = waitForElementVisible(divAlignmentHeader, WAIT_AFTER_CLICK, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:22,02-01-2026 15:00:23,0.476s,PASSED
+if (!(headerVisible)),Chrome 143.0.7499.170,,,02-01-2026 15:00:23,02-01-2026 15:00:23,0.002s,PASSED
+if (headerVisible),Chrome 143.0.7499.170,,,02-01-2026 15:00:23,02-01-2026 15:00:24,0.584s,PASSED
+,,,,,,,
+Test Cases/CA/CA-02,Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:26,2.313s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.004s,PASSED
+WAIT_EACH_FIELD = 60,Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.002s,PASSED
+MAX_RELOAD_ATTEMPTS = 1,Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.004s,PASSED
+inputEmail = new com.kms.katalon.core.testobject.TestObject(obj_input_email),Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.006s,PASSED
+"inputEmail.addProperty(""xpath"", EQUALS, ""//input[@aria-label and normalize-space(@aria-label)='Email']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.003s,PASSED
+inputPhone = new com.kms.katalon.core.testobject.TestObject(obj_input_phone),Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.003s,PASSED
+"inputPhone.addProperty(""xpath"", EQUALS, ""//input[@aria-label and normalize-space(@aria-label)='Phone Number']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.002s,PASSED
+inputNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_new_password),Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.005s,PASSED
+"inputNewPassword.addProperty(""xpath"", EQUALS, ""//input[@aria-label and normalize-space(@aria-label)='New Password']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.004s,PASSED
+inputReEnterNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_reenter_new_password),Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.002s,PASSED
+"inputReEnterNewPassword.addProperty(""xpath"", EQUALS, ""//input[@aria-label and normalize-space(@aria-label)='Re-Enter New Password']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.003s,PASSED
+"emailVisible = waitForElementVisible(inputEmail, WAIT_EACH_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.280s,PASSED
+"phoneVisible = waitForElementVisible(inputPhone, WAIT_EACH_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:24,0.273s,PASSED
+"newPwVisible = waitForElementVisible(inputNewPassword, WAIT_EACH_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:24,02-01-2026 15:00:25,0.245s,PASSED
+"reNewPwVisible = waitForElementVisible(inputReEnterNewPassword, WAIT_EACH_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:25,02-01-2026 15:00:25,0.252s,PASSED
+if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible)),Chrome 143.0.7499.170,,,02-01-2026 15:00:25,02-01-2026 15:00:25,0.002s,PASSED
+if (emailVisible && phoneVisible && newPwVisible && reNewPwVisible),Chrome 143.0.7499.170,,,02-01-2026 15:00:25,02-01-2026 15:00:26,0.932s,PASSED
+,,,,,,,
+Test Cases/CA/CA-14,Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:28,2.256s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.001s,PASSED
+MAX_RELOAD_ATTEMPTS = 1,Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.002s,PASSED
+WAIT_AFTER_CLICK = 60,Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.002s,PASSED
+btnCreateAccount = new com.kms.katalon.core.testobject.TestObject(obj_btn_create_account),Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.002s,PASSED
+"btnCreateAccount.addProperty(""xpath"", EQUALS, ""//button[@aria-label='Create Account']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.002s,PASSED
+"clickable = waitForElementClickable(btnCreateAccount, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.280s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.001s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:26,0.002s,PASSED
+click(btnCreateAccount),Chrome 143.0.7499.170,,,02-01-2026 15:00:26,02-01-2026 15:00:27,0.360s,PASSED
+"comment(""✅ Đã click button aria-label='Create Account'."")",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.004s,PASSED
+allValidationDivs = new com.kms.katalon.core.testobject.TestObject(obj_all_validation_divs),Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+"allValidationDivs.addProperty(""xpath"", EQUALS, ""//div[contains(@class,'validation-message')]"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+"anyValidationVisible = waitForElementVisible(allValidationDivs, WAIT_AFTER_CLICK, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.458s,PASSED
+if (!(anyValidationVisible)),Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+"validationDivs = findWebElements(allValidationDivs, 10)",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.251s,PASSED
+comment(🔎 Số div.validation-message tìm thấy: $validationDivs.size()),Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.021s,PASSED
+if (validationDivs.size() != 3),Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.002s,PASSED
+msgEmail = new com.kms.katalon.core.testobject.TestObject(obj_msg_email),Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.002s,PASSED
+"msgEmail.addProperty(""xpath"", EQUALS, ""//div[contains(@class,'validation-message') and normalize-space(.)='Please enter a valid Email address.']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+msgNewPw = new com.kms.katalon.core.testobject.TestObject(obj_msg_new_password),Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+"msgNewPw.addProperty(""xpath"", EQUALS, ""//div[contains(@class,'validation-message') and normalize-space(.)='Please enter your new password!']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+msgConfirmPw = new com.kms.katalon.core.testobject.TestObject(obj_msg_confirm_password),Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+"msgConfirmPw.addProperty(""xpath"", EQUALS, ""//div[contains(@class,'validation-message') and normalize-space(.)='Please enter your new password confirm!']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:27,0.001s,PASSED
+"emailMsgPresent = waitForElementPresent(msgEmail, 10, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:27,02-01-2026 15:00:28,0.252s,PASSED
+"newPwMsgPresent = waitForElementPresent(msgNewPw, 10, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.246s,PASSED
+"confirmPwMsgPresent = waitForElementPresent(msgConfirmPw, 10, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.233s,PASSED
+if (!(emailMsgPresent && newPwMsgPresent && confirmPwMsgPresent)),Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+,,,,,,,
+Test Cases/CA/CA-08,Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:37,9.133s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.002s,PASSED
+WAIT_FIELD = 60,Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+MAX_RELOAD_ATTEMPTS = 1,Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+WAIT_AFTER_CLICK = 30,Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+inputEmail = new com.kms.katalon.core.testobject.TestObject(obj_input_email),Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+"inputEmail.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='Email']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+inputPhone = new com.kms.katalon.core.testobject.TestObject(obj_input_phone),Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+"inputPhone.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='Phone Number']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.002s,PASSED
+inputNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_new_password),Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+"inputNewPassword.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='New Password']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.001s,PASSED
+inputReEnterNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_reenter_new_password),Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.003s,PASSED
+"inputReEnterNewPassword.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='Re-Enter New Password']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.002s,PASSED
+btnCreateAccount = new com.kms.katalon.core.testobject.TestObject(obj_btn_create_account),Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.002s,PASSED
+"btnCreateAccount.addProperty(""xpath"", EQUALS, ""//button[@aria-label='Create Account']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.002s,PASSED
+h3SelectOrganisation = new com.kms.katalon.core.testobject.TestObject(obj_h3_select_organisation),Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.002s,PASSED
+"h3SelectOrganisation.addProperty(""xpath"", EQUALS, ""//h3[normalize-space(.)='Select Organisation']"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:28,0.002s,PASSED
+"emailVisible = waitForElementVisible(inputEmail, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:28,02-01-2026 15:00:29,0.254s,PASSED
+"phoneVisible = waitForElementVisible(inputPhone, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.247s,PASSED
+"newPwVisible = waitForElementVisible(inputNewPassword, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.246s,PASSED
+"reNewPwVisible = waitForElementVisible(inputReEnterNewPassword, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.250s,PASSED
+if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible)),Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.000s,PASSED
+if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible)),Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.001s,PASSED
+timestamp = SimpleDateFormat(yyyyMMddHHmmss).format(new java.util.Date()),Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.015s,PASSED
+"randomEmail = ""test"" + timestamp + ""@gmail.com""",Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.003s,PASSED
+"logInfo(""📧 Email sẽ nhập: "" + randomEmail)",Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:29,0.006s,PASSED
+"setText(inputEmail, randomEmail)",Chrome 143.0.7499.170,,,02-01-2026 15:00:29,02-01-2026 15:00:30,0.622s,PASSED
+"setText(inputPhone, ""123456789"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:30,02-01-2026 15:00:31,0.575s,PASSED
+"setText(inputNewPassword, ""Test@12345678"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:31,02-01-2026 15:00:31,0.570s,PASSED
+"setText(inputReEnterNewPassword, ""Test@12345678"")",Chrome 143.0.7499.170,,,02-01-2026 15:00:31,02-01-2026 15:00:32,0.578s,PASSED
+"clickable = waitForElementClickable(btnCreateAccount, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:32,02-01-2026 15:00:32,0.264s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 15:00:32,02-01-2026 15:00:32,0.001s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 15:00:32,02-01-2026 15:00:32,0.002s,PASSED
+click(btnCreateAccount),Chrome 143.0.7499.170,,,02-01-2026 15:00:32,02-01-2026 15:00:32,0.296s,PASSED
+click(btnCreateAccount),Chrome 143.0.7499.170,,,02-01-2026 15:00:32,02-01-2026 15:00:33,0.301s,PASSED
+"comment(""✅ Đã click button aria-label='Create Account'."")",Chrome 143.0.7499.170,,,02-01-2026 15:00:33,02-01-2026 15:00:33,0.003s,PASSED
+"h3Visible = waitForElementVisible(h3SelectOrganisation, WAIT_AFTER_CLICK, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 15:00:33,02-01-2026 15:00:37,4.446s,PASSED
+if (!(h3Visible)),Chrome 143.0.7499.170,,,02-01-2026 15:00:37,02-01-2026 15:00:37,0.001s,PASSED
+if (h3Visible),Chrome 143.0.7499.170,,,02-01-2026 15:00:37,02-01-2026 15:00:37,0.244s,PASSED

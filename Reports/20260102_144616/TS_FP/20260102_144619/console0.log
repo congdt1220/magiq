@@ -1,0 +1,32 @@
+2026-01-02 14:46:34.794 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-02 14:46:34.798 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-02 14:46:35.347 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_FP
+2026-01-02 14:46:35.458 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-02 14:46:35.460 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-02 14:46:35.461 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-02 14:46:35.462 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-02 14:46:35.463 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-02 14:46:35.465 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-02 14:46:36.582 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:36.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FP/FP-01
+2026-01-02 14:46:36.585 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:36.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FP/FP-01
+2026-01-02 14:46:36.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:36.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FP/FP-02
+2026-01-02 14:46:36.598 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:36.600 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FP/FP-02
+2026-01-02 14:46:36.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:36.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FP/FP-04
+2026-01-02 14:46:36.608 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:36.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FP/FP-04
+2026-01-02 14:46:36.615 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:36.615 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FP/FP-06
+2026-01-02 14:46:36.617 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:36.619 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FP/FP-06
+2026-01-02 14:46:36.625 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:46:36.626 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FP/FP-07
+2026-01-02 14:46:36.628 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:46:36.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FP/FP-07
+2026-01-02 14:46:36.704 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-02 14:46:36.704 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_FP
+2026-01-02 14:46:36.704 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

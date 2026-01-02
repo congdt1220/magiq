@@ -1,0 +1,162 @@
+2026-01-02 15:00:00.753 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-02 15:00:00.760 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-02 15:00:01.767 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_CA
+2026-01-02 15:00:01.922 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-02 15:00:01.924 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-02 15:00:01.926 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-02 15:00:01.927 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-02 15:00:01.928 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-02 15:00:01.929 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-02 15:00:03.763 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 15:00:03.764 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-01
+2026-01-02 15:00:04.325 DEBUG testcase.CA-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-02 15:00:04.329 DEBUG testcase.CA-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-02 15:00:04.333 DEBUG testcase.CA-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-02 15:00:04.336 DEBUG testcase.CA-01                           - 4: WAIT_AFTER_CLICK = 60
+2026-01-02 15:00:04.341 DEBUG testcase.CA-01                           - 5: openBrowser("")
+2026-01-02 15:00:04.862 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-02 15:00:04.875 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-02 15:00:05.001 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 02, 2026 3:00:07 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 02, 2026 3:00:07 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-02 15:00:09.614 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9a521bb25a6adb8c52341043124d179b
+2026-01-02 15:00:09.617 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-02 15:00:09.619 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-02 15:00:09.620 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-02 15:00:09.645 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-02 15:00:09.837 DEBUG testcase.CA-01                           - 6: maximizeWindow()
+2026-01-02 15:00:09.939 DEBUG testcase.CA-01                           - 7: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-02 15:00:18.633 DEBUG testcase.CA-01                           - 8: waitForPageLoad(LOCAL_PAGELOAD)
+2026-01-02 15:00:18.817 DEBUG testcase.CA-01                           - 9: aAccountRegister = new com.kms.katalon.core.testobject.TestObject(a_account_register)
+2026-01-02 15:00:18.837 DEBUG testcase.CA-01                           - 10: aAccountRegister.addProperty("xpath", EQUALS, "//a[@href='/accountregister']")
+2026-01-02 15:00:18.848 DEBUG testcase.CA-01                           - 11: divAlignmentHeader = new com.kms.katalon.core.testobject.TestObject(div_alignment_header)
+2026-01-02 15:00:18.851 DEBUG testcase.CA-01                           - 12: divAlignmentHeader.addProperty("xpath", EQUALS, "//*[contains(concat(' ', normalize-space(@class), ' '), ' div-alignment-header ')]")
+2026-01-02 15:00:18.854 DEBUG testcase.CA-01                           - 13: linkVisible = false
+2026-01-02 15:00:18.856 DEBUG testcase.CA-01                           - 14: attempts = 0
+2026-01-02 15:00:18.861 DEBUG testcase.CA-01                           - 15: while (attempts <= MAX_RELOAD_ATTEMPTS)
+2026-01-02 15:00:18.863 DEBUG testcase.CA-01                           - 1: linkVisible = waitForElementVisible(aAccountRegister, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)
+2026-01-02 15:00:22.137 DEBUG testcase.CA-01                           - 2: if (linkVisible)
+2026-01-02 15:00:22.140 DEBUG testcase.CA-01                           - 1: break
+2026-01-02 15:00:22.144 DEBUG testcase.CA-01                           - 16: if (!(linkVisible))
+2026-01-02 15:00:22.147 DEBUG testcase.CA-01                           - 17: clickable = waitForElementClickable(aAccountRegister, 20, OPTIONAL)
+2026-01-02 15:00:22.510 DEBUG testcase.CA-01                           - 18: if (!(clickable))
+2026-01-02 15:00:22.512 DEBUG testcase.CA-01                           - 19: if (!(clickable))
+2026-01-02 15:00:22.514 DEBUG testcase.CA-01                           - 20: click(aAccountRegister)
+2026-01-02 15:00:22.965 DEBUG testcase.CA-01                           - 21: comment("🖱️ Đã click /accountregister.")
+2026-01-02 15:00:22.993 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã click /accountregister.
+2026-01-02 15:00:22.995 DEBUG testcase.CA-01                           - 22: headerVisible = waitForElementVisible(divAlignmentHeader, WAIT_AFTER_CLICK, OPTIONAL)
+2026-01-02 15:00:23.472 DEBUG testcase.CA-01                           - 23: if (!(headerVisible))
+2026-01-02 15:00:23.474 DEBUG testcase.CA-01                           - 24: if (headerVisible)
+2026-01-02 15:00:23.477 DEBUG testcase.CA-01                           - 1: verifyElementPresent(divAlignmentHeader, 10, STOP_ON_FAILURE)
+2026-01-02 15:00:24.054 DEBUG testcase.CA-01                           - 2: comment("✅ Thành công: tồn tại element với class='div-alignment-header' sau khi vào trang account register.")
+2026-01-02 15:00:24.057 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Thành công: tồn tại element với class='div-alignment-header' sau khi vào trang account register.
+2026-01-02 15:00:24.060 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-01
+2026-01-02 15:00:24.064 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 15:00:24.064 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-02
+2026-01-02 15:00:24.339 DEBUG testcase.CA-02                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-02 15:00:24.345 DEBUG testcase.CA-02                           - 2: WAIT_EACH_FIELD = 60
+2026-01-02 15:00:24.348 DEBUG testcase.CA-02                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-02 15:00:24.351 DEBUG testcase.CA-02                           - 4: inputEmail = new com.kms.katalon.core.testobject.TestObject(obj_input_email)
+2026-01-02 15:00:24.359 DEBUG testcase.CA-02                           - 5: inputEmail.addProperty("xpath", EQUALS, "//input[@aria-label and normalize-space(@aria-label)='Email']")
+2026-01-02 15:00:24.365 DEBUG testcase.CA-02                           - 6: inputPhone = new com.kms.katalon.core.testobject.TestObject(obj_input_phone)
+2026-01-02 15:00:24.368 DEBUG testcase.CA-02                           - 7: inputPhone.addProperty("xpath", EQUALS, "//input[@aria-label and normalize-space(@aria-label)='Phone Number']")
+2026-01-02 15:00:24.371 DEBUG testcase.CA-02                           - 8: inputNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_new_password)
+2026-01-02 15:00:24.377 DEBUG testcase.CA-02                           - 9: inputNewPassword.addProperty("xpath", EQUALS, "//input[@aria-label and normalize-space(@aria-label)='New Password']")
+2026-01-02 15:00:24.382 DEBUG testcase.CA-02                           - 10: inputReEnterNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_reenter_new_password)
+2026-01-02 15:00:24.385 DEBUG testcase.CA-02                           - 11: inputReEnterNewPassword.addProperty("xpath", EQUALS, "//input[@aria-label and normalize-space(@aria-label)='Re-Enter New Password']")
+2026-01-02 15:00:24.388 DEBUG testcase.CA-02                           - 12: emailVisible = waitForElementVisible(inputEmail, WAIT_EACH_FIELD, OPTIONAL)
+2026-01-02 15:00:24.669 DEBUG testcase.CA-02                           - 13: phoneVisible = waitForElementVisible(inputPhone, WAIT_EACH_FIELD, OPTIONAL)
+2026-01-02 15:00:24.943 DEBUG testcase.CA-02                           - 14: newPwVisible = waitForElementVisible(inputNewPassword, WAIT_EACH_FIELD, OPTIONAL)
+2026-01-02 15:00:25.188 DEBUG testcase.CA-02                           - 15: reNewPwVisible = waitForElementVisible(inputReEnterNewPassword, WAIT_EACH_FIELD, OPTIONAL)
+2026-01-02 15:00:25.441 DEBUG testcase.CA-02                           - 16: if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible))
+2026-01-02 15:00:25.443 DEBUG testcase.CA-02                           - 17: if (emailVisible && phoneVisible && newPwVisible && reNewPwVisible)
+2026-01-02 15:00:25.446 DEBUG testcase.CA-02                           - 1: verifyElementPresent(inputEmail, 5, STOP_ON_FAILURE)
+2026-01-02 15:00:25.677 DEBUG testcase.CA-02                           - 2: verifyElementPresent(inputPhone, 5, STOP_ON_FAILURE)
+2026-01-02 15:00:25.907 DEBUG testcase.CA-02                           - 3: verifyElementPresent(inputNewPassword, 5, STOP_ON_FAILURE)
+2026-01-02 15:00:26.142 DEBUG testcase.CA-02                           - 4: verifyElementPresent(inputReEnterNewPassword, 5, STOP_ON_FAILURE)
+2026-01-02 15:00:26.373 DEBUG testcase.CA-02                           - 5: comment("✅ Thành công: tất cả input (Email, Phone Number, New Password, Re-Enter New Password) đã load.")
+2026-01-02 15:00:26.375 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Thành công: tất cả input (Email, Phone Number, New Password, Re-Enter New Password) đã load.
+2026-01-02 15:00:26.377 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-02
+2026-01-02 15:00:26.379 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 15:00:26.380 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-14
+2026-01-02 15:00:26.492 DEBUG testcase.CA-14                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-02 15:00:26.493 DEBUG testcase.CA-14                           - 2: MAX_RELOAD_ATTEMPTS = 1
+2026-01-02 15:00:26.495 DEBUG testcase.CA-14                           - 3: WAIT_AFTER_CLICK = 60
+2026-01-02 15:00:26.497 DEBUG testcase.CA-14                           - 4: btnCreateAccount = new com.kms.katalon.core.testobject.TestObject(obj_btn_create_account)
+2026-01-02 15:00:26.500 DEBUG testcase.CA-14                           - 5: btnCreateAccount.addProperty("xpath", EQUALS, "//button[@aria-label='Create Account']")
+2026-01-02 15:00:26.502 DEBUG testcase.CA-14                           - 6: clickable = waitForElementClickable(btnCreateAccount, 30, OPTIONAL)
+2026-01-02 15:00:26.783 DEBUG testcase.CA-14                           - 7: if (!(clickable))
+2026-01-02 15:00:26.785 DEBUG testcase.CA-14                           - 8: if (!(clickable))
+2026-01-02 15:00:26.786 DEBUG testcase.CA-14                           - 9: click(btnCreateAccount)
+2026-01-02 15:00:27.147 DEBUG testcase.CA-14                           - 10: comment("✅ Đã click button aria-label='Create Account'.")
+2026-01-02 15:00:27.150 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click button aria-label='Create Account'.
+2026-01-02 15:00:27.152 DEBUG testcase.CA-14                           - 11: allValidationDivs = new com.kms.katalon.core.testobject.TestObject(obj_all_validation_divs)
+2026-01-02 15:00:27.154 DEBUG testcase.CA-14                           - 12: allValidationDivs.addProperty("xpath", EQUALS, "//div[contains(@class,'validation-message')]")
+2026-01-02 15:00:27.156 DEBUG testcase.CA-14                           - 13: anyValidationVisible = waitForElementVisible(allValidationDivs, WAIT_AFTER_CLICK, OPTIONAL)
+2026-01-02 15:00:27.615 DEBUG testcase.CA-14                           - 14: if (!(anyValidationVisible))
+2026-01-02 15:00:27.616 DEBUG testcase.CA-14                           - 15: validationDivs = findWebElements(allValidationDivs, 10)
+2026-01-02 15:00:27.867 DEBUG testcase.CA-14                           - 16: comment(🔎 Số div.validation-message tìm thấy: $validationDivs.size())
+2026-01-02 15:00:27.886 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🔎 Số div.validation-message tìm thấy: 3
+2026-01-02 15:00:27.888 DEBUG testcase.CA-14                           - 17: if (validationDivs.size() != 3)
+2026-01-02 15:00:27.889 DEBUG testcase.CA-14                           - 18: msgEmail = new com.kms.katalon.core.testobject.TestObject(obj_msg_email)
+2026-01-02 15:00:27.892 DEBUG testcase.CA-14                           - 19: msgEmail.addProperty("xpath", EQUALS, "//div[contains(@class,'validation-message') and normalize-space(.)='Please enter a valid Email address.']")
+2026-01-02 15:00:27.894 DEBUG testcase.CA-14                           - 20: msgNewPw = new com.kms.katalon.core.testobject.TestObject(obj_msg_new_password)
+2026-01-02 15:00:27.896 DEBUG testcase.CA-14                           - 21: msgNewPw.addProperty("xpath", EQUALS, "//div[contains(@class,'validation-message') and normalize-space(.)='Please enter your new password!']")
+2026-01-02 15:00:27.898 DEBUG testcase.CA-14                           - 22: msgConfirmPw = new com.kms.katalon.core.testobject.TestObject(obj_msg_confirm_password)
+2026-01-02 15:00:27.900 DEBUG testcase.CA-14                           - 23: msgConfirmPw.addProperty("xpath", EQUALS, "//div[contains(@class,'validation-message') and normalize-space(.)='Please enter your new password confirm!']")
+2026-01-02 15:00:27.902 DEBUG testcase.CA-14                           - 24: emailMsgPresent = waitForElementPresent(msgEmail, 10, OPTIONAL)
+2026-01-02 15:00:28.154 DEBUG testcase.CA-14                           - 25: newPwMsgPresent = waitForElementPresent(msgNewPw, 10, OPTIONAL)
+2026-01-02 15:00:28.400 DEBUG testcase.CA-14                           - 26: confirmPwMsgPresent = waitForElementPresent(msgConfirmPw, 10, OPTIONAL)
+2026-01-02 15:00:28.634 DEBUG testcase.CA-14                           - 27: if (!(emailMsgPresent && newPwMsgPresent && confirmPwMsgPresent))
+2026-01-02 15:00:28.636 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-14
+2026-01-02 15:00:28.638 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 15:00:28.639 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-08
+2026-01-02 15:00:28.811 DEBUG testcase.CA-08                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-02 15:00:28.813 DEBUG testcase.CA-08                           - 2: WAIT_FIELD = 60
+2026-01-02 15:00:28.814 DEBUG testcase.CA-08                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-02 15:00:28.815 DEBUG testcase.CA-08                           - 4: WAIT_AFTER_CLICK = 30
+2026-01-02 15:00:28.816 DEBUG testcase.CA-08                           - 5: inputEmail = new com.kms.katalon.core.testobject.TestObject(obj_input_email)
+2026-01-02 15:00:28.818 DEBUG testcase.CA-08                           - 6: inputEmail.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='Email']")
+2026-01-02 15:00:28.819 DEBUG testcase.CA-08                           - 7: inputPhone = new com.kms.katalon.core.testobject.TestObject(obj_input_phone)
+2026-01-02 15:00:28.820 DEBUG testcase.CA-08                           - 8: inputPhone.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='Phone Number']")
+2026-01-02 15:00:28.822 DEBUG testcase.CA-08                           - 9: inputNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_new_password)
+2026-01-02 15:00:28.825 DEBUG testcase.CA-08                           - 10: inputNewPassword.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='New Password']")
+2026-01-02 15:00:28.827 DEBUG testcase.CA-08                           - 11: inputReEnterNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_reenter_new_password)
+2026-01-02 15:00:28.829 DEBUG testcase.CA-08                           - 12: inputReEnterNewPassword.addProperty("xpath", EQUALS, "//*[@aria-label and normalize-space(@aria-label)='Re-Enter New Password']")
+2026-01-02 15:00:28.832 DEBUG testcase.CA-08                           - 13: btnCreateAccount = new com.kms.katalon.core.testobject.TestObject(obj_btn_create_account)
+2026-01-02 15:00:28.834 DEBUG testcase.CA-08                           - 14: btnCreateAccount.addProperty("xpath", EQUALS, "//button[@aria-label='Create Account']")
+2026-01-02 15:00:28.836 DEBUG testcase.CA-08                           - 15: h3SelectOrganisation = new com.kms.katalon.core.testobject.TestObject(obj_h3_select_organisation)
+2026-01-02 15:00:28.838 DEBUG testcase.CA-08                           - 16: h3SelectOrganisation.addProperty("xpath", EQUALS, "//h3[normalize-space(.)='Select Organisation']")
+2026-01-02 15:00:28.840 DEBUG testcase.CA-08                           - 17: emailVisible = waitForElementVisible(inputEmail, WAIT_FIELD, OPTIONAL)
+2026-01-02 15:00:29.095 DEBUG testcase.CA-08                           - 18: phoneVisible = waitForElementVisible(inputPhone, WAIT_FIELD, OPTIONAL)
+2026-01-02 15:00:29.342 DEBUG testcase.CA-08                           - 19: newPwVisible = waitForElementVisible(inputNewPassword, WAIT_FIELD, OPTIONAL)
+2026-01-02 15:00:29.589 DEBUG testcase.CA-08                           - 20: reNewPwVisible = waitForElementVisible(inputReEnterNewPassword, WAIT_FIELD, OPTIONAL)
+2026-01-02 15:00:29.838 DEBUG testcase.CA-08                           - 21: if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible))
+2026-01-02 15:00:29.839 DEBUG testcase.CA-08                           - 22: if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible))
+2026-01-02 15:00:29.841 DEBUG testcase.CA-08                           - 23: timestamp = SimpleDateFormat(yyyyMMddHHmmss).format(new java.util.Date())
+2026-01-02 15:00:29.855 DEBUG testcase.CA-08                           - 24: randomEmail = "test" + timestamp + "@gmail.com"
+2026-01-02 15:00:29.859 DEBUG testcase.CA-08                           - 25: logInfo("📧 Email sẽ nhập: " + randomEmail)
+2026-01-02 15:00:29.865 INFO  com.kms.katalon.core.util.KeywordUtil    - 📧 Email sẽ nhập: test20260102150029@gmail.com
+2026-01-02 15:00:29.866 DEBUG testcase.CA-08                           - 26: setText(inputEmail, randomEmail)
+2026-01-02 15:00:30.489 DEBUG testcase.CA-08                           - 27: setText(inputPhone, "123456789")
+2026-01-02 15:00:31.064 DEBUG testcase.CA-08                           - 28: setText(inputNewPassword, "Test@12345678")
+2026-01-02 15:00:31.633 DEBUG testcase.CA-08                           - 29: setText(inputReEnterNewPassword, "Test@12345678")
+2026-01-02 15:00:32.212 DEBUG testcase.CA-08                           - 30: clickable = waitForElementClickable(btnCreateAccount, 30, OPTIONAL)
+2026-01-02 15:00:32.477 DEBUG testcase.CA-08                           - 31: if (!(clickable))
+2026-01-02 15:00:32.478 DEBUG testcase.CA-08                           - 32: if (!(clickable))
+2026-01-02 15:00:32.479 DEBUG testcase.CA-08                           - 33: click(btnCreateAccount)
+2026-01-02 15:00:32.776 DEBUG testcase.CA-08                           - 34: click(btnCreateAccount)
+2026-01-02 15:00:33.077 DEBUG testcase.CA-08                           - 35: comment("✅ Đã click button aria-label='Create Account'.")
+2026-01-02 15:00:33.079 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click button aria-label='Create Account'.
+2026-01-02 15:00:33.080 DEBUG testcase.CA-08                           - 36: h3Visible = waitForElementVisible(h3SelectOrganisation, WAIT_AFTER_CLICK, OPTIONAL)
+2026-01-02 15:00:37.526 DEBUG testcase.CA-08                           - 37: if (!(h3Visible))
+2026-01-02 15:00:37.527 DEBUG testcase.CA-08                           - 38: if (h3Visible)
+2026-01-02 15:00:37.528 DEBUG testcase.CA-08                           - 1: verifyElementPresent(h3SelectOrganisation, 10, STOP_ON_FAILURE)
+2026-01-02 15:00:37.768 DEBUG testcase.CA-08                           - 2: comment("✅ Thành công: tồn tại h3 với text 'Select Organisation'.")
+2026-01-02 15:00:37.770 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Thành công: tồn tại h3 với text 'Select Organisation'.
+2026-01-02 15:00:37.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-08
+2026-01-02 15:00:38.098 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-02 15:00:38.098 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_CA
+2026-01-02 15:00:38.098 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

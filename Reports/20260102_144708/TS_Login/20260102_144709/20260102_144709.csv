@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login,,,,02-01-2026 14:47:20,02-01-2026 14:47:22,1.420s,SKIPPED
+,,,,,,,
+Test Cases/Login/LG-01,,,,02-01-2026 14:47:22,02-01-2026 14:47:22,0.003s,SKIPPED
+,,,,,,,
+Test Cases/Login/LO-01,,,,02-01-2026 14:47:22,02-01-2026 14:47:22,0.003s,SKIPPED
+,,,,,,,
+Test Cases/Login/LG-02,,,,02-01-2026 14:47:22,02-01-2026 14:47:22,0.003s,SKIPPED
+,,,,,,,
+Test Cases/Login/LG-03,,,,02-01-2026 14:47:22,02-01-2026 14:47:22,0.002s,SKIPPED

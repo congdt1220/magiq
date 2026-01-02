@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_CA" time="1.178" tests="4" failures="0" errors="0">
+   <testsuite name="TS_CA" tests="4" failures="0" errors="0" time="1.178" skipped="4" timestamp="2026-01-02T07:46:46.121Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TS_CA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_144616\\TS_CA\\20260102_144623"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_144616\\TS_CA\\20260102_144623\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_144616\\TS_CA\\20260102_144623\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="projectName" value="magiq"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+      </properties>
+      <testcase name="Test Cases/CA/CA-01" time="0.004" classname="Test Cases/CA/CA-01" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:47 - [TEST_CASE][SKIPPED] - Test Cases/CA/CA-01:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA/CA-02" time="0.004" classname="Test Cases/CA/CA-02" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:47 - [TEST_CASE][SKIPPED] - Test Cases/CA/CA-02:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA/CA-14" time="0.004" classname="Test Cases/CA/CA-14" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:47 - [TEST_CASE][SKIPPED] - Test Cases/CA/CA-14:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA/CA-08" time="0.006" classname="Test Cases/CA/CA-08" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:47 - [TEST_CASE][SKIPPED] - Test Cases/CA/CA-08:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2026T14:46:46 - [TEST_SUITE][SKIPPED] - TS_CA: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

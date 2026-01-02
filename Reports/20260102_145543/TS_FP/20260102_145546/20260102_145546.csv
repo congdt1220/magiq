@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_FP,Chrome 143.0.7499.170,,,02-01-2026 14:57:56,02-01-2026 14:58:23,26.714s,PASSED
+,,,,,,,
+Test Cases/FP/FP-01,Chrome 143.0.7499.170,,,02-01-2026 14:57:58,02-01-2026 14:58:16,18.413s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 14:57:58,02-01-2026 14:57:58,0.004s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 14:57:58,02-01-2026 14:57:58,0.004s,PASSED
+MAX_RELOAD_ATTEMPTS = 2,Chrome 143.0.7499.170,,,02-01-2026 14:57:58,02-01-2026 14:57:58,0.003s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,02-01-2026 14:57:58,02-01-2026 14:58:02,4.330s,PASSED
+maximizeWindow(),Chrome 143.0.7499.170,,,02-01-2026 14:58:02,02-01-2026 14:58:02,0.079s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/login"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:02,02-01-2026 14:58:03,0.134s,PASSED
+waitForPageLoad(LOCAL_PAGELOAD),Chrome 143.0.7499.170,,,02-01-2026 14:58:03,02-01-2026 14:58:04,1.036s,PASSED
+forgotPasswordLink = new com.kms.katalon.core.testobject.TestObject(forgotPasswordLink),Chrome 143.0.7499.170,,,02-01-2026 14:58:04,02-01-2026 14:58:04,0.031s,PASSED
+"forgotPasswordLink.addProperty(""xpath"", EQUALS, ""//a[normalize-space(.)='Forgot Password?'] | //button[normalize-space(.)='Forgot Password?'] | //a[.//span[normalize-space(.)='Forgot Password?']]"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:04,02-01-2026 14:58:04,0.018s,PASSED
+h2ForgotPassword = new com.kms.katalon.core.testobject.TestObject(h2ForgotPassword),Chrome 143.0.7499.170,,,02-01-2026 14:58:04,02-01-2026 14:58:04,0.004s,PASSED
+"h2ForgotPassword.addProperty(""xpath"", EQUALS, ""//h2[normalize-space(.)='Forgot Password']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:04,02-01-2026 14:58:04,0.005s,PASSED
+forgotVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:58:04,02-01-2026 14:58:04,0.003s,PASSED
+attempts = 0,Chrome 143.0.7499.170,,,02-01-2026 14:58:04,02-01-2026 14:58:04,0.003s,PASSED
+while (attempts <= MAX_RELOAD_ATTEMPTS),Chrome 143.0.7499.170,,,02-01-2026 14:58:04,02-01-2026 14:58:15,10.951s,PASSED
+if (!(forgotVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:58:15,02-01-2026 14:58:15,0.002s,PASSED
+"clickable = waitForElementClickable(forgotPasswordLink, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:15,02-01-2026 14:58:15,0.320s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 14:58:15,02-01-2026 14:58:15,0.002s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 14:58:15,02-01-2026 14:58:15,0.002s,PASSED
+click(forgotPasswordLink),Chrome 143.0.7499.170,,,02-01-2026 14:58:15,02-01-2026 14:58:15,0.384s,PASSED
+"h2Visible = waitForElementVisible(h2ForgotPassword, 60, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:15,02-01-2026 14:58:16,0.478s,PASSED
+if (!(h2Visible)),Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.001s,PASSED
+if (h2Visible),Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.270s,PASSED
+,,,,,,,
+Test Cases/FP/FP-02,Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:17,1.304s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.003s,PASSED
+WAIT_AFTER_CLICK = 60,Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.005s,PASSED
+RETRY_ON_SLOW = 1,Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.006s,PASSED
+pCancel = new com.kms.katalon.core.testobject.TestObject(obj_p_cancel),Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.003s,PASSED
+"pCancel.addProperty(""xpath"", EQUALS, ""//p[normalize-space(.)='Cancel']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.003s,PASSED
+spanResetPassword = new com.kms.katalon.core.testobject.TestObject(obj_span_reset_password),Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.004s,PASSED
+"spanResetPassword.addProperty(""xpath"", EQUALS, ""//span[normalize-space(.)='Reset Password']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:16,0.019s,PASSED
+"cancelVisible = waitForElementVisible(pCancel, WAIT_AFTER_CLICK, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:16,02-01-2026 14:58:17,0.270s,PASSED
+"resetVisible = waitForElementVisible(spanResetPassword, WAIT_AFTER_CLICK, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:17,02-01-2026 14:58:17,0.257s,PASSED
+if (!(cancelVisible) || !(resetVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:58:17,02-01-2026 14:58:17,0.001s,PASSED
+if (cancelVisible && resetVisible),Chrome 143.0.7499.170,,,02-01-2026 14:58:17,02-01-2026 14:58:17,0.515s,PASSED
+,,,,,,,
+Test Cases/FP/FP-04,Chrome 143.0.7499.170,,,02-01-2026 14:58:17,02-01-2026 14:58:20,2.627s,PASSED
+emailInput = new com.kms.katalon.core.testobject.TestObject(obj_email_input),Chrome 143.0.7499.170,,,02-01-2026 14:58:18,02-01-2026 14:58:18,0.003s,PASSED
+"emailInput.addProperty(""xpath"", EQUALS, ""//input[@aria-label='Email']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:18,02-01-2026 14:58:18,0.002s,PASSED
+resetBtn = new com.kms.katalon.core.testobject.TestObject(obj_reset_password_btn),Chrome 143.0.7499.170,,,02-01-2026 14:58:18,02-01-2026 14:58:18,0.003s,PASSED
+"resetBtn.addProperty(""xpath"", EQUALS, ""//button[normalize-space(.)='Reset Password'] | //span[normalize-space(.)='Reset Password']/ancestor::button"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:18,02-01-2026 14:58:18,0.003s,PASSED
+divTitle = new com.kms.katalon.core.testobject.TestObject(obj_div_title),Chrome 143.0.7499.170,,,02-01-2026 14:58:18,02-01-2026 14:58:18,0.005s,PASSED
+"divTitle.addProperty(""xpath"", EQUALS, ""//*[@class='div-title']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:18,02-01-2026 14:58:18,0.003s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:58:18,02-01-2026 14:58:20,2.472s,PASSED
+,,,,,,,
+Test Cases/FP/FP-06,Chrome 143.0.7499.170,,,02-01-2026 14:58:20,02-01-2026 14:58:21,0.652s,PASSED
+"EXPECTED_TEXT = ""If the email you entered is associated with an account, you will receive a password reset email shortly.""",Chrome 143.0.7499.170,,,02-01-2026 14:58:20,02-01-2026 14:58:20,0.002s,PASSED
+divTitle = new com.kms.katalon.core.testobject.TestObject(obj_div_title),Chrome 143.0.7499.170,,,02-01-2026 14:58:20,02-01-2026 14:58:20,0.002s,PASSED
+"divTitle.addProperty(""xpath"", EQUALS, ""//*[@class='div-title']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:20,02-01-2026 14:58:20,0.002s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:58:20,02-01-2026 14:58:21,0.518s,PASSED
+,,,,,,,
+Test Cases/FP/FP-07,Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:23,1.880s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.002s,PASSED
+WAIT_BEFORE_CLICK = 60,Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.002s,PASSED
+WAIT_AFTER_CLICK = 60,Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.002s,PASSED
+RETRY_ON_SLOW = 1,Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.002s,PASSED
+aBackToLogin = new com.kms.katalon.core.testobject.TestObject(obj_a_back_to_login),Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.003s,PASSED
+"aBackToLogin.addProperty(""xpath"", EQUALS, ""//a[@href='/login']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.002s,PASSED
+userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName),Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.002s,PASSED
+"userNameInput.addProperty(""id"", EQUALS, ""userName"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:21,0.002s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:58:21,02-01-2026 14:58:23,1.713s,PASSED

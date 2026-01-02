@@ -1,0 +1,243 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LGG,Chrome 143.0.7499.170,,,02-01-2026 14:58:29,02-01-2026 14:59:53,1m - 24.084s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-01,Chrome 143.0.7499.170,,,02-01-2026 14:58:31,02-01-2026 14:58:41,10.557s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 14:58:31,02-01-2026 14:58:31,0.004s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 14:58:31,02-01-2026 14:58:31,0.003s,PASSED
+MAX_RELOAD_ATTEMPTS = 5,Chrome 143.0.7499.170,,,02-01-2026 14:58:31,02-01-2026 14:58:31,0.003s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,02-01-2026 14:58:31,02-01-2026 14:58:36,4.630s,PASSED
+maximizeWindow(),Chrome 143.0.7499.170,,,02-01-2026 14:58:36,02-01-2026 14:58:36,0.101s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/login"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:36,02-01-2026 14:58:36,0.176s,PASSED
+waitForPageLoad(LOCAL_PAGELOAD),Chrome 143.0.7499.170,,,02-01-2026 14:58:36,02-01-2026 14:58:37,1.464s,PASSED
+spanContinueAsGuest = new com.kms.katalon.core.testobject.TestObject(span_continue_as_guest),Chrome 143.0.7499.170,,,02-01-2026 14:58:37,02-01-2026 14:58:37,0.018s,PASSED
+"spanContinueAsGuest.addProperty(""css"", EQUALS, ""span.mdc-button__label"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:37,02-01-2026 14:58:37,0.016s,PASSED
+"spanContinueAsGuest.addProperty(""xpath"", EQUALS, ""//*[self::span and contains(concat(' ', normalize-space(@class), ' '), ' mdc-button__label ') and normalize-space(text())='Continue as Guest']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:37,02-01-2026 14:58:37,0.002s,PASSED
+targetVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:58:37,02-01-2026 14:58:37,0.002s,PASSED
+attempts = 0,Chrome 143.0.7499.170,,,02-01-2026 14:58:37,02-01-2026 14:58:37,0.002s,PASSED
+while (attempts <= MAX_RELOAD_ATTEMPTS),Chrome 143.0.7499.170,,,02-01-2026 14:58:37,02-01-2026 14:58:41,3.541s,PASSED
+if (targetVisible),Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.290s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-02,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:45,4.149s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+MAX_RELOAD_ATTEMPTS = 2,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+btnContinueAsGuest = new com.kms.katalon.core.testobject.TestObject(btn_continue_as_guest),Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+"btnContinueAsGuest.addProperty(""xpath"", EQUALS, ""//button[@aria-label='Continue as Guest']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+guestMarker = new com.kms.katalon.core.testobject.TestObject(guestMarker),Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.004s,PASSED
+"guestMarker.addProperty(""xpath"", EQUALS, ""//*[contains(@class,'list-organisation')]"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+btnVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.002s,PASSED
+attempts = 0,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.002s,PASSED
+MAX_WAIT_SECONDS = 60,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+POLL_INTERVAL = 10,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+waited = 0,Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:41,0.003s,PASSED
+"btnVisible = waitForElementVisible(btnContinueAsGuest, POLL_INTERVAL, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:41,02-01-2026 14:58:42,0.295s,PASSED
+if (!(btnVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:58:42,02-01-2026 14:58:42,0.003s,PASSED
+if (!(btnVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:58:42,02-01-2026 14:58:42,0.002s,PASSED
+"clickable = waitForElementClickable(btnContinueAsGuest, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:42,02-01-2026 14:58:42,0.349s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 14:58:42,02-01-2026 14:58:42,0.013s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 14:58:42,02-01-2026 14:58:42,0.002s,PASSED
+click(btnContinueAsGuest),Chrome 143.0.7499.170,,,02-01-2026 14:58:42,02-01-2026 14:58:43,0.787s,PASSED
+"comment(""🖱️ Đã click button aria-label='Continue as Guest'."")",Chrome 143.0.7499.170,,,02-01-2026 14:58:43,02-01-2026 14:58:43,0.009s,PASSED
+"guestLoaded = waitForElementVisible(guestMarker, 60, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:43,02-01-2026 14:58:45,2.410s,PASSED
+if (guestLoaded),Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.005s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-03,Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:46,0.357s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.001s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.001s,PASSED
+MAX_RELOAD_ATTEMPTS = 2,Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.002s,PASSED
+btnContinueAsGuest = new com.kms.katalon.core.testobject.TestObject(btn_continue_as_guest),Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.002s,PASSED
+"btnContinueAsGuest.addProperty(""xpath"", EQUALS, ""//button[@aria-label='Continue as Guest']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.003s,PASSED
+guestMarker = new com.kms.katalon.core.testobject.TestObject(guestMarker),Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.002s,PASSED
+"guestMarker.addProperty(""xpath"", EQUALS, ""//h3[@class='blazored-modal-title' and normalize-space()='Select Organisation']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:45,0.002s,PASSED
+"guestLoaded = waitForElementVisible(guestMarker, 60, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:45,02-01-2026 14:58:46,0.251s,PASSED
+if (guestLoaded),Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:46,0.005s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-05,Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:59:02,15.973s,PASSED
+PAGELOAD_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:46,0.002s,PASSED
+WAIT_TIMEOUT = 129,Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:46,0.001s,PASSED
+aWestCoast = new com.kms.katalon.core.testobject.TestObject(a_west_coast_council),Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:46,0.002s,PASSED
+"aWestCoast.addProperty(""xpath"", EQUALS, ""//h6[normalize-space(.)='a-West Coast Council']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:46,0.002s,PASSED
+"isPresent = waitForElementPresent(aWestCoast, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:46,0.249s,PASSED
+"isVisible = waitForElementVisible(aWestCoast, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:46,0.265s,PASSED
+"isClickable = waitForElementClickable(aWestCoast, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:46,02-01-2026 14:58:47,0.264s,PASSED
+if (!(isPresent && isVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:58:47,02-01-2026 14:58:47,0.002s,PASSED
+if (isClickable),Chrome 143.0.7499.170,,,02-01-2026 14:58:47,02-01-2026 14:58:47,0.352s,PASSED
+"targetUrl = ""https://www.westcoast.tas.gov.au/""",Chrome 143.0.7499.170,,,02-01-2026 14:58:47,02-01-2026 14:58:47,0.001s,PASSED
+aTasGov = new com.kms.katalon.core.testobject.TestObject(a_westcoast_tas_gov),Chrome 143.0.7499.170,,,02-01-2026 14:58:47,02-01-2026 14:58:47,0.001s,PASSED
+"aTasGov.addProperty(""xpath"", EQUALS, ""//a[@target='_blank' and @href='"" + targetUrl + ""']"")",Chrome 143.0.7499.170,,,02-01-2026 14:58:47,02-01-2026 14:58:47,0.007s,PASSED
+"linkExists = waitForElementPresent(aTasGov, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:58:47,02-01-2026 14:59:02,14.665s,PASSED
+if (linkExists),Chrome 143.0.7499.170,,,02-01-2026 14:59:02,02-01-2026 14:59:02,0.019s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-07,Chrome 143.0.7499.170,,,02-01-2026 14:59:02,02-01-2026 14:59:19,16.813s,PASSED
+PAGELOAD_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:02,02-01-2026 14:59:02,0.002s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:02,02-01-2026 14:59:02,0.001s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:59:02,02-01-2026 14:59:03,0.575s,PASSED
+driver = getWebDriver(),Chrome 143.0.7499.170,,,02-01-2026 14:59:03,02-01-2026 14:59:03,0.002s,PASSED
+"bodyEl = driver.findElement(By.tagName(""body""))",Chrome 143.0.7499.170,,,02-01-2026 14:59:03,02-01-2026 14:59:12,9.836s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 143.0.7499.170,,,02-01-2026 14:59:12,02-01-2026 14:59:12,0.012s,PASSED
+targetX = 0,Chrome 143.0.7499.170,,,02-01-2026 14:59:12,02-01-2026 14:59:12,0.001s,PASSED
+targetY = 300,Chrome 143.0.7499.170,,,02-01-2026 14:59:12,02-01-2026 14:59:12,0.002s,PASSED
+"moveToElement(bodyEl, targetX, targetY).perform()",Chrome 143.0.7499.170,,,02-01-2026 14:59:12,02-01-2026 14:59:13,0.142s,PASSED
+"comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)",Chrome 143.0.7499.170,,,02-01-2026 14:59:13,02-01-2026 14:59:13,0.003s,PASSED
+click().perform(),Chrome 143.0.7499.170,,,02-01-2026 14:59:13,02-01-2026 14:59:13,0.010s,PASSED
+"comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)",Chrome 143.0.7499.170,,,02-01-2026 14:59:13,02-01-2026 14:59:13,0.004s,PASSED
+aAccount = new com.kms.katalon.core.testobject.TestObject(a_account),Chrome 143.0.7499.170,,,02-01-2026 14:59:13,02-01-2026 14:59:13,0.001s,PASSED
+"aAccount.addProperty(""xpath"", EQUALS, ""//a[@href='account']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:13,02-01-2026 14:59:13,0.001s,PASSED
+"present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:13,02-01-2026 14:59:17,4.209s,PASSED
+"visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:17,02-01-2026 14:59:17,0.235s,PASSED
+"clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:17,02-01-2026 14:59:17,0.247s,PASSED
+if (!(present && visible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:17,02-01-2026 14:59:17,0.001s,PASSED
+if (clickable),Chrome 143.0.7499.170,,,02-01-2026 14:59:17,02-01-2026 14:59:18,0.363s,PASSED
+h4Guest = new com.kms.katalon.core.testobject.TestObject(h4_guest_account),Chrome 143.0.7499.170,,,02-01-2026 14:59:18,02-01-2026 14:59:18,0.003s,PASSED
+"h4Guest.addProperty(""xpath"", EQUALS, ""//h4[@class='mat-h4' and normalize-space(.)='Guest Account!']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:18,02-01-2026 14:59:18,0.004s,PASSED
+"h4Present = waitForElementPresent(h4Guest, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:18,02-01-2026 14:59:18,0.436s,PASSED
+if (!(h4Present)),Chrome 143.0.7499.170,,,02-01-2026 14:59:18,02-01-2026 14:59:18,0.001s,PASSED
+"h4Visible = waitForElementVisible(h4Guest, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:18,02-01-2026 14:59:18,0.233s,PASSED
+if (!(h4Visible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:18,02-01-2026 14:59:18,0.002s,PASSED
+h4Text = getText(h4Guest),Chrome 143.0.7499.170,,,02-01-2026 14:59:18,02-01-2026 14:59:19,0.254s,PASSED
+"if (h4Text.trim() != ""Guest Account!"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+"comment(""✅ Xác nhận: <h4 class='mat-h4'>Guest Account!</h4> tồn tại và hiển thị đúng."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.003s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-08,Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.824s,PASSED
+PAGELOAD_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+h4ModalMsg = new com.kms.katalon.core.testobject.TestObject(h4_modal_message),Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+"h4ModalMsg.addProperty(""xpath"", EQUALS, ""//h4[@class='modal-message' and normalize-space(.)='Please create a user account before accessing further information.']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+"modalPresent = waitForElementPresent(h4ModalMsg, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.232s,PASSED
+if (!(modalPresent)),Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+"modalVisible = waitForElementVisible(h4ModalMsg, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.249s,PASSED
+if (!(modalVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.000s,PASSED
+modalText = getText(h4ModalMsg),Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.246s,PASSED
+"expectedText = ""Please create a user account before accessing further information.""",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+if (modalText.trim() != expectedText),Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+"comment(""✅ Xác nhận: <h4 class='modal-message'> tồn tại, hiển thị, và đúng nội dung."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.002s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-10,Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:20,0.807s,PASSED
+PAGELOAD_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.002s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.001s,PASSED
+h4ModalMsg = new com.kms.katalon.core.testobject.TestObject(h4_modal_message),Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.002s,PASSED
+"h4ModalMsg.addProperty(""xpath"", EQUALS, ""//h4[@class='modal-message' and normalize-space(.)='Please create a user account before accessing further information.']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:19,0.002s,PASSED
+"modalPresent = waitForElementPresent(h4ModalMsg, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:19,02-01-2026 14:59:20,0.241s,PASSED
+if (!(modalPresent)),Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.001s,PASSED
+"modalVisible = waitForElementVisible(h4ModalMsg, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.244s,PASSED
+if (!(modalVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.001s,PASSED
+modalText = getText(h4ModalMsg),Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.232s,PASSED
+"expectedText = ""Please create a user account before accessing further information.""",Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.001s,PASSED
+if (modalText.trim() != expectedText),Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.001s,PASSED
+"comment(""✅ Xác nhận: <h4 class='modal-message'> tồn tại, hiển thị, và đúng nội dung."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.003s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-09,Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:22,2.151s,PASSED
+PAGELOAD_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.002s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.001s,PASSED
+btnOk = new com.kms.katalon.core.testobject.TestObject(btn_ok),Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.002s,PASSED
+"btnOk.addProperty(""xpath"", EQUALS, ""//button[@aria-label='Ok']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:20,0.001s,PASSED
+"okPresent = waitForElementPresent(btnOk, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:20,02-01-2026 14:59:21,0.243s,PASSED
+if (!(okPresent)),Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.001s,PASSED
+"okVisible = waitForElementVisible(btnOk, 15, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.233s,PASSED
+if (!(okVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.000s,PASSED
+"okClickable = waitForElementClickable(btnOk, 10, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.256s,PASSED
+if (!(okClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.001s,PASSED
+if (!(okClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.001s,PASSED
+click(btnOk),Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.358s,PASSED
+"comment(""✅ Đã click <button aria-label='Ok'> bằng WebUI.click (không reload/JS, không dùng role)."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.007s,PASSED
+h4CreateAcc_Safe = new com.kms.katalon.core.testobject.TestObject(h4_create_account_safe),Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.002s,PASSED
+"h4CreateAcc_Safe.addProperty(""xpath"", EQUALS, ""//h4[normalize-space(.)='Create New Account']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:21,0.002s,PASSED
+"presentSafe = waitForElementPresent(h4CreateAcc_Safe, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:21,02-01-2026 14:59:22,0.446s,PASSED
+if (!(presentSafe)),Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.001s,PASSED
+"visibleSafe = waitForElementVisible(h4CreateAcc_Safe, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.245s,PASSED
+if (!(visibleSafe)),Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.001s,PASSED
+safeText = getText(h4CreateAcc_Safe).trim(),Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.241s,PASSED
+"if (safeText != ""Create New Account"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.001s,PASSED
+"comment(""✅ Xác nhận: <h4> 'Create New Account' (safe) tồn tại và hiển thị."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.002s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-11,Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:23,0.793s,PASSED
+PAGELOAD_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.001s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.001s,PASSED
+h4CreateAcc_Safe = new com.kms.katalon.core.testobject.TestObject(h4_create_account_safe),Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.001s,PASSED
+"h4CreateAcc_Safe.addProperty(""xpath"", EQUALS, ""//h4[normalize-space(.)='Create New Account']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:22,0.001s,PASSED
+"presentSafe = waitForElementPresent(h4CreateAcc_Safe, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:22,02-01-2026 14:59:23,0.230s,PASSED
+if (!(presentSafe)),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+"visibleSafe = waitForElementVisible(h4CreateAcc_Safe, 20, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.239s,PASSED
+if (!(visibleSafe)),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.000s,PASSED
+safeText = getText(h4CreateAcc_Safe).trim(),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.232s,PASSED
+"if (safeText != ""Create New Account"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+"comment(""✅ Xác nhận: <h4> 'Create New Account' (safe) tồn tại và hiển thị."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.003s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-12,Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:45,22.043s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+WAIT_FIELD = 60,Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+MAX_RELOAD_ATTEMPTS = 1,Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+WAIT_AFTER_CLICK = 90,Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+inputEmail = new com.kms.katalon.core.testobject.TestObject(obj_input_email),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+"inputEmail.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='Email']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.002s,PASSED
+inputPhone = new com.kms.katalon.core.testobject.TestObject(obj_input_phone),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+"inputPhone.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='Phone Number']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+inputNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_new_password),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.002s,PASSED
+"inputNewPassword.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='New Password']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+inputReEnterNewPassword = new com.kms.katalon.core.testobject.TestObject(obj_input_reenter_new_password),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+"inputReEnterNewPassword.addProperty(""xpath"", EQUALS, ""//*[@aria-label and normalize-space(@aria-label)='Re-Enter New Password']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+btnCreateAccount = new com.kms.katalon.core.testobject.TestObject(obj_btn_create_account),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+"btnCreateAccount.addProperty(""xpath"", EQUALS, ""//button[@aria-label='Create Account']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+h3SelectOrganisation = new com.kms.katalon.core.testobject.TestObject(obj_h3_select_organisation),Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.002s,PASSED
+"h3SelectOrganisation.addProperty(""xpath"", EQUALS, ""//h3[normalize-space(.)='Select Organisation']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:23,0.001s,PASSED
+"emailVisible = waitForElementVisible(inputEmail, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:23,02-01-2026 14:59:24,0.248s,PASSED
+"phoneVisible = waitForElementVisible(inputPhone, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.243s,PASSED
+"newPwVisible = waitForElementVisible(inputNewPassword, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.247s,PASSED
+"reNewPwVisible = waitForElementVisible(inputReEnterNewPassword, WAIT_FIELD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.250s,PASSED
+if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.001s,PASSED
+if (!(emailVisible && phoneVisible && newPwVisible && reNewPwVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.000s,PASSED
+timestamp = SimpleDateFormat(yyyyMMddHHmmss).format(new java.util.Date()),Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.019s,PASSED
+"randomEmail = ""test"" + timestamp + ""@gmail.com""",Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.001s,PASSED
+"logInfo(""📧 Email sẽ nhập: "" + randomEmail)",Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:24,0.008s,PASSED
+"setText(inputEmail, randomEmail)",Chrome 143.0.7499.170,,,02-01-2026 14:59:24,02-01-2026 14:59:25,0.621s,PASSED
+"setText(inputPhone, ""123456789"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:25,02-01-2026 14:59:26,0.648s,PASSED
+"setText(inputNewPassword, ""Test@12345678"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:26,02-01-2026 14:59:26,0.570s,PASSED
+"setText(inputReEnterNewPassword, ""Test@12345678"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:26,02-01-2026 14:59:27,0.642s,PASSED
+"clickable = waitForElementClickable(btnCreateAccount, 30, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:27,0.261s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:27,0.001s,PASSED
+if (!(clickable)),Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:27,0.001s,PASSED
+click(btnCreateAccount),Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:27,0.321s,PASSED
+"comment(""✅ Đã click button aria-label='Create Account'."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:27,0.003s,PASSED
+"comment(""⏳ Chờ UI render sau khi tạo tài khoản..."")",Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:27,0.003s,PASSED
+waitForPageLoad(30),Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:27,0.012s,PASSED
+delay(2),Chrome 143.0.7499.170,,,02-01-2026 14:59:27,02-01-2026 14:59:29,2.019s,PASSED
+btnTextEqualsEmail = new com.kms.katalon.core.testobject.TestObject(obj_btn_text_equals_email),Chrome 143.0.7499.170,,,02-01-2026 14:59:29,02-01-2026 14:59:29,0.001s,PASSED
+"btnTextEqualsEmail.addProperty(""xpath"", EQUALS, ""(//button[normalize-space(.)='"" + randomEmail + ""']"" + "" | //*[@role='button' and normalize-space(.)='"" + randomEmail + ""']"" + "" | //a[contains(@class,'btn') and normalize-space(.)='"" + randomEmail + ""'])"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:29,02-01-2026 14:59:29,0.001s,PASSED
+"btnExactVisible = waitForElementVisible(btnTextEqualsEmail, 15, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:29,02-01-2026 14:59:45,15.187s,WARNING
+if (btnExactVisible),Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.000s,PASSED
+else,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.574s,PASSED
+,,,,,,,
+Test Cases/LGG/LG-13,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:53,7.417s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.000s,PASSED
+WAIT_FIELD = 60,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.000s,PASSED
+MAX_RELOAD_ATTEMPTS = 1,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.001s,PASSED
+WAIT_AFTER_CLICK = 90,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.001s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.001s,PASSED
+MEDIUM = 15,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.001s,PASSED
+SHORT = 5,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.000s,PASSED
+LONG = 30,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:45,0.000s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:59:45,02-01-2026 14:59:46,0.422s,PASSED
+driver = getWebDriver(),Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.001s,PASSED
+"bodyEl = driver.findElement(By.tagName(""body""))",Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.228s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.001s,PASSED
+targetX = 0,Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.001s,PASSED
+targetY = 300,Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.000s,PASSED
+"moveToElement(bodyEl, targetX, targetY).perform()",Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.113s,PASSED
+"comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)",Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.002s,PASSED
+click().perform(),Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.008s,PASSED
+"comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)",Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.002s,PASSED
+aAccount = new com.kms.katalon.core.testobject.TestObject(a_account),Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.001s,PASSED
+"aAccount.addProperty(""xpath"", EQUALS, ""//a[@href='account']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.001s,PASSED
+"present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:46,0.241s,PASSED
+"visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:46,02-01-2026 14:59:47,0.236s,PASSED
+"clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.246s,PASSED
+if (!(present && visible)),Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.001s,PASSED
+if (clickable),Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.325s,PASSED
+spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1),Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.002s,PASSED
+"spanAdmin.addProperty(""xpath"", EQUALS, ""//button[.//span[contains(normalize-space(), 'test')]]"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.001s,PASSED
+iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app),Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.001s,PASSED
+"iExitToApp.addProperty(""xpath"", EQUALS, ""//i[normalize-space(text())='exit_to_app']"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.001s,PASSED
+userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName),Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.002s,PASSED
+"userNameInput.addProperty(""id"", EQUALS, ""userName"")",Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.000s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:47,0.002s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:59:47,02-01-2026 14:59:53,5.412s,PASSED

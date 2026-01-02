@@ -1,0 +1,28 @@
+2026-01-02 14:47:42.263 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-02 14:47:42.268 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-02 14:47:42.949 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_CA
+2026-01-02 14:47:43.113 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-02 14:47:43.115 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-02 14:47:43.117 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-02 14:47:43.118 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-02 14:47:43.119 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-02 14:47:43.121 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-02 14:47:44.549 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:47:44.549 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-01
+2026-01-02 14:47:44.552 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:47:44.554 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-01
+2026-01-02 14:47:44.563 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:47:44.563 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-02
+2026-01-02 14:47:44.565 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:47:44.566 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-02
+2026-01-02 14:47:44.572 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:47:44.573 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-14
+2026-01-02 14:47:44.574 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:47:44.576 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-14
+2026-01-02 14:47:44.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-02 14:47:44.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CA/CA-08
+2026-01-02 14:47:44.585 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-02 14:47:44.586 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CA/CA-08
+2026-01-02 14:47:44.670 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-02 14:47:44.671 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_CA
+2026-01-02 14:47:44.671 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

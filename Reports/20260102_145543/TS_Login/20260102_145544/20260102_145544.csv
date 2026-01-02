@@ -1,0 +1,135 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login,Chrome 143.0.7499.170,,,02-01-2026 14:55:57,02-01-2026 14:57:51,1m - 53.603s,PASSED
+,,,,,,,
+Test Cases/Login/LG-01,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:38,15.871s,PASSED
+Start setup action : setupTestCase,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.008s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.001s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.001s,PASSED
+MAX_RELOAD_ATTEMPTS = 5,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.001s,PASSED
+AFTER_LOGIN_WAIT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.004s,PASSED
+SHORT = 5,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.001s,PASSED
+MEDIUM = 15,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.001s,PASSED
+LONG = 30,Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:22,0.002s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,02-01-2026 14:57:22,02-01-2026 14:57:25,2.754s,PASSED
+maximizeWindow(),Chrome 143.0.7499.170,,,02-01-2026 14:57:25,02-01-2026 14:57:25,0.072s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/login"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:25,02-01-2026 14:57:25,0.152s,PASSED
+waitForPageLoad(LOCAL_PAGELOAD),Chrome 143.0.7499.170,,,02-01-2026 14:57:25,02-01-2026 14:57:26,1.266s,PASSED
+spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1),Chrome 143.0.7499.170,,,02-01-2026 14:57:26,02-01-2026 14:57:26,0.001s,PASSED
+"spanAdmin.addProperty(""xpath"", EQUALS, ""//button[.//span[contains(normalize-space(), 'test')]]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:26,02-01-2026 14:57:26,0.001s,PASSED
+iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app),Chrome 143.0.7499.170,,,02-01-2026 14:57:26,02-01-2026 14:57:26,0.000s,PASSED
+"iExitToApp.addProperty(""xpath"", EQUALS, ""//i[normalize-space(text())='exit_to_app']"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:26,02-01-2026 14:57:26,0.001s,PASSED
+userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName),Chrome 143.0.7499.170,,,02-01-2026 14:57:26,02-01-2026 14:57:26,0.002s,PASSED
+"userNameInput.addProperty(""id"", EQUALS, ""userName"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:26,02-01-2026 14:57:26,0.002s,PASSED
+currentUrl = getUrl(),Chrome 143.0.7499.170,,,02-01-2026 14:57:26,02-01-2026 14:57:27,0.058s,PASSED
+"if (currentUrl == ""https://qa.engagement.magiqdev.cloud/news"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+userNameField = new com.kms.katalon.core.testobject.TestObject(userName),Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+"userNameField.addProperty(""id"", EQUALS, ""userName"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.000s,PASSED
+passwordField = new com.kms.katalon.core.testobject.TestObject(password),Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.000s,PASSED
+"passwordField.addProperty(""xpath"", EQUALS, ""//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.002s,PASSED
+loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn),Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.004s,PASSED
+"loginBtn.addProperty(""css"", EQUALS, ""button.btn-login"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+"loginBtn.addProperty(""xpath"", EQUALS, ""//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+appBar = new com.kms.katalon.core.testobject.TestObject(appBar),Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+"appBar.addProperty(""css"", EQUALS, "".mat-app-bar"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+"appBar.addProperty(""xpath"", EQUALS, ""//*[contains(@class,'mat-app-bar')]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+usernameVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.001s,PASSED
+attempts = 0,Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:27,0.000s,PASSED
+"usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:27,02-01-2026 14:57:30,2.946s,PASSED
+if (!(usernameVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:30,02-01-2026 14:57:30,0.002s,PASSED
+if (!(usernameVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:30,02-01-2026 14:57:30,0.002s,PASSED
+"setText(userNameField, ""admin1test@gmail.com"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:30,02-01-2026 14:57:30,0.736s,PASSED
+"passwordVisible = waitForElementVisible(passwordField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:30,02-01-2026 14:57:31,0.247s,PASSED
+if (!(passwordVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:31,02-01-2026 14:57:31,0.002s,PASSED
+if (!(passwordVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:31,02-01-2026 14:57:31,0.002s,PASSED
+"setEncryptedText(passwordField, ""vckfKYHQ/X5a0LrHpsIEKA=="")",Chrome 143.0.7499.170,,,02-01-2026 14:57:31,02-01-2026 14:57:31,0.405s,PASSED
+"loginClickable = waitForElementClickable(loginBtn, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:31,02-01-2026 14:57:31,0.260s,PASSED
+if (!(loginClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:57:31,02-01-2026 14:57:31,0.002s,PASSED
+if (!(loginClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:57:31,02-01-2026 14:57:31,0.001s,PASSED
+click(loginBtn),Chrome 143.0.7499.170,,,02-01-2026 14:57:31,02-01-2026 14:57:32,0.340s,PASSED
+appBarVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:57:32,02-01-2026 14:57:32,0.001s,PASSED
+waited = 0,Chrome 143.0.7499.170,,,02-01-2026 14:57:32,02-01-2026 14:57:32,0.001s,PASSED
+step = 3,Chrome 143.0.7499.170,,,02-01-2026 14:57:32,02-01-2026 14:57:32,0.002s,PASSED
+while (waited < AFTER_LOGIN_WAIT || appBarVisible),Chrome 143.0.7499.170,,,02-01-2026 14:57:32,02-01-2026 14:57:38,6.508s,PASSED
+if (!(appBarVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.001s,PASSED
+if (appBarVisible),Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.018s,PASSED
+,,,,,,,
+Test Cases/Login/LO-01,Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:44,5.787s,PASSED
+Start setup action : setupTestCase,Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.001s,PASSED
+SHORT = 5,Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.006s,PASSED
+MEDIUM = 15,Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.002s,PASSED
+LONG = 30,Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.006s,PASSED
+spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1),Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.003s,PASSED
+"spanAdmin.addProperty(""xpath"", EQUALS, ""//button[.//span[normalize-space()='Admin test 1']]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.004s,PASSED
+iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app),Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.003s,PASSED
+"iExitToApp.addProperty(""xpath"", EQUALS, ""//i[normalize-space(text())='exit_to_app']"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.004s,PASSED
+userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName),Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.002s,PASSED
+"userNameInput.addProperty(""id"", EQUALS, ""userName"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.002s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:38,0.006s,PASSED
+try,Chrome 143.0.7499.170,,,02-01-2026 14:57:38,02-01-2026 14:57:44,5.554s,PASSED
+,,,,,,,
+Test Cases/Login/LG-02,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:47,3.505s,PASSED
+Start setup action : setupTestCase,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.002s,PASSED
+LOCAL_PAGELOAD = 300,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.002s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.001s,PASSED
+MAX_RELOAD_ATTEMPTS = 2,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.001s,PASSED
+AFTER_LOGIN_WAIT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.001s,PASSED
+POLL_STEP = 3,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.001s,PASSED
+userNameField = new com.kms.katalon.core.testobject.TestObject(userName),Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.001s,PASSED
+"userNameField.addProperty(""id"", EQUALS, ""userName"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.002s,PASSED
+passwordField = new com.kms.katalon.core.testobject.TestObject(password),Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.003s,PASSED
+"passwordField.addProperty(""xpath"", EQUALS, ""//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.003s,PASSED
+loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn),Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.003s,PASSED
+"loginBtn.addProperty(""css"", EQUALS, ""button.btn-login"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.002s,PASSED
+"loginBtn.addProperty(""xpath"", EQUALS, ""//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.005s,PASSED
+successMarker = new com.kms.katalon.core.testobject.TestObject(bodyAlertIcon),Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.004s,PASSED
+"successMarker.addProperty(""css"", EQUALS, "".body-alert-icon"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.001s,PASSED
+"successMarker.addProperty(""xpath"", EQUALS, ""//*[contains(@class,'body-alert-icon')]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.003s,PASSED
+usernameVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.002s,PASSED
+"usernameVisible = waitForElementVisible(userNameField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.255s,PASSED
+if (!(usernameVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:44,0.001s,PASSED
+"setText(userNameField, ""admin000@gmail.com"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:44,02-01-2026 14:57:45,0.594s,PASSED
+"passwordVisible = waitForElementVisible(passwordField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:45,02-01-2026 14:57:45,0.244s,PASSED
+if (!(passwordVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:45,02-01-2026 14:57:45,0.000s,PASSED
+if (!(passwordVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:45,02-01-2026 14:57:45,0.000s,PASSED
+"setEncryptedText(passwordField, ""vckfKYHQ/X5a0LrHpsIEKA=="")",Chrome 143.0.7499.170,,,02-01-2026 14:57:45,02-01-2026 14:57:45,0.356s,PASSED
+"loginClickable = waitForElementClickable(loginBtn, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:45,02-01-2026 14:57:46,0.267s,PASSED
+if (!(loginClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:57:46,02-01-2026 14:57:46,0.002s,PASSED
+if (!(loginClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:57:46,02-01-2026 14:57:46,0.000s,PASSED
+click(loginBtn),Chrome 143.0.7499.170,,,02-01-2026 14:57:46,02-01-2026 14:57:46,0.353s,PASSED
+successVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:57:46,02-01-2026 14:57:46,0.001s,PASSED
+waited = 0,Chrome 143.0.7499.170,,,02-01-2026 14:57:46,02-01-2026 14:57:46,0.001s,PASSED
+while (waited < AFTER_LOGIN_WAIT),Chrome 143.0.7499.170,,,02-01-2026 14:57:46,02-01-2026 14:57:47,0.687s,PASSED
+if (successVisible),Chrome 143.0.7499.170,,,02-01-2026 14:57:47,02-01-2026 14:57:47,0.564s,PASSED
+,,,,,,,
+Test Cases/Login/LG-03,Chrome 143.0.7499.170,,,02-01-2026 14:57:47,02-01-2026 14:57:50,2.861s,PASSED
+Start setup action : setupTestCase,Chrome 143.0.7499.170,,,02-01-2026 14:57:47,02-01-2026 14:57:47,0.002s,PASSED
+MAX_RELOAD_ATTEMPTS = 2,Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+WAIT_ELEMENT_BEFORE_RELOAD = 120,Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+AFTER_LOGIN_WAIT = 120,Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.002s,PASSED
+userNameField = new com.kms.katalon.core.testobject.TestObject(userName),Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+"userNameField.addProperty(""id"", EQUALS, ""userName"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+passwordField = new com.kms.katalon.core.testobject.TestObject(password),Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+"passwordField.addProperty(""xpath"", EQUALS, ""//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn),Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.002s,PASSED
+"loginBtn.addProperty(""css"", EQUALS, ""button.btn-login"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.002s,PASSED
+"loginBtn.addProperty(""xpath"", EQUALS, ""//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.002s,PASSED
+successMarker = new com.kms.katalon.core.testobject.TestObject(bodyAlertIcon),Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+"successMarker.addProperty(""css"", EQUALS, "".body-alert-icon"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.002s,PASSED
+"successMarker.addProperty(""xpath"", EQUALS, ""//*[contains(@class,'body-alert-icon')]"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.002s,PASSED
+usernameVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+attempts = 0,Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+while (attempts <= MAX_RELOAD_ATTEMPTS),Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.253s,PASSED
+if (!(usernameVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.001s,PASSED
+"setText(userNameField, ""admin000@gmail.com"")",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:48,0.593s,PASSED
+"passwordVisible = waitForElementVisible(passwordField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:48,02-01-2026 14:57:49,0.238s,PASSED
+if (!(passwordVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:49,02-01-2026 14:57:49,0.001s,PASSED
+if (!(passwordVisible)),Chrome 143.0.7499.170,,,02-01-2026 14:57:49,02-01-2026 14:57:49,0.001s,PASSED
+"setEncryptedText(passwordField, ""vckfKYHQ/X5a0LrHpsIEKA=="")",Chrome 143.0.7499.170,,,02-01-2026 14:57:49,02-01-2026 14:57:49,0.346s,PASSED
+"loginClickable = waitForElementClickable(loginBtn, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)",Chrome 143.0.7499.170,,,02-01-2026 14:57:49,02-01-2026 14:57:49,0.258s,PASSED
+if (!(loginClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:57:49,02-01-2026 14:57:49,0.001s,PASSED
+if (!(loginClickable)),Chrome 143.0.7499.170,,,02-01-2026 14:57:49,02-01-2026 14:57:49,0.000s,PASSED
+click(loginBtn),Chrome 143.0.7499.170,,,02-01-2026 14:57:49,02-01-2026 14:57:50,0.288s,PASSED
+successVisible = false,Chrome 143.0.7499.170,,,02-01-2026 14:57:50,02-01-2026 14:57:50,0.001s,PASSED
+waited = 0,Chrome 143.0.7499.170,,,02-01-2026 14:57:50,02-01-2026 14:57:50,0.001s,PASSED
+while (waited < AFTER_LOGIN_WAIT),Chrome 143.0.7499.170,,,02-01-2026 14:57:50,02-01-2026 14:57:50,0.670s,PASSED
+if (successVisible),Chrome 143.0.7499.170,,,02-01-2026 14:57:50,02-01-2026 14:57:50,0.005s,PASSED

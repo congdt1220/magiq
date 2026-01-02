@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/TS_All",
+  "name": "TS_All",
+  "reportFolder": "C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_144708\\TS_All\\20260102_144708",
+  "startTime": 1767340037044,
+  "endTime": 1767340064911,
+  "totalPassedTestCases": "0",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "24",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "24",
+  "description": ""
+}

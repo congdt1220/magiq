@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LGG" time="1.143" tests="11" failures="0" errors="0">
+   <testsuite name="TS_LGG" tests="11" failures="0" errors="0" time="1.143" skipped="11" timestamp="2026-01-02T07:46:40.970Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TS_LGG">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_144616\\TS_LGG\\20260102_144621"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_144616\\TS_LGG\\20260102_144621\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260102_144616\\TS_LGG\\20260102_144621\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="projectName" value="magiq"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+      </properties>
+      <testcase name="Test Cases/LGG/LG-01" time="0.004" classname="Test Cases/LGG/LG-01" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-01:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-02" time="0.003" classname="Test Cases/LGG/LG-02" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-02:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-03" time="0.004" classname="Test Cases/LGG/LG-03" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-03:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-05" time="0.004" classname="Test Cases/LGG/LG-05" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-05:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-07" time="0.004" classname="Test Cases/LGG/LG-07" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-07:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-08" time="0.003" classname="Test Cases/LGG/LG-08" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-08:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-10" time="0.004" classname="Test Cases/LGG/LG-10" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-10:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-09" time="0.007" classname="Test Cases/LGG/LG-09" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-09:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-11" time="0.004" classname="Test Cases/LGG/LG-11" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-11:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-12" time="0.006" classname="Test Cases/LGG/LG-12" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-12:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LGG/LG-13" time="0.005" classname="Test Cases/LGG/LG-13" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[02-01-2026T14:46:42 - [TEST_CASE][SKIPPED] - Test Cases/LGG/LG-13:]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2026T14:46:40 - [TEST_SUITE][SKIPPED] - TS_LGG: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
