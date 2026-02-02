@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Location" time="15.524" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Location" tests="1" failures="0" errors="0" time="15.524" skipped="0" timestamp="2026-01-06T09:46:12.024Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TS_Location">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_164608\\TS_Location\\20260106_164608"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_164608\\TS_Location\\20260106_164608\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_164608\\TS_Location\\20260106_164608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.170"/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="sessionId" value="3cdf3e9bb6b12350d1f25c67936ee198"/>
+         <property name="projectName" value="magiq"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Location/TC.LOC.5" time="14.281" classname="Test Cases/Location/TC.LOC.5" status="PASSED">
+         <system-out><![CDATA[06-01-2026T16:46:13 - [TEST_CASE][PASSED] - Test Cases/Location/TC.LOC.5: Test Cases/Location/TC.LOC.5
+
+06-01-2026T16:46:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T16:46:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T16:46:13 - [MESSAGE][INFO] - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+
+06-01-2026T16:46:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T16:46:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T16:46:15 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation"): Navigate to 'https://qa.engagement.magiqdev.cloud/organisation' successfully
+
+06-01-2026T16:46:16 - [MESSAGE][PASSED] - Navigate to 'https://qa.engagement.magiqdev.cloud/organisation' successfully
+
+06-01-2026T16:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Location/btt_location")): Object: 'Object Repository/Location/btt_location' is clicked on
+
+06-01-2026T16:46:27 - [MESSAGE][WARNING] - Waiting for element timed out
+
+06-01-2026T16:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/btt_location' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-01-2026T16:46:12 - [TEST_SUITE][PASSED] - TS_Location: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

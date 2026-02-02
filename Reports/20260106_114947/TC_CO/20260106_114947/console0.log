@@ -1,0 +1,84 @@
+2026-01-06 11:49:50.847 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 11:49:50.857 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-06 11:49:51.891 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TC_CO
+2026-01-06 11:49:52.001 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-06 11:49:52.002 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-06 11:49:52.003 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-06 11:49:52.004 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-06 11:49:52.005 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-06 11:49:52.006 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-06 11:49:53.268 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 11:49:53.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.1
+2026-01-06 11:49:53.932 DEBUG testcase.TC1.1                           - 1: callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE)
+2026-01-06 11:49:54.136 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 11:49:54.136 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/LG-01
+2026-01-06 11:49:54.461 DEBUG testcase.LG-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-06 11:49:54.463 DEBUG testcase.LG-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-06 11:49:54.468 DEBUG testcase.LG-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-06 11:49:54.471 DEBUG testcase.LG-01                           - 4: AFTER_LOGIN_WAIT = 120
+2026-01-06 11:49:54.475 DEBUG testcase.LG-01                           - 5: SHORT = 5
+2026-01-06 11:49:54.478 DEBUG testcase.LG-01                           - 6: MEDIUM = 15
+2026-01-06 11:49:54.482 DEBUG testcase.LG-01                           - 7: LONG = 30
+2026-01-06 11:49:54.487 DEBUG testcase.LG-01                           - 8: openBrowser("")
+2026-01-06 11:49:54.696 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 11:49:54.703 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-06 11:49:54.752 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 06, 2026 11:49:55 午前 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 06, 2026 11:49:55 午前 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 11:49:56.564 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1f75bbd1dc3927861d8ee9c1439658fc
+2026-01-06 11:49:56.566 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 11:49:56.567 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-06 11:49:56.568 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 11:49:56.580 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 11:49:56.651 DEBUG testcase.LG-01                           - 9: maximizeWindow()
+2026-01-06 11:49:56.693 DEBUG testcase.LG-01                           - 10: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-06 11:49:57.622 DEBUG testcase.LG-01                           - 11: waitForPageLoad(LOCAL_PAGELOAD)
+2026-01-06 11:49:57.921 DEBUG testcase.LG-01                           - 12: spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1)
+2026-01-06 11:49:57.978 DEBUG testcase.LG-01                           - 13: spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]")
+2026-01-06 11:49:58.010 DEBUG testcase.LG-01                           - 14: iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app)
+2026-01-06 11:49:58.018 DEBUG testcase.LG-01                           - 15: iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']")
+2026-01-06 11:49:58.023 DEBUG testcase.LG-01                           - 16: userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName)
+2026-01-06 11:49:58.029 DEBUG testcase.LG-01                           - 17: userNameInput.addProperty("id", EQUALS, "userName")
+2026-01-06 11:49:58.036 DEBUG testcase.LG-01                           - 18: currentUrl = getUrl()
+2026-01-06 11:49:59.035 DEBUG testcase.LG-01                           - 19: if (currentUrl == "https://qa.engagement.magiqdev.cloud/news")
+2026-01-06 11:49:59.042 DEBUG testcase.LG-01                           - 20: userNameField = new com.kms.katalon.core.testobject.TestObject(userName)
+2026-01-06 11:49:59.046 DEBUG testcase.LG-01                           - 21: userNameField.addProperty("id", EQUALS, "userName")
+2026-01-06 11:49:59.053 DEBUG testcase.LG-01                           - 22: passwordField = new com.kms.katalon.core.testobject.TestObject(password)
+2026-01-06 11:49:59.056 DEBUG testcase.LG-01                           - 23: passwordField.addProperty("xpath", EQUALS, "//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]")
+2026-01-06 11:49:59.061 DEBUG testcase.LG-01                           - 24: loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn)
+2026-01-06 11:49:59.067 DEBUG testcase.LG-01                           - 25: loginBtn.addProperty("css", EQUALS, "button.btn-login")
+2026-01-06 11:49:59.076 DEBUG testcase.LG-01                           - 26: loginBtn.addProperty("xpath", EQUALS, "//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]")
+2026-01-06 11:49:59.082 DEBUG testcase.LG-01                           - 27: appBar = new com.kms.katalon.core.testobject.TestObject(appBar)
+2026-01-06 11:49:59.088 DEBUG testcase.LG-01                           - 28: appBar.addProperty("css", EQUALS, ".mat-app-bar")
+2026-01-06 11:49:59.095 DEBUG testcase.LG-01                           - 29: appBar.addProperty("xpath", EQUALS, "//*[contains(@class,'mat-app-bar')]")
+2026-01-06 11:49:59.102 DEBUG testcase.LG-01                           - 30: usernameVisible = false
+2026-01-06 11:49:59.105 DEBUG testcase.LG-01                           - 31: attempts = 0
+2026-01-06 11:49:59.109 DEBUG testcase.LG-01                           - 32: usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL)
+2026-01-06 11:50:02.794 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'userName' located by 'By.xpath: //*[@id = 'userName']' not found
+2026-01-06 11:50:02.797 DEBUG testcase.LG-01                           - 33: if (!(usernameVisible))
+2026-01-06 11:50:02.822 DEBUG testcase.LG-01                           - 1: okBtn = new com.kms.katalon.core.testobject.TestObject(ok_button_in_modal)
+2026-01-06 11:50:02.828 DEBUG testcase.LG-01                           - 2: okBtn.addProperty("xpath", EQUALS, "//footer[contains(@class,'mdc-dialog__actions')]" + "//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]")
+2026-01-06 11:50:02.845 DEBUG testcase.LG-01                           - 3: waitForElementClickable(okBtn, 5)
+2026-01-06 11:50:07.910 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+2026-01-06 11:50:07.912 DEBUG testcase.LG-01                           - 4: enhancedClick(okBtn)
+1月 06, 2026 11:50:11 午前 org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+

@@ -1,0 +1,885 @@
+2026-01-06 09:03:20.322 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 09:03:20.326 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-06 09:03:21.023 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_OP
+2026-01-06 09:03:21.133 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-06 09:03:21.135 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-06 09:03:21.137 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-06 09:03:21.139 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-06 09:03:21.141 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-06 09:03:21.143 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-06 09:03:22.805 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:03:22.806 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OP/OP1.1
+2026-01-06 09:03:23.009 DEBUG testcase.OP1.1                           - 1: callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE)
+2026-01-06 09:03:23.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:03:23.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/LG-01
+2026-01-06 09:03:24.036 DEBUG testcase.LG-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-06 09:03:24.041 DEBUG testcase.LG-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-06 09:03:24.049 DEBUG testcase.LG-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-06 09:03:24.054 DEBUG testcase.LG-01                           - 4: AFTER_LOGIN_WAIT = 120
+2026-01-06 09:03:24.059 DEBUG testcase.LG-01                           - 5: SHORT = 5
+2026-01-06 09:03:24.068 DEBUG testcase.LG-01                           - 6: MEDIUM = 15
+2026-01-06 09:03:24.078 DEBUG testcase.LG-01                           - 7: LONG = 30
+2026-01-06 09:03:24.088 DEBUG testcase.LG-01                           - 8: openBrowser("")
+2026-01-06 09:03:24.484 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 09:03:24.493 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-06 09:03:24.575 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 06, 2026 9:03:26 午前 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 06, 2026 9:03:26 午前 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 09:03:27.832 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8daae5df24c1fd2eccfb31eae697eb62
+2026-01-06 09:03:27.833 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 09:03:27.834 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-06 09:03:27.835 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 09:03:27.855 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 09:03:28.010 DEBUG testcase.LG-01                           - 9: maximizeWindow()
+2026-01-06 09:03:28.268 DEBUG testcase.LG-01                           - 10: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-06 09:03:44.305 DEBUG testcase.LG-01                           - 11: waitForPageLoad(LOCAL_PAGELOAD)
+2026-01-06 09:03:44.474 DEBUG testcase.LG-01                           - 12: spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1)
+2026-01-06 09:03:44.502 DEBUG testcase.LG-01                           - 13: spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]")
+2026-01-06 09:03:44.525 DEBUG testcase.LG-01                           - 14: iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app)
+2026-01-06 09:03:44.535 DEBUG testcase.LG-01                           - 15: iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']")
+2026-01-06 09:03:44.554 DEBUG testcase.LG-01                           - 16: userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName)
+2026-01-06 09:03:44.559 DEBUG testcase.LG-01                           - 17: userNameInput.addProperty("id", EQUALS, "userName")
+2026-01-06 09:03:44.590 DEBUG testcase.LG-01                           - 18: currentUrl = getUrl()
+2026-01-06 09:03:44.690 DEBUG testcase.LG-01                           - 19: if (currentUrl == "https://qa.engagement.magiqdev.cloud/news")
+2026-01-06 09:03:44.694 DEBUG testcase.LG-01                           - 20: userNameField = new com.kms.katalon.core.testobject.TestObject(userName)
+2026-01-06 09:03:44.703 DEBUG testcase.LG-01                           - 21: userNameField.addProperty("id", EQUALS, "userName")
+2026-01-06 09:03:44.707 DEBUG testcase.LG-01                           - 22: passwordField = new com.kms.katalon.core.testobject.TestObject(password)
+2026-01-06 09:03:44.712 DEBUG testcase.LG-01                           - 23: passwordField.addProperty("xpath", EQUALS, "//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]")
+2026-01-06 09:03:44.719 DEBUG testcase.LG-01                           - 24: loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn)
+2026-01-06 09:03:44.723 DEBUG testcase.LG-01                           - 25: loginBtn.addProperty("css", EQUALS, "button.btn-login")
+2026-01-06 09:03:44.738 DEBUG testcase.LG-01                           - 26: loginBtn.addProperty("xpath", EQUALS, "//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]")
+2026-01-06 09:03:44.743 DEBUG testcase.LG-01                           - 27: appBar = new com.kms.katalon.core.testobject.TestObject(appBar)
+2026-01-06 09:03:44.752 DEBUG testcase.LG-01                           - 28: appBar.addProperty("css", EQUALS, ".mat-app-bar")
+2026-01-06 09:03:44.757 DEBUG testcase.LG-01                           - 29: appBar.addProperty("xpath", EQUALS, "//*[contains(@class,'mat-app-bar')]")
+2026-01-06 09:03:44.761 DEBUG testcase.LG-01                           - 30: usernameVisible = false
+2026-01-06 09:03:44.768 DEBUG testcase.LG-01                           - 31: attempts = 0
+2026-01-06 09:03:44.772 DEBUG testcase.LG-01                           - 32: usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL)
+2026-01-06 09:03:49.134 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'userName' located by 'By.xpath: //*[@id = 'userName']' not found
+2026-01-06 09:03:49.139 DEBUG testcase.LG-01                           - 33: if (!(usernameVisible))
+2026-01-06 09:03:49.243 DEBUG testcase.LG-01                           - 1: okBtn = new com.kms.katalon.core.testobject.TestObject(ok_button_in_modal)
+2026-01-06 09:03:49.248 DEBUG testcase.LG-01                           - 2: okBtn.addProperty("xpath", EQUALS, "//footer[contains(@class,'mdc-dialog__actions')]" + "//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]")
+2026-01-06 09:03:49.261 DEBUG testcase.LG-01                           - 3: waitForElementClickable(okBtn, 5)
+2026-01-06 09:03:54.460 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+2026-01-06 09:03:54.462 DEBUG testcase.LG-01                           - 4: enhancedClick(okBtn)
+2026-01-06 09:04:04.911 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'ok_button_in_modal' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1767340478096.run(Script1767340478096.groovy:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Script1767663740888.run(Script1767663740888.groovy:20)
+	... 15 more
+)
+2026-01-06 09:04:04.919 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login/LG-01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 40 more
+
+2026-01-06 09:04:04.924 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/LG-01
+2026-01-06 09:04:04.925 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:04.937 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to call Test Case 'Test Cases/Login/LG-01' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login/LG-01' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 40 more
+)
+2026-01-06 09:04:04.945 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OP/OP1.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login/LG-01' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 40 more
+
+2026-01-06 09:04:04.952 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OP/OP1.1
+2026-01-06 09:04:04.958 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:04.958 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OP/OP1.1
+2026-01-06 09:04:04.984 DEBUG testcase.OP1.1                           - 1: callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE)
+2026-01-06 09:04:05.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:05.051 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/LG-01
+2026-01-06 09:04:05.105 DEBUG testcase.LG-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-06 09:04:05.106 DEBUG testcase.LG-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-06 09:04:05.107 DEBUG testcase.LG-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-06 09:04:05.108 DEBUG testcase.LG-01                           - 4: AFTER_LOGIN_WAIT = 120
+2026-01-06 09:04:05.110 DEBUG testcase.LG-01                           - 5: SHORT = 5
+2026-01-06 09:04:05.111 DEBUG testcase.LG-01                           - 6: MEDIUM = 15
+2026-01-06 09:04:05.113 DEBUG testcase.LG-01                           - 7: LONG = 30
+2026-01-06 09:04:05.118 DEBUG testcase.LG-01                           - 8: openBrowser("")
+2026-01-06 09:04:05.123 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 09:04:05.826 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 09:04:05.827 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-06 09:04:05.831 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 06, 2026 9:04:06 午前 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 06, 2026 9:04:06 午前 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 09:04:07.077 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 86b78987d698da381257b72ca90ce502
+2026-01-06 09:04:07.078 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 09:04:07.080 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-06 09:04:07.080 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 09:04:07.081 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 09:04:07.114 DEBUG testcase.LG-01                           - 9: maximizeWindow()
+2026-01-06 09:04:07.139 DEBUG testcase.LG-01                           - 10: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-06 09:04:07.253 DEBUG testcase.LG-01                           - 11: waitForPageLoad(LOCAL_PAGELOAD)
+2026-01-06 09:04:08.727 DEBUG testcase.LG-01                           - 12: spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1)
+2026-01-06 09:04:08.728 DEBUG testcase.LG-01                           - 13: spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]")
+2026-01-06 09:04:08.730 DEBUG testcase.LG-01                           - 14: iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app)
+2026-01-06 09:04:08.731 DEBUG testcase.LG-01                           - 15: iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']")
+2026-01-06 09:04:08.734 DEBUG testcase.LG-01                           - 16: userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName)
+2026-01-06 09:04:08.735 DEBUG testcase.LG-01                           - 17: userNameInput.addProperty("id", EQUALS, "userName")
+2026-01-06 09:04:08.736 DEBUG testcase.LG-01                           - 18: currentUrl = getUrl()
+2026-01-06 09:04:08.889 DEBUG testcase.LG-01                           - 19: if (currentUrl == "https://qa.engagement.magiqdev.cloud/news")
+2026-01-06 09:04:08.890 DEBUG testcase.LG-01                           - 20: userNameField = new com.kms.katalon.core.testobject.TestObject(userName)
+2026-01-06 09:04:08.891 DEBUG testcase.LG-01                           - 21: userNameField.addProperty("id", EQUALS, "userName")
+2026-01-06 09:04:08.892 DEBUG testcase.LG-01                           - 22: passwordField = new com.kms.katalon.core.testobject.TestObject(password)
+2026-01-06 09:04:08.893 DEBUG testcase.LG-01                           - 23: passwordField.addProperty("xpath", EQUALS, "//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]")
+2026-01-06 09:04:08.895 DEBUG testcase.LG-01                           - 24: loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn)
+2026-01-06 09:04:08.898 DEBUG testcase.LG-01                           - 25: loginBtn.addProperty("css", EQUALS, "button.btn-login")
+2026-01-06 09:04:08.901 DEBUG testcase.LG-01                           - 26: loginBtn.addProperty("xpath", EQUALS, "//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]")
+2026-01-06 09:04:08.904 DEBUG testcase.LG-01                           - 27: appBar = new com.kms.katalon.core.testobject.TestObject(appBar)
+2026-01-06 09:04:08.905 DEBUG testcase.LG-01                           - 28: appBar.addProperty("css", EQUALS, ".mat-app-bar")
+2026-01-06 09:04:08.906 DEBUG testcase.LG-01                           - 29: appBar.addProperty("xpath", EQUALS, "//*[contains(@class,'mat-app-bar')]")
+2026-01-06 09:04:08.907 DEBUG testcase.LG-01                           - 30: usernameVisible = false
+2026-01-06 09:04:08.908 DEBUG testcase.LG-01                           - 31: attempts = 0
+2026-01-06 09:04:08.909 DEBUG testcase.LG-01                           - 32: usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL)
+2026-01-06 09:04:13.287 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'userName' located by 'By.xpath: //*[@id = 'userName']' not found
+2026-01-06 09:04:13.289 DEBUG testcase.LG-01                           - 33: if (!(usernameVisible))
+2026-01-06 09:04:13.289 DEBUG testcase.LG-01                           - 1: okBtn = new com.kms.katalon.core.testobject.TestObject(ok_button_in_modal)
+2026-01-06 09:04:13.289 DEBUG testcase.LG-01                           - 2: okBtn.addProperty("xpath", EQUALS, "//footer[contains(@class,'mdc-dialog__actions')]" + "//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]")
+2026-01-06 09:04:13.290 DEBUG testcase.LG-01                           - 3: waitForElementClickable(okBtn, 5)
+2026-01-06 09:04:18.530 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+2026-01-06 09:04:18.531 DEBUG testcase.LG-01                           - 4: enhancedClick(okBtn)
+2026-01-06 09:04:28.952 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'ok_button_in_modal' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1767340478096.run(Script1767340478096.groovy:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Script1767663740888.run(Script1767663740888.groovy:20)
+	... 16 more
+)
+2026-01-06 09:04:28.955 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login/LG-01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 41 more
+
+2026-01-06 09:04:28.959 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/LG-01
+2026-01-06 09:04:28.959 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:28.960 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to call Test Case 'Test Cases/Login/LG-01' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login/LG-01' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 26 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 41 more
+)
+2026-01-06 09:04:28.965 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OP/OP1.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login/LG-01' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at OP1.1.run(OP1.1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767664995913.run(TempTestSuite1767664995913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'ok_button_in_modal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at LG-01.run(LG-01:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 26 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'ok_button_in_modal' located by 'By.xpath: //footer[contains(@class,'mdc-dialog__actions')]//button[@aria-label='Ok' and .//span[@class='mdc-button__label' and normalize-space()='Ok']]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 41 more
+
+2026-01-06 09:04:28.969 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OP/OP1.1
+2026-01-06 09:04:28.982 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:28.983 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OP/OP1.1
+2026-01-06 09:04:29.001 DEBUG testcase.OP1.1                           - 1: callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE)
+2026-01-06 09:04:29.066 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:29.066 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/LG-01
+2026-01-06 09:04:29.089 DEBUG testcase.LG-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-06 09:04:29.089 DEBUG testcase.LG-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-06 09:04:29.090 DEBUG testcase.LG-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-06 09:04:29.091 DEBUG testcase.LG-01                           - 4: AFTER_LOGIN_WAIT = 120
+2026-01-06 09:04:29.091 DEBUG testcase.LG-01                           - 5: SHORT = 5
+2026-01-06 09:04:29.092 DEBUG testcase.LG-01                           - 6: MEDIUM = 15
+2026-01-06 09:04:29.092 DEBUG testcase.LG-01                           - 7: LONG = 30
+2026-01-06 09:04:29.093 DEBUG testcase.LG-01                           - 8: openBrowser("")
+2026-01-06 09:04:29.096 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 09:04:29.545 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 09:04:29.545 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-06 09:04:29.548 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 06, 2026 9:04:30 午前 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 06, 2026 9:04:30 午前 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 09:04:30.701 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5188838e8dd16cba5339e54c8bb69a20
+2026-01-06 09:04:30.701 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 09:04:30.702 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-06 09:04:30.702 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 09:04:30.702 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 09:04:30.732 DEBUG testcase.LG-01                           - 9: maximizeWindow()
+2026-01-06 09:04:30.754 DEBUG testcase.LG-01                           - 10: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-06 09:04:30.868 DEBUG testcase.LG-01                           - 11: waitForPageLoad(LOCAL_PAGELOAD)
+2026-01-06 09:04:31.685 DEBUG testcase.LG-01                           - 12: spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1)
+2026-01-06 09:04:31.688 DEBUG testcase.LG-01                           - 13: spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]")
+2026-01-06 09:04:31.691 DEBUG testcase.LG-01                           - 14: iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app)
+2026-01-06 09:04:31.701 DEBUG testcase.LG-01                           - 15: iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']")
+2026-01-06 09:04:31.703 DEBUG testcase.LG-01                           - 16: userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName)
+2026-01-06 09:04:31.705 DEBUG testcase.LG-01                           - 17: userNameInput.addProperty("id", EQUALS, "userName")
+2026-01-06 09:04:31.706 DEBUG testcase.LG-01                           - 18: currentUrl = getUrl()
+2026-01-06 09:04:31.725 DEBUG testcase.LG-01                           - 19: if (currentUrl == "https://qa.engagement.magiqdev.cloud/news")
+2026-01-06 09:04:31.727 DEBUG testcase.LG-01                           - 20: userNameField = new com.kms.katalon.core.testobject.TestObject(userName)
+2026-01-06 09:04:31.728 DEBUG testcase.LG-01                           - 21: userNameField.addProperty("id", EQUALS, "userName")
+2026-01-06 09:04:31.731 DEBUG testcase.LG-01                           - 22: passwordField = new com.kms.katalon.core.testobject.TestObject(password)
+2026-01-06 09:04:31.735 DEBUG testcase.LG-01                           - 23: passwordField.addProperty("xpath", EQUALS, "//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]")
+2026-01-06 09:04:31.737 DEBUG testcase.LG-01                           - 24: loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn)
+2026-01-06 09:04:31.739 DEBUG testcase.LG-01                           - 25: loginBtn.addProperty("css", EQUALS, "button.btn-login")
+2026-01-06 09:04:31.740 DEBUG testcase.LG-01                           - 26: loginBtn.addProperty("xpath", EQUALS, "//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]")
+2026-01-06 09:04:31.741 DEBUG testcase.LG-01                           - 27: appBar = new com.kms.katalon.core.testobject.TestObject(appBar)
+2026-01-06 09:04:31.742 DEBUG testcase.LG-01                           - 28: appBar.addProperty("css", EQUALS, ".mat-app-bar")
+2026-01-06 09:04:31.743 DEBUG testcase.LG-01                           - 29: appBar.addProperty("xpath", EQUALS, "//*[contains(@class,'mat-app-bar')]")
+2026-01-06 09:04:31.744 DEBUG testcase.LG-01                           - 30: usernameVisible = false
+2026-01-06 09:04:31.745 DEBUG testcase.LG-01                           - 31: attempts = 0
+2026-01-06 09:04:31.746 DEBUG testcase.LG-01                           - 32: usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL)
+2026-01-06 09:04:34.673 DEBUG testcase.LG-01                           - 33: if (!(usernameVisible))
+2026-01-06 09:04:34.674 DEBUG testcase.LG-01                           - 34: if (!(usernameVisible))
+2026-01-06 09:04:34.676 DEBUG testcase.LG-01                           - 35: setText(userNameField, "admin1test@gmail.com")
+2026-01-06 09:04:35.372 DEBUG testcase.LG-01                           - 36: passwordVisible = waitForElementVisible(passwordField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)
+2026-01-06 09:04:35.618 DEBUG testcase.LG-01                           - 37: if (!(passwordVisible))
+2026-01-06 09:04:35.619 DEBUG testcase.LG-01                           - 38: if (!(passwordVisible))
+2026-01-06 09:04:35.620 DEBUG testcase.LG-01                           - 39: setEncryptedText(passwordField, "vckfKYHQ/X5a0LrHpsIEKA==")
+2026-01-06 09:04:36.042 DEBUG testcase.LG-01                           - 40: loginClickable = waitForElementClickable(loginBtn, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)
+2026-01-06 09:04:36.305 DEBUG testcase.LG-01                           - 41: if (!(loginClickable))
+2026-01-06 09:04:36.306 DEBUG testcase.LG-01                           - 42: if (!(loginClickable))
+2026-01-06 09:04:36.307 DEBUG testcase.LG-01                           - 43: click(loginBtn)
+2026-01-06 09:04:36.662 DEBUG testcase.LG-01                           - 44: appBarVisible = false
+2026-01-06 09:04:36.667 DEBUG testcase.LG-01                           - 45: waited = 0
+2026-01-06 09:04:36.669 DEBUG testcase.LG-01                           - 46: step = 3
+2026-01-06 09:04:36.671 DEBUG testcase.LG-01                           - 47: while (waited < AFTER_LOGIN_WAIT || appBarVisible)
+2026-01-06 09:04:36.674 DEBUG testcase.LG-01                           - 1: if (verifyElementVisible(appBar, OPTIONAL))
+2026-01-06 09:04:44.133 DEBUG testcase.LG-01                           - 1: appBarVisible = true
+2026-01-06 09:04:44.134 DEBUG testcase.LG-01                           - 2: break
+2026-01-06 09:04:44.135 DEBUG testcase.LG-01                           - 48: if (!(appBarVisible))
+2026-01-06 09:04:44.136 DEBUG testcase.LG-01                           - 49: if (appBarVisible)
+2026-01-06 09:04:44.137 DEBUG testcase.LG-01                           - 1: comment("Login thành công: thấy class 'mat-app-bar'.")
+2026-01-06 09:04:44.144 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Login thành công: thấy class 'mat-app-bar'.
+2026-01-06 09:04:44.145 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/LG-01
+2026-01-06 09:04:44.145 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:44.148 DEBUG testcase.OP1.1                           - 2: callTestCase(findTestCase("LGG/LG-13"), [:], STOP_ON_FAILURE)
+2026-01-06 09:04:44.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:04:44.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/LGG/LG-13
+2026-01-06 09:04:44.444 DEBUG testcase.LG-13                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-06 09:04:44.446 DEBUG testcase.LG-13                           - 2: WAIT_FIELD = 60
+2026-01-06 09:04:44.450 DEBUG testcase.LG-13                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-06 09:04:44.452 DEBUG testcase.LG-13                           - 4: WAIT_AFTER_CLICK = 90
+2026-01-06 09:04:44.455 DEBUG testcase.LG-13                           - 5: WAIT_TIMEOUT = 120
+2026-01-06 09:04:44.457 DEBUG testcase.LG-13                           - 6: MEDIUM = 15
+2026-01-06 09:04:44.458 DEBUG testcase.LG-13                           - 7: SHORT = 5
+2026-01-06 09:04:44.461 DEBUG testcase.LG-13                           - 8: LONG = 30
+2026-01-06 09:04:44.465 DEBUG testcase.LG-13                           - 9: try
+2026-01-06 09:04:44.467 DEBUG testcase.LG-13                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-06 09:04:44.666 DEBUG testcase.LG-13                           - 2: x = 5
+2026-01-06 09:04:44.675 DEBUG testcase.LG-13                           - 3: y = height - 5
+2026-01-06 09:04:44.737 DEBUG testcase.LG-13                           - 4: robot = new java.awt.Robot()
+2026-01-06 09:04:44.754 DEBUG testcase.LG-13                           - 5: robot.mouseMove(x, y)
+2026-01-06 09:04:44.768 DEBUG testcase.LG-13                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-06 09:04:44.856 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-06 09:04:44.860 DEBUG testcase.LG-13                           - 7: Thread.sleep(400)
+2026-01-06 09:04:45.281 DEBUG testcase.LG-13                           - 12: driver = getWebDriver()
+2026-01-06 09:04:45.283 DEBUG testcase.LG-13                           - 13: bodyEl = driver.findElement(By.tagName("body"))
+2026-01-06 09:04:45.528 DEBUG testcase.LG-13                           - 14: actions = new org.openqa.selenium.interactions.Actions(driver)
+2026-01-06 09:04:45.541 DEBUG testcase.LG-13                           - 15: targetX = 0
+2026-01-06 09:04:45.543 DEBUG testcase.LG-13                           - 16: targetY = 300
+2026-01-06 09:04:45.544 DEBUG testcase.LG-13                           - 17: moveToElement(bodyEl, targetX, targetY).perform()
+2026-01-06 09:04:45.685 DEBUG testcase.LG-13                           - 18: comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)
+2026-01-06 09:04:45.688 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã move Actions tới body offset (x=0, y=300).
+2026-01-06 09:04:45.689 DEBUG testcase.LG-13                           - 19: click().perform()
+2026-01-06 09:04:45.702 DEBUG testcase.LG-13                           - 20: comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)
+2026-01-06 09:04:45.705 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+2026-01-06 09:04:45.707 DEBUG testcase.LG-13                           - 21: aAccount = new com.kms.katalon.core.testobject.TestObject(a_account)
+2026-01-06 09:04:45.709 DEBUG testcase.LG-13                           - 22: aAccount.addProperty("xpath", EQUALS, "//a[@href='account']")
+2026-01-06 09:04:45.710 DEBUG testcase.LG-13                           - 23: present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-06 09:04:45.967 DEBUG testcase.LG-13                           - 24: visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-06 09:04:46.215 DEBUG testcase.LG-13                           - 25: clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-06 09:04:46.479 DEBUG testcase.LG-13                           - 26: if (!(present && visible))
+2026-01-06 09:04:46.480 DEBUG testcase.LG-13                           - 27: if (clickable)
+2026-01-06 09:04:46.482 DEBUG testcase.LG-13                           - 1: click(aAccount)
+2026-01-06 09:04:46.839 DEBUG testcase.LG-13                           - 2: comment("✅ Đã click vào liên kết account.")
+2026-01-06 09:04:46.845 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click vào liên kết account.
+2026-01-06 09:04:46.846 DEBUG testcase.LG-13                           - 29: spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1)
+2026-01-06 09:04:46.854 DEBUG testcase.LG-13                           - 30: spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]")
+2026-01-06 09:04:46.857 DEBUG testcase.LG-13                           - 31: iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app)
+2026-01-06 09:04:46.861 DEBUG testcase.LG-13                           - 32: iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']")
+2026-01-06 09:04:46.863 DEBUG testcase.LG-13                           - 33: userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName)
+2026-01-06 09:04:46.870 DEBUG testcase.LG-13                           - 34: userNameInput.addProperty("id", EQUALS, "userName")
+2026-01-06 09:04:46.873 DEBUG testcase.LG-13                           - 35: try
+2026-01-06 09:04:46.875 DEBUG testcase.LG-13                           - 1: hoverTopRightWithRobot()
+2026-01-06 09:04:46.883 DEBUG testcase.LG-13                           - 1: try
+2026-01-06 09:04:46.890 DEBUG testcase.LG-13                           - 1: screenSize = getDefaultToolkit().getScreenSize()
+2026-01-06 09:04:46.892 DEBUG testcase.LG-13                           - 2: x = width - 5
+2026-01-06 09:04:46.895 DEBUG testcase.LG-13                           - 3: y = 5
+2026-01-06 09:04:46.898 DEBUG testcase.LG-13                           - 4: robot = new java.awt.Robot()
+2026-01-06 09:04:46.905 DEBUG testcase.LG-13                           - 5: robot.mouseMove(x, y)
+2026-01-06 09:04:46.908 DEBUG testcase.LG-13                           - 6: logInfo(🖱️ Hover đến góc trên bên phải (Robot) tại tọa độ: ($x, $y))
+2026-01-06 09:04:46.927 INFO  com.kms.katalon.core.util.KeywordUtil    - 🖱️ Hover đến góc trên bên phải (Robot) tại tọa độ: (1915, 5)
+2026-01-06 09:04:46.929 DEBUG testcase.LG-13                           - 7: Thread.sleep(500)
+2026-01-06 09:04:47.435 DEBUG testcase.LG-13                           - 2: waitForElementVisible(spanAdmin, MEDIUM, STOP_ON_FAILURE)
+2026-01-06 09:04:55.750 DEBUG testcase.LG-13                           - 3: click(spanAdmin)
+2026-01-06 09:04:56.071 DEBUG testcase.LG-13                           - 4: waitForElementVisible(iExitToApp, MEDIUM, STOP_ON_FAILURE)
+2026-01-06 09:04:57.067 DEBUG testcase.LG-13                           - 5: click(iExitToApp)
+2026-01-06 09:04:57.376 DEBUG testcase.LG-13                           - 6: present = waitForElementPresent(userNameInput, LONG, OPTIONAL)
+2026-01-06 09:05:03.259 DEBUG testcase.LG-13                           - 7: if (present)
+2026-01-06 09:05:03.260 DEBUG testcase.LG-13                           - 1: verifyElementPresent(userNameInput, SHORT, STOP_ON_FAILURE)
+2026-01-06 09:05:03.522 DEBUG testcase.LG-13                           - 2: logInfo("✅ Found element with id="userName" — Test PASSED")
+2026-01-06 09:05:03.523 INFO  com.kms.katalon.core.util.KeywordUtil    - ✅ Found element with id="userName" — Test PASSED
+2026-01-06 09:05:03.524 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/LGG/LG-13
+2026-01-06 09:05:03.524 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 09:05:03.525 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OP/OP1.1
+2026-01-06 09:05:04.123 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-06 09:05:04.124 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_OP
+2026-01-06 09:05:04.124 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

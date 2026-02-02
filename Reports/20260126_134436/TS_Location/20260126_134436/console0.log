@@ -1,0 +1,579 @@
+2026-01-26 13:44:41.306 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-26 13:44:41.312 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-26 13:44:42.555 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Location
+2026-01-26 13:44:42.718 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-26 13:44:42.720 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-26 13:44:42.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-26 13:44:42.723 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-26 13:44:42.724 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-26 13:44:42.725 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-26 13:44:44.585 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-26 13:44:44.586 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Location/TC.LOC.5
+2026-01-26 13:44:45.002 DEBUG testcase.TC.LOC.5                        - 1: openBrowser("")
+2026-01-26 13:44:45.568 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-26 13:44:45.592 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-26 13:44:45.718 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 26, 2026 1:44:47 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 26, 2026 1:44:47 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-26 13:44:48.246 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = edea86c2480c2074e4909dc1c65e0794
+2026-01-26 13:44:48.248 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.60
+2026-01-26 13:44:48.249 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-26 13:44:48.250 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-26 13:44:48.268 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-26 13:44:48.350 DEBUG testcase.TC.LOC.5                        - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-26 13:44:48.533 DEBUG testcase.TC.LOC.5                        - 3: waitForElementVisible(findTestObject("Location/btn_location"), 120)
+2026-01-26 13:44:55.458 DEBUG testcase.TC.LOC.5                        - 4: click(findTestObject("Location/btn_location"))
+2026-01-26 13:44:55.931 DEBUG testcase.TC.LOC.5                        - 5: waitForElementVisible(findTestObject("Location/btn_upload"), 120)
+2026-01-26 13:44:56.643 DEBUG testcase.TC.LOC.5                        - 6: click(findTestObject("Location/btn_upload"))
+2026-01-26 13:45:17.228 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-01-26 13:45:17.335 DEBUG testcase.TC.LOC.5                        - 7: filePath = "D:\Upload\MagiqTowns.json"
+2026-01-26 13:45:17.347 DEBUG testcase.TC.LOC.5                        - 8: robot = new java.awt.Robot()
+2026-01-26 13:45:17.483 DEBUG testcase.TC.LOC.5                        - 9: getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null)
+2026-01-26 13:45:17.660 DEBUG testcase.TC.LOC.5                        - 10: robot.keyPress(VK_CONTROL)
+2026-01-26 13:45:17.744 DEBUG testcase.TC.LOC.5                        - 11: robot.keyPress(VK_V)
+2026-01-26 13:45:17.751 DEBUG testcase.TC.LOC.5                        - 12: robot.keyRelease(VK_V)
+2026-01-26 13:45:17.758 DEBUG testcase.TC.LOC.5                        - 13: robot.keyRelease(VK_CONTROL)
+2026-01-26 13:45:17.763 DEBUG testcase.TC.LOC.5                        - 14: robot.keyPress(VK_ENTER)
+2026-01-26 13:45:17.772 DEBUG testcase.TC.LOC.5                        - 15: robot.keyRelease(VK_ENTER)
+2026-01-26 13:45:17.780 DEBUG testcase.TC.LOC.5                        - 16: waitForImagePresent(findTestObject("Location/btn_update"), 120)
+2026-01-26 13:45:18.713 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to wait for image to be present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for image to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.waitForImagePresent(WaitForImagePresentKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.execute(WaitForImagePresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForImagePresent(WebUiBuiltInKeywords.groovy:2926)
+	at TC.LOC.5.run(TC.LOC.5:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769409876321.run(TempTestSuite1769409876321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.doCall(WaitForImagePresentKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.call(WaitForImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.waitForImagePresent(WaitForImagePresentKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.execute(WaitForImagePresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForImagePresent(WebUiBuiltInKeywords.groovy:2926)
+	at Script1767692385862.run(Script1767692385862.groovy:55)
+	... 15 more
+)
+2026-01-26 13:45:18.717 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Location/TC.LOC.5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for image to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.waitForImagePresent(WaitForImagePresentKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.execute(WaitForImagePresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForImagePresent(WebUiBuiltInKeywords.groovy:2926)
+	at TC.LOC.5.run(TC.LOC.5:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769409876321.run(TempTestSuite1769409876321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.doCall(WaitForImagePresentKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.call(WaitForImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2026-01-26 13:45:18.721 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Location/TC.LOC.5
+2026-01-26 13:45:18.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-26 13:45:18.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Location/TC.LOC.5
+2026-01-26 13:45:18.757 DEBUG testcase.TC.LOC.5                        - 1: openBrowser("")
+2026-01-26 13:45:18.763 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-26 13:45:19.618 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-26 13:45:19.619 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-26 13:45:19.622 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 26, 2026 1:45:20 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 26, 2026 1:45:20 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-26 13:45:20.772 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dcb28bc9455e8d52b809df8c40fc86ca
+2026-01-26 13:45:20.773 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.60
+2026-01-26 13:45:20.774 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-26 13:45:20.774 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-26 13:45:20.775 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-26 13:45:20.902 DEBUG testcase.TC.LOC.5                        - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-26 13:45:20.979 DEBUG testcase.TC.LOC.5                        - 3: waitForElementVisible(findTestObject("Location/btn_location"), 120)
+2026-01-26 13:45:27.306 DEBUG testcase.TC.LOC.5                        - 4: click(findTestObject("Location/btn_location"))
+2026-01-26 13:45:27.673 DEBUG testcase.TC.LOC.5                        - 5: waitForElementVisible(findTestObject("Location/btn_upload"), 120)
+2026-01-26 13:45:28.984 DEBUG testcase.TC.LOC.5                        - 6: click(findTestObject("Location/btn_upload"))
+1月 26, 2026 1:45:39 午後 org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+
+2026-01-26 13:45:39.326 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2026-01-26 13:45:39.341 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Location/btn_upload' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Location/btn_upload'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at TC.LOC.5.run(TC.LOC.5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769409876321.run(TempTestSuite1769409876321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dcb28bc9455e8d52b809df8c40fc86ca, executeAsyncScript {script=async function waitWithDOMMutation(validator, timeout) {
+    return new Promise((resolve, reject) => {
+        try {
+            if (timeout <= 0) {
+                resolve(false);
+                return;
+            }
+
+            if (validator()) {
+                resolve(true);
+                return;
+            }
+
+            const observer = new MutationObserver((mutations) => {
+                if (validator()) {
+                    observer.disconnect();
+                    resolve(true);
+                }
+            });
+
+            observer.observe(document.body, { childList: true, attributes: true, subtree: true });
+
+            setTimeout(() => {
+                resolve(false);
+                observer.disconnect();
+            }, timeout);
+        } catch (error) {
+            reject(error);
+        }
+    });
+}
+const notifyWaitingResult = arguments[arguments.length - 1];
+const element = arguments[0];
+const timeout = arguments[1];
+
+const ElementWaitingInteractableState = {
+    DONE: 'DONE',
+    ELEMENT_DETACHED: 'ELEMENT_DETACHED',
+    TIMED_OUT: 'TIMED_OUT',
+    ERROR: 'ERROR',
+};
+
+function notifyWaitingError(error) {
+    notifyWaitingResult({ result: ElementWaitingInteractableState.ERROR, error: error.message });
+}
+
+
+// Wait for detached
+waitWithDOMMutation(() => {
+    if (!element || !element.isConnected) {
+        return true;
+    }
+    return false;
+}, timeout).then((isDetached) => {
+    notifyWaitingResult({ result: isDetached
+        ? ElementWaitingInteractableState.ELEMENT_DETACHED
+        : ElementWaitingInteractableState.TIMED_OUT });
+}).catch(notifyWaitingError);
+const positions = [
+    {
+        block: 'start',
+        inline: 'start'
+    },
+    {
+        block: 'center',
+        inline: 'center'
+    },
+    {
+        block: 'end',
+        inline: 'end'
+    },
+    {
+        block: 'start',
+        inline: 'center'
+    },
+    {
+        block: 'start',
+        inline: 'end'
+    },
+    {
+        block: 'center',
+        inline: 'start'
+    },
+    {
+        block: 'center',
+        inline: 'end'
+    },
+    {
+        block: 'end',
+        inline: 'start'
+    },
+    {
+        block: 'end',
+        inline: 'center'
+    }
+];
+function isShadowRoot(element) {
+    return element.shadowRoot != null;
+}
+
+function checkTopMost(element) {
+    var { left, top, width, height } = element.getBoundingClientRect();
+    var centerX = width / 2 + left;
+    var centerY = height / 2 + top;
+    var scopedDocument = element.getRootNode();
+    var elementAtPoint = scopedDocument.elementFromPoint(centerX, centerY);
+    var isTopMost = element === elementAtPoint || element.contains(elementAtPoint);
+    return isTopMost;
+}
+
+function checkAllTopMostPositions(element) {
+    if (checkTopMost(element)) {
+        return true;
+    }
+    return positions.some(position => {
+        element.scrollIntoView({
+            behavior: 'instant',
+            block: position.block,
+            inline: position.inline
+        });
+        return checkTopMost(element);
+    });
+}
+
+waitWithDOMMutation(() => checkAllTopMostPositions(element), timeout).then((waited) => {
+    notifyWaitingResult({ result: waited
+        ? ElementWaitingInteractableState.DONE
+        : ElementWaitingInteractableState.TIMED_OUT });
+}).catch(notifyWaitingError);
+, args=[{element-6066-11e4-a52e-4f735466cecf=f.FEA5F2293DC10AAF1C6080BDFE1E6266.d.0A4E58814D6F99CDD727A958BB97CE81.e.96}, 136]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.60, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\QA\Profiles\KatalonChrome}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56126}, goog:processID: 6088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56126/devtoo..., se:cdpVersion: 144.0.7559.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:29097/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcb28bc9455e8d52b809df8c40fc86ca
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:483)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$sAJvAp9X.executeAsyncScript(Unknown Source)
+	at com.kms.katalon.core.webui.common.controller.ElementWaitingPhase.wait(ElementWaitingPhase.java:81)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.waitElementInteractable(WebUIAbstractKeyword.groovy:143)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1767692385862.run(Script1767692385862.groovy:32)
+	... 16 more
+)
+2026-01-26 13:45:39.349 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Location/TC.LOC.5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Location/btn_upload'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at TC.LOC.5.run(TC.LOC.5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769409876321.run(TempTestSuite1769409876321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dcb28bc9455e8d52b809df8c40fc86ca, executeAsyncScript {script=async function waitWithDOMMutation(validator, timeout) {
+    return new Promise((resolve, reject) => {
+        try {
+            if (timeout <= 0) {
+                resolve(false);
+                return;
+            }
+
+            if (validator()) {
+                resolve(true);
+                return;
+            }
+
+            const observer = new MutationObserver((mutations) => {
+                if (validator()) {
+                    observer.disconnect();
+                    resolve(true);
+                }
+            });
+
+            observer.observe(document.body, { childList: true, attributes: true, subtree: true });
+
+            setTimeout(() => {
+                resolve(false);
+                observer.disconnect();
+            }, timeout);
+        } catch (error) {
+            reject(error);
+        }
+    });
+}
+const notifyWaitingResult = arguments[arguments.length - 1];
+const element = arguments[0];
+const timeout = arguments[1];
+
+const ElementWaitingInteractableState = {
+    DONE: 'DONE',
+    ELEMENT_DETACHED: 'ELEMENT_DETACHED',
+    TIMED_OUT: 'TIMED_OUT',
+    ERROR: 'ERROR',
+};
+
+function notifyWaitingError(error) {
+    notifyWaitingResult({ result: ElementWaitingInteractableState.ERROR, error: error.message });
+}
+
+
+// Wait for detached
+waitWithDOMMutation(() => {
+    if (!element || !element.isConnected) {
+        return true;
+    }
+    return false;
+}, timeout).then((isDetached) => {
+    notifyWaitingResult({ result: isDetached
+        ? ElementWaitingInteractableState.ELEMENT_DETACHED
+        : ElementWaitingInteractableState.TIMED_OUT });
+}).catch(notifyWaitingError);
+const positions = [
+    {
+        block: 'start',
+        inline: 'start'
+    },
+    {
+        block: 'center',
+        inline: 'center'
+    },
+    {
+        block: 'end',
+        inline: 'end'
+    },
+    {
+        block: 'start',
+        inline: 'center'
+    },
+    {
+        block: 'start',
+        inline: 'end'
+    },
+    {
+        block: 'center',
+        inline: 'start'
+    },
+    {
+        block: 'center',
+        inline: 'end'
+    },
+    {
+        block: 'end',
+        inline: 'start'
+    },
+    {
+        block: 'end',
+        inline: 'center'
+    }
+];
+function isShadowRoot(element) {
+    return element.shadowRoot != null;
+}
+
+function checkTopMost(element) {
+    var { left, top, width, height } = element.getBoundingClientRect();
+    var centerX = width / 2 + left;
+    var centerY = height / 2 + top;
+    var scopedDocument = element.getRootNode();
+    var elementAtPoint = scopedDocument.elementFromPoint(centerX, centerY);
+    var isTopMost = element === elementAtPoint || element.contains(elementAtPoint);
+    return isTopMost;
+}
+
+function checkAllTopMostPositions(element) {
+    if (checkTopMost(element)) {
+        return true;
+    }
+    return positions.some(position => {
+        element.scrollIntoView({
+            behavior: 'instant',
+            block: position.block,
+            inline: position.inline
+        });
+        return checkTopMost(element);
+    });
+}
+
+waitWithDOMMutation(() => checkAllTopMostPositions(element), timeout).then((waited) => {
+    notifyWaitingResult({ result: waited
+        ? ElementWaitingInteractableState.DONE
+        : ElementWaitingInteractableState.TIMED_OUT });
+}).catch(notifyWaitingError);
+, args=[{element-6066-11e4-a52e-4f735466cecf=f.FEA5F2293DC10AAF1C6080BDFE1E6266.d.0A4E58814D6F99CDD727A958BB97CE81.e.96}, 136]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.60, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\QA\Profiles\KatalonChrome}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56126}, goog:processID: 6088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56126/devtoo..., se:cdpVersion: 144.0.7559.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:29097/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcb28bc9455e8d52b809df8c40fc86ca
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:483)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$sAJvAp9X.executeAsyncScript(Unknown Source)
+	at com.kms.katalon.core.webui.common.controller.ElementWaitingPhase.wait(ElementWaitingPhase.java:81)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.waitElementInteractable(WebUIAbstractKeyword.groovy:143)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2026-01-26 13:45:39.359 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Location/TC.LOC.5
+2026-01-26 13:45:39.364 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-26 13:45:39.365 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Location/TC.LOC.5
+2026-01-26 13:45:39.390 DEBUG testcase.TC.LOC.5                        - 1: openBrowser("")
+2026-01-26 13:45:39.398 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-26 13:45:39.422 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-26 13:45:39.424 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-26 13:45:39.427 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 26, 2026 1:45:40 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 26, 2026 1:45:40 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-26 13:45:40.486 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4e999b433ed815d42dbc91b9c53ef235
+2026-01-26 13:45:40.487 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.60
+2026-01-26 13:45:40.489 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-26 13:45:40.490 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-26 13:45:40.491 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-26 13:45:40.515 DEBUG testcase.TC.LOC.5                        - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-26 13:45:41.212 DEBUG testcase.TC.LOC.5                        - 3: waitForElementVisible(findTestObject("Location/btn_location"), 120)
+1月 26, 2026 1:45:41 午後 org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+

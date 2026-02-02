@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Location,Chrome 144.0.7559.60,,,26-01-2026 13:42:21,26-01-2026 13:44:15,1m - 53.264s,FAILED
+,,,,,,,
+Test Cases/Location/TC.LOC.5,Chrome 144.0.7559.60,,,26-01-2026 13:43:43,26-01-2026 13:44:15,31.877s,FAILED
+"openBrowser("""")",Chrome 144.0.7559.60,,,26-01-2026 13:43:43,26-01-2026 13:43:45,2.026s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 144.0.7559.60,,,26-01-2026 13:43:45,26-01-2026 13:43:46,1.084s,PASSED
+"waitForElementVisible(findTestObject(""Location/btn_location""), 120)",Chrome 144.0.7559.60,,,26-01-2026 13:43:46,26-01-2026 13:43:51,5.477s,PASSED
+"click(findTestObject(""Location/btn_location""))",Chrome 144.0.7559.60,,,26-01-2026 13:43:51,26-01-2026 13:43:52,0.375s,PASSED
+"waitForElementVisible(findTestObject(""Location/btn_upload""), 120)",Chrome 144.0.7559.60,,,26-01-2026 13:43:52,26-01-2026 13:43:53,1.401s,PASSED
+"click(findTestObject(""Location/btn_upload""))",Chrome 144.0.7559.60,,,26-01-2026 13:43:53,26-01-2026 13:44:14,20.960s,PASSED
+"filePath = ""D:\Upload\MagiqTowns.json""",Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.000s,PASSED
+robot = new java.awt.Robot(),Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.000s,PASSED
+"getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null)",Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.001s,PASSED
+robot.keyPress(VK_CONTROL),Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.003s,PASSED
+robot.keyPress(VK_V),Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.003s,PASSED
+robot.keyRelease(VK_V),Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.003s,PASSED
+robot.keyRelease(VK_CONTROL),Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.002s,PASSED
+robot.keyPress(VK_ENTER),Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.003s,PASSED
+robot.keyRelease(VK_ENTER),Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:14,0.002s,PASSED
+"waitForImagePresent(findTestObject(""Location/btn_update""), 120)",Chrome 144.0.7559.60,,,26-01-2026 13:44:14,26-01-2026 13:44:15,0.433s,FAILED

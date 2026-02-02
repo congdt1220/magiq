@@ -1,0 +1,134 @@
+2026-01-06 16:01:10.506 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 16:01:10.511 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-06 16:01:11.353 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TC_CO
+2026-01-06 16:01:11.492 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-06 16:01:11.494 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-06 16:01:11.494 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-06 16:01:11.495 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-06 16:01:11.496 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-06 16:01:11.498 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-06 16:01:13.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 16:01:13.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.1
+2026-01-06 16:01:13.669 DEBUG testcase.TC1.1                           - 1: callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE)
+2026-01-06 16:01:13.935 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 16:01:13.935 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/LG-01
+2026-01-06 16:01:14.407 DEBUG testcase.LG-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-06 16:01:14.412 DEBUG testcase.LG-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-06 16:01:14.417 DEBUG testcase.LG-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-06 16:01:14.423 DEBUG testcase.LG-01                           - 4: AFTER_LOGIN_WAIT = 120
+2026-01-06 16:01:14.428 DEBUG testcase.LG-01                           - 5: SHORT = 5
+2026-01-06 16:01:14.433 DEBUG testcase.LG-01                           - 6: MEDIUM = 15
+2026-01-06 16:01:14.438 DEBUG testcase.LG-01                           - 7: LONG = 30
+2026-01-06 16:01:14.443 DEBUG testcase.LG-01                           - 8: openBrowser("")
+2026-01-06 16:01:14.782 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 16:01:14.794 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-06 16:01:14.871 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 06, 2026 4:01:16 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 06, 2026 4:01:16 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 16:01:17.314 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a6b9127ecc1be71f4c20e76753e0e6ee
+2026-01-06 16:01:17.315 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 16:01:17.316 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-06 16:01:17.316 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 16:01:17.327 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 16:01:17.418 DEBUG testcase.LG-01                           - 9: maximizeWindow()
+2026-01-06 16:01:17.478 DEBUG testcase.LG-01                           - 10: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-06 16:01:18.482 DEBUG testcase.LG-01                           - 11: waitForPageLoad(LOCAL_PAGELOAD)
+2026-01-06 16:01:18.800 DEBUG testcase.LG-01                           - 12: spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1)
+2026-01-06 16:01:18.824 DEBUG testcase.LG-01                           - 13: spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]")
+2026-01-06 16:01:18.851 DEBUG testcase.LG-01                           - 14: iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app)
+2026-01-06 16:01:18.856 DEBUG testcase.LG-01                           - 15: iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']")
+2026-01-06 16:01:18.864 DEBUG testcase.LG-01                           - 16: userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName)
+2026-01-06 16:01:18.869 DEBUG testcase.LG-01                           - 17: userNameInput.addProperty("id", EQUALS, "userName")
+2026-01-06 16:01:18.874 DEBUG testcase.LG-01                           - 18: currentUrl = getUrl()
+2026-01-06 16:01:18.923 DEBUG testcase.LG-01                           - 19: if (currentUrl == "https://qa.engagement.magiqdev.cloud/news")
+2026-01-06 16:01:18.926 DEBUG testcase.LG-01                           - 20: userNameField = new com.kms.katalon.core.testobject.TestObject(userName)
+2026-01-06 16:01:18.932 DEBUG testcase.LG-01                           - 21: userNameField.addProperty("id", EQUALS, "userName")
+2026-01-06 16:01:18.937 DEBUG testcase.LG-01                           - 22: passwordField = new com.kms.katalon.core.testobject.TestObject(password)
+2026-01-06 16:01:18.948 DEBUG testcase.LG-01                           - 23: passwordField.addProperty("xpath", EQUALS, "//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]")
+2026-01-06 16:01:18.962 DEBUG testcase.LG-01                           - 24: loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn)
+2026-01-06 16:01:18.966 DEBUG testcase.LG-01                           - 25: loginBtn.addProperty("css", EQUALS, "button.btn-login")
+2026-01-06 16:01:18.972 DEBUG testcase.LG-01                           - 26: loginBtn.addProperty("xpath", EQUALS, "//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]")
+2026-01-06 16:01:18.978 DEBUG testcase.LG-01                           - 27: appBar = new com.kms.katalon.core.testobject.TestObject(appBar)
+2026-01-06 16:01:18.982 DEBUG testcase.LG-01                           - 28: appBar.addProperty("css", EQUALS, ".mat-app-bar")
+2026-01-06 16:01:18.989 DEBUG testcase.LG-01                           - 29: appBar.addProperty("xpath", EQUALS, "//*[contains(@class,'mat-app-bar')]")
+2026-01-06 16:01:18.995 DEBUG testcase.LG-01                           - 30: usernameVisible = false
+2026-01-06 16:01:19.002 DEBUG testcase.LG-01                           - 31: attempts = 0
+2026-01-06 16:01:19.006 DEBUG testcase.LG-01                           - 32: usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL)
+2026-01-06 16:01:21.974 DEBUG testcase.LG-01                           - 33: if (!(usernameVisible))
+2026-01-06 16:01:21.989 DEBUG testcase.LG-01                           - 34: if (!(usernameVisible))
+2026-01-06 16:01:21.992 DEBUG testcase.LG-01                           - 35: setText(userNameField, "admin1test@gmail.com")
+2026-01-06 16:01:22.713 DEBUG testcase.LG-01                           - 36: passwordVisible = waitForElementVisible(passwordField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)
+2026-01-06 16:01:22.970 DEBUG testcase.LG-01                           - 37: if (!(passwordVisible))
+2026-01-06 16:01:22.971 DEBUG testcase.LG-01                           - 38: if (!(passwordVisible))
+2026-01-06 16:01:22.973 DEBUG testcase.LG-01                           - 39: setEncryptedText(passwordField, "vckfKYHQ/X5a0LrHpsIEKA==")
+2026-01-06 16:01:23.365 DEBUG testcase.LG-01                           - 40: loginClickable = waitForElementClickable(loginBtn, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL)
+2026-01-06 16:01:23.972 DEBUG testcase.LG-01                           - 41: if (!(loginClickable))
+2026-01-06 16:01:23.973 DEBUG testcase.LG-01                           - 42: if (!(loginClickable))
+2026-01-06 16:01:23.975 DEBUG testcase.LG-01                           - 43: click(loginBtn)
+2026-01-06 16:01:24.421 DEBUG testcase.LG-01                           - 44: appBarVisible = false
+2026-01-06 16:01:24.422 DEBUG testcase.LG-01                           - 45: waited = 0
+2026-01-06 16:01:24.423 DEBUG testcase.LG-01                           - 46: step = 3
+2026-01-06 16:01:24.424 DEBUG testcase.LG-01                           - 47: while (waited < AFTER_LOGIN_WAIT || appBarVisible)
+2026-01-06 16:01:24.428 DEBUG testcase.LG-01                           - 1: if (verifyElementVisible(appBar, OPTIONAL))
+2026-01-06 16:01:29.305 DEBUG testcase.LG-01                           - 1: appBarVisible = true
+2026-01-06 16:01:29.306 DEBUG testcase.LG-01                           - 2: break
+2026-01-06 16:01:29.307 DEBUG testcase.LG-01                           - 48: if (!(appBarVisible))
+2026-01-06 16:01:29.309 DEBUG testcase.LG-01                           - 49: if (appBarVisible)
+2026-01-06 16:01:29.312 DEBUG testcase.LG-01                           - 1: comment("Login thành công: thấy class 'mat-app-bar'.")
+2026-01-06 16:01:29.321 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Login thành công: thấy class 'mat-app-bar'.
+2026-01-06 16:01:29.322 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/LG-01
+2026-01-06 16:01:29.323 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 16:01:29.334 DEBUG testcase.TC1.1                           - 2: PAGELOAD_TIMEOUT = 300
+2026-01-06 16:01:29.336 DEBUG testcase.TC1.1                           - 3: WAIT_FIELD = 60
+2026-01-06 16:01:29.339 DEBUG testcase.TC1.1                           - 4: MAX_RELOAD_ATTEMPTS = 1
+2026-01-06 16:01:29.341 DEBUG testcase.TC1.1                           - 5: WAIT_AFTER_CLICK = 90
+2026-01-06 16:01:29.347 DEBUG testcase.TC1.1                           - 6: WAIT_TIMEOUT = 120
+2026-01-06 16:01:29.350 DEBUG testcase.TC1.1                           - 7: MEDIUM = 15
+2026-01-06 16:01:29.352 DEBUG testcase.TC1.1                           - 8: SHORT = 5
+2026-01-06 16:01:29.354 DEBUG testcase.TC1.1                           - 9: LONG = 30
+2026-01-06 16:01:29.356 DEBUG testcase.TC1.1                           - 10: try
+2026-01-06 16:01:29.359 DEBUG testcase.TC1.1                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-06 16:01:29.464 DEBUG testcase.TC1.1                           - 2: x = 5
+2026-01-06 16:01:29.466 DEBUG testcase.TC1.1                           - 3: y = height - 5
+2026-01-06 16:01:29.503 DEBUG testcase.TC1.1                           - 4: robot = new java.awt.Robot()
+2026-01-06 16:01:29.515 DEBUG testcase.TC1.1                           - 5: robot.mouseMove(x, y)
+2026-01-06 16:01:29.539 DEBUG testcase.TC1.1                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-06 16:01:29.606 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-06 16:01:29.608 DEBUG testcase.TC1.1                           - 7: Thread.sleep(400)
+2026-01-06 16:01:30.034 DEBUG testcase.TC1.1                           - 13: driver = getWebDriver()
+2026-01-06 16:01:30.040 DEBUG testcase.TC1.1                           - 14: bodyEl = driver.findElement(By.tagName("body"))
+2026-01-06 16:01:30.935 DEBUG testcase.TC1.1                           - 15: actions = new org.openqa.selenium.interactions.Actions(driver)
+2026-01-06 16:01:30.949 DEBUG testcase.TC1.1                           - 16: targetX = 0
+2026-01-06 16:01:30.950 DEBUG testcase.TC1.1                           - 17: targetY = 300
+2026-01-06 16:01:30.951 DEBUG testcase.TC1.1                           - 18: moveToElement(bodyEl, targetX, targetY).perform()
+2026-01-06 16:01:31.095 DEBUG testcase.TC1.1                           - 19: comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)
+2026-01-06 16:01:31.098 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã move Actions tới body offset (x=0, y=300).
+2026-01-06 16:01:31.099 DEBUG testcase.TC1.1                           - 20: click().perform()
+2026-01-06 16:01:31.114 DEBUG testcase.TC1.1                           - 21: comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)
+2026-01-06 16:01:31.118 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+2026-01-06 16:01:31.120 DEBUG testcase.TC1.1                           - 22: aAccount = new com.kms.katalon.core.testobject.TestObject(a_account)
+2026-01-06 16:01:31.122 DEBUG testcase.TC1.1                           - 23: aAccount.addProperty("xpath", EQUALS, "//a[@href='organisation']")
+2026-01-06 16:01:31.124 DEBUG testcase.TC1.1                           - 24: present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-06 16:01:31.372 DEBUG testcase.TC1.1                           - 25: visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-06 16:01:31.609 DEBUG testcase.TC1.1                           - 26: clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)
+2026-01-06 16:01:31.881 DEBUG testcase.TC1.1                           - 27: if (!(present && visible))
+2026-01-06 16:01:31.882 DEBUG testcase.TC1.1                           - 28: if (clickable)
+2026-01-06 16:01:31.882 DEBUG testcase.TC1.1                           - 1: click(aAccount)
+2026-01-06 16:01:32.334 DEBUG testcase.TC1.1                           - 2: comment("✅ Đã click vào liên kết account.")
+2026-01-06 16:01:32.338 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ✅ Đã click vào liên kết account.
+2026-01-06 16:01:32.340 DEBUG testcase.TC1.1                           - 30: click(findTestObject("CO/btt_change_org"))
+2026-01-06 16:01:33.749 DEBUG testcase.TC1.1                           - 31: waitForElementVisible(findTestObject("CO/modal_org"), 30)
+2026-01-06 16:01:35.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CO/TC1.1
+2026-01-06 16:01:35.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 16:01:35.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.2
+2026-01-06 16:01:35.460 DEBUG testcase.TC1.2                           - 1: waitForElementVisible(findTestObject("CO/input_search"), 10)
+2026-01-06 16:01:35.730 DEBUG testcase.TC1.2                           - 2: setText(findTestObject("CO/input_search"), "Magiq Software")
+2026-01-06 16:01:36.769 DEBUG testcase.TC1.2                           - 3: sendKeys(findTestObject("CO/input_search"), Keys.chord(ENTER))
+2026-01-06 16:01:37.106 DEBUG testcase.TC1.2                           - 4: verifyElementPresent(findTestObject("CO/h6_magiq"), 10)
+2026-01-06 16:01:39.371 DEBUG testcase.TC1.2                           - 5: verifyElementNotPresent(findTestObject("CO/h6_not_magiq"), 10)
+2026-01-06 16:01:39.656 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CO/TC1.2
+2026-01-06 16:01:39.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 16:01:39.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.3
+2026-01-06 16:01:39.718 DEBUG testcase.TC1.3                           - 1: click(findTestObject("CO/h6_magiq"))

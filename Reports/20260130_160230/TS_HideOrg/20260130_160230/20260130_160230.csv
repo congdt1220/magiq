@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_HideOrg,Chrome 144.0.7559.110,,,30-01-2026 16:02:35,30-01-2026 16:03:58,1m - 23.161s,FAILED
+,,,,,,,
+Test Cases/HideOrg/TC_HOM_03,Chrome 144.0.7559.110,,,30-01-2026 16:02:36,30-01-2026 16:03:58,1m - 21.995s,FAILED
+"openBrowser("""")",Chrome 144.0.7559.110,,,30-01-2026 16:02:36,30-01-2026 16:02:39,2.628s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 144.0.7559.110,,,30-01-2026 16:02:39,30-01-2026 16:03:58,1m - 19.191s,FAILED

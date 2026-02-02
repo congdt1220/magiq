@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Location,,,,26-01-2026 13:47:37,26-01-2026 13:47:42,4.807s,FAILED
+,,,,,,,
+Test Cases/Location/TC.LOC.5,,,,26-01-2026 13:47:41,26-01-2026 13:47:42,0.378s,FAILED
+"openBrowser("""")",,,,26-01-2026 13:47:42,26-01-2026 13:47:42,0.343s,FAILED

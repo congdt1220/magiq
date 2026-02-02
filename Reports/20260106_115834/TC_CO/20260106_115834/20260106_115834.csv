@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_CO,Chrome 143.0.7499.170,,,06-01-2026 11:58:39,06-01-2026 11:59:18,39.573s,PASSED
+,,,,,,,
+Test Cases/CO/TC1.1,Chrome 143.0.7499.170,,,06-01-2026 11:58:40,06-01-2026 11:59:12,31.434s,PASSED
+"callTestCase(findTestCase(""Login/LG-01""), [:], STOP_ON_FAILURE)",Chrome 143.0.7499.170,,,06-01-2026 11:58:41,06-01-2026 11:59:01,20.172s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.003s,PASSED
+WAIT_FIELD = 60,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.003s,PASSED
+MAX_RELOAD_ATTEMPTS = 1,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.004s,PASSED
+WAIT_AFTER_CLICK = 90,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.003s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.005s,PASSED
+MEDIUM = 15,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.006s,PASSED
+SHORT = 5,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.010s,PASSED
+LONG = 30,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:01,0.006s,PASSED
+try,Chrome 143.0.7499.170,,,06-01-2026 11:59:01,06-01-2026 11:59:02,1.038s,PASSED
+driver = getWebDriver(),Chrome 143.0.7499.170,,,06-01-2026 11:59:02,06-01-2026 11:59:02,0.005s,PASSED
+"bodyEl = driver.findElement(By.tagName(""body""))",Chrome 143.0.7499.170,,,06-01-2026 11:59:02,06-01-2026 11:59:02,0.255s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 143.0.7499.170,,,06-01-2026 11:59:02,06-01-2026 11:59:03,0.021s,PASSED
+targetX = 0,Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.001s,PASSED
+targetY = 300,Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.002s,PASSED
+"moveToElement(bodyEl, targetX, targetY).perform()",Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.166s,PASSED
+"comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)",Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.004s,PASSED
+click().perform(),Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.014s,PASSED
+"comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)",Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.005s,PASSED
+aAccount = new com.kms.katalon.core.testobject.TestObject(a_account),Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.002s,PASSED
+"aAccount.addProperty(""xpath"", EQUALS, ""//a[@href='organisation']"")",Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.001s,PASSED
+"present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.248s,PASSED
+"visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.259s,PASSED
+"clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.261s,PASSED
+if (!(present && visible)),Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:03,0.000s,PASSED
+if (clickable),Chrome 143.0.7499.170,,,06-01-2026 11:59:03,06-01-2026 11:59:04,0.455s,PASSED
+"click(findTestObject(""CO/btt_change_org""))",Chrome 143.0.7499.170,,,06-01-2026 11:59:04,06-01-2026 11:59:10,6.210s,PASSED
+"waitForElementVisible(findTestObject(""CO/modal_org""), 30)",Chrome 143.0.7499.170,,,06-01-2026 11:59:10,06-01-2026 11:59:12,1.569s,PASSED
+,,,,,,,
+Test Cases/CO/TC1.2,Chrome 143.0.7499.170,,,06-01-2026 11:59:12,06-01-2026 11:59:18,5.850s,PASSED
+"waitForElementVisible(findTestObject(""CO/input_search""), 10)",Chrome 143.0.7499.170,,,06-01-2026 11:59:12,06-01-2026 11:59:12,0.273s,PASSED
+"setText(findTestObject(""CO/input_search""), ""Magiq Software"")",Chrome 143.0.7499.170,,,06-01-2026 11:59:12,06-01-2026 11:59:13,1.084s,PASSED
+"sendKeys(findTestObject(""CO/input_search""), Keys.chord(ENTER))",Chrome 143.0.7499.170,,,06-01-2026 11:59:13,06-01-2026 11:59:14,0.345s,PASSED
+"verifyElementPresent(findTestObject(""CO/h6_magiq""), 10)",Chrome 143.0.7499.170,,,06-01-2026 11:59:14,06-01-2026 11:59:17,3.739s,PASSED
+"verifyElementNotPresent(findTestObject(""CO/h6_not_magiq""), 10)",Chrome 143.0.7499.170,,,06-01-2026 11:59:17,06-01-2026 11:59:18,0.287s,PASSED
+,,,,,,,
+Test Cases/CO/TC1.3,Chrome 143.0.7499.170,,,06-01-2026 11:59:18,06-01-2026 11:59:18,0.383s,PASSED
+"click(findTestObject(""CO/h6_magiq""))",Chrome 143.0.7499.170,,,06-01-2026 11:59:18,06-01-2026 11:59:18,0.339s,PASSED

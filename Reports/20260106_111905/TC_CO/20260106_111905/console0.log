@@ -1,0 +1,316 @@
+2026-01-06 11:19:08.622 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 11:19:08.626 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-06 11:19:09.122 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TC_CO
+2026-01-06 11:19:09.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-06 11:19:09.215 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-06 11:19:09.216 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-06 11:19:09.217 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-06 11:19:09.218 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-06 11:19:09.219 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-06 11:19:10.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 11:19:10.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.1
+2026-01-06 11:19:10.770 DEBUG testcase.TC1.1                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-06 11:19:10.773 DEBUG testcase.TC1.1                           - 2: WAIT_FIELD = 60
+2026-01-06 11:19:10.777 DEBUG testcase.TC1.1                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-06 11:19:10.780 DEBUG testcase.TC1.1                           - 4: WAIT_AFTER_CLICK = 90
+2026-01-06 11:19:10.786 DEBUG testcase.TC1.1                           - 5: WAIT_TIMEOUT = 120
+2026-01-06 11:19:10.791 DEBUG testcase.TC1.1                           - 6: MEDIUM = 15
+2026-01-06 11:19:10.795 DEBUG testcase.TC1.1                           - 7: SHORT = 5
+2026-01-06 11:19:10.798 DEBUG testcase.TC1.1                           - 8: LONG = 30
+2026-01-06 11:19:10.803 DEBUG testcase.TC1.1                           - 9: try
+2026-01-06 11:19:10.807 DEBUG testcase.TC1.1                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-06 11:19:10.925 DEBUG testcase.TC1.1                           - 2: x = 5
+2026-01-06 11:19:10.928 DEBUG testcase.TC1.1                           - 3: y = height - 5
+2026-01-06 11:19:10.973 DEBUG testcase.TC1.1                           - 4: robot = new java.awt.Robot()
+2026-01-06 11:19:10.986 DEBUG testcase.TC1.1                           - 5: robot.mouseMove(x, y)
+2026-01-06 11:19:10.998 DEBUG testcase.TC1.1                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-06 11:19:11.140 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-06 11:19:11.142 DEBUG testcase.TC1.1                           - 7: Thread.sleep(400)
+2026-01-06 11:19:11.569 DEBUG testcase.TC1.1                           - 12: driver = getWebDriver()
+2026-01-06 11:19:11.607 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:11.617 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:11.621 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CO/TC1.1
+2026-01-06 11:19:11.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 11:19:11.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.1
+2026-01-06 11:19:11.688 DEBUG testcase.TC1.1                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-06 11:19:11.689 DEBUG testcase.TC1.1                           - 2: WAIT_FIELD = 60
+2026-01-06 11:19:11.690 DEBUG testcase.TC1.1                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-06 11:19:11.692 DEBUG testcase.TC1.1                           - 4: WAIT_AFTER_CLICK = 90
+2026-01-06 11:19:11.693 DEBUG testcase.TC1.1                           - 5: WAIT_TIMEOUT = 120
+2026-01-06 11:19:11.694 DEBUG testcase.TC1.1                           - 6: MEDIUM = 15
+2026-01-06 11:19:11.696 DEBUG testcase.TC1.1                           - 7: SHORT = 5
+2026-01-06 11:19:11.697 DEBUG testcase.TC1.1                           - 8: LONG = 30
+2026-01-06 11:19:11.697 DEBUG testcase.TC1.1                           - 9: try
+2026-01-06 11:19:11.698 DEBUG testcase.TC1.1                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-06 11:19:11.700 DEBUG testcase.TC1.1                           - 2: x = 5
+2026-01-06 11:19:11.701 DEBUG testcase.TC1.1                           - 3: y = height - 5
+2026-01-06 11:19:11.703 DEBUG testcase.TC1.1                           - 4: robot = new java.awt.Robot()
+2026-01-06 11:19:11.704 DEBUG testcase.TC1.1                           - 5: robot.mouseMove(x, y)
+2026-01-06 11:19:11.706 DEBUG testcase.TC1.1                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-06 11:19:11.711 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-06 11:19:11.712 DEBUG testcase.TC1.1                           - 7: Thread.sleep(400)
+2026-01-06 11:19:12.117 DEBUG testcase.TC1.1                           - 12: driver = getWebDriver()
+2026-01-06 11:19:12.119 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:12.121 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:12.124 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CO/TC1.1
+2026-01-06 11:19:12.127 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 11:19:12.127 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.1
+2026-01-06 11:19:12.155 DEBUG testcase.TC1.1                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-06 11:19:12.156 DEBUG testcase.TC1.1                           - 2: WAIT_FIELD = 60
+2026-01-06 11:19:12.158 DEBUG testcase.TC1.1                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-06 11:19:12.160 DEBUG testcase.TC1.1                           - 4: WAIT_AFTER_CLICK = 90
+2026-01-06 11:19:12.161 DEBUG testcase.TC1.1                           - 5: WAIT_TIMEOUT = 120
+2026-01-06 11:19:12.162 DEBUG testcase.TC1.1                           - 6: MEDIUM = 15
+2026-01-06 11:19:12.163 DEBUG testcase.TC1.1                           - 7: SHORT = 5
+2026-01-06 11:19:12.164 DEBUG testcase.TC1.1                           - 8: LONG = 30
+2026-01-06 11:19:12.165 DEBUG testcase.TC1.1                           - 9: try
+2026-01-06 11:19:12.166 DEBUG testcase.TC1.1                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-06 11:19:12.167 DEBUG testcase.TC1.1                           - 2: x = 5
+2026-01-06 11:19:12.170 DEBUG testcase.TC1.1                           - 3: y = height - 5
+2026-01-06 11:19:12.172 DEBUG testcase.TC1.1                           - 4: robot = new java.awt.Robot()
+2026-01-06 11:19:12.173 DEBUG testcase.TC1.1                           - 5: robot.mouseMove(x, y)
+2026-01-06 11:19:12.174 DEBUG testcase.TC1.1                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-06 11:19:12.186 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-06 11:19:12.187 DEBUG testcase.TC1.1                           - 7: Thread.sleep(400)
+2026-01-06 11:19:12.600 DEBUG testcase.TC1.1                           - 12: driver = getWebDriver()
+2026-01-06 11:19:12.602 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:12.604 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:12.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CO/TC1.1
+2026-01-06 11:19:12.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 11:19:12.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.1
+2026-01-06 11:19:12.628 DEBUG testcase.TC1.1                           - 1: PAGELOAD_TIMEOUT = 300
+2026-01-06 11:19:12.629 DEBUG testcase.TC1.1                           - 2: WAIT_FIELD = 60
+2026-01-06 11:19:12.629 DEBUG testcase.TC1.1                           - 3: MAX_RELOAD_ATTEMPTS = 1
+2026-01-06 11:19:12.630 DEBUG testcase.TC1.1                           - 4: WAIT_AFTER_CLICK = 90
+2026-01-06 11:19:12.631 DEBUG testcase.TC1.1                           - 5: WAIT_TIMEOUT = 120
+2026-01-06 11:19:12.632 DEBUG testcase.TC1.1                           - 6: MEDIUM = 15
+2026-01-06 11:19:12.632 DEBUG testcase.TC1.1                           - 7: SHORT = 5
+2026-01-06 11:19:12.633 DEBUG testcase.TC1.1                           - 8: LONG = 30
+2026-01-06 11:19:12.634 DEBUG testcase.TC1.1                           - 9: try
+2026-01-06 11:19:12.637 DEBUG testcase.TC1.1                           - 1: screen = getDefaultToolkit().getScreenSize()
+2026-01-06 11:19:12.639 DEBUG testcase.TC1.1                           - 2: x = 5
+2026-01-06 11:19:12.641 DEBUG testcase.TC1.1                           - 3: y = height - 5
+2026-01-06 11:19:12.644 DEBUG testcase.TC1.1                           - 4: robot = new java.awt.Robot()
+2026-01-06 11:19:12.646 DEBUG testcase.TC1.1                           - 5: robot.mouseMove(x, y)
+2026-01-06 11:19:12.648 DEBUG testcase.TC1.1                           - 6: comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y))
+2026-01-06 11:19:12.654 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+2026-01-06 11:19:12.657 DEBUG testcase.TC1.1                           - 7: Thread.sleep(400)
+2026-01-06 11:19:13.069 DEBUG testcase.TC1.1                           - 12: driver = getWebDriver()
+2026-01-06 11:19:13.071 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:13.072 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CO/TC1.1 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at TC1.1.run(TC1.1:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767673145512.run(TempTestSuite1767673145512.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-06 11:19:13.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CO/TC1.1
+2026-01-06 11:19:13.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-06 11:19:13.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TC_CO
+2026-01-06 11:19:13.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

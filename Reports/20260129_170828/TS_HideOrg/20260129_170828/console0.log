@@ -1,0 +1,9 @@
+2026-01-29 17:08:34.103 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 17:08:34.110 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-29 17:08:35.463 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_HideOrg
+2026-01-29 17:08:35.622 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-29 17:08:35.623 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-29 17:08:35.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-29 17:08:35.626 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-29 17:08:35.627 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-29 17:08:35.628 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0

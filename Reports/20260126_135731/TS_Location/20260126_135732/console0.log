@@ -1,0 +1,58 @@
+2026-01-26 13:57:36.158 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-26 13:57:36.163 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-26 13:57:36.928 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Location
+2026-01-26 13:57:37.021 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-26 13:57:37.022 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-26 13:57:37.023 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-26 13:57:37.023 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-26 13:57:37.024 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-26 13:57:37.025 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-26 13:57:38.180 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-26 13:57:38.181 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Location/TC.LOC.5
+2026-01-26 13:57:38.412 DEBUG testcase.TC.LOC.5                        - 1: openBrowser("")
+2026-01-26 13:57:38.740 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-26 13:57:38.751 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-26 13:57:38.829 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 26, 2026 1:57:40 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 26, 2026 1:57:40 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-26 13:57:40.501 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2bdc679de8129878494d7e2e547e9e5d
+2026-01-26 13:57:40.503 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.60
+2026-01-26 13:57:40.505 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-26 13:57:40.506 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-26 13:57:40.530 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-26 13:57:40.607 DEBUG testcase.TC.LOC.5                        - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-26 13:57:41.340 DEBUG testcase.TC.LOC.5                        - 3: waitForElementClickable(findTestObject("Location/btn_location"), 120)
+2026-01-26 13:57:47.697 DEBUG testcase.TC.LOC.5                        - 4: click(findTestObject("Location/btn_location"))
+2026-01-26 13:57:48.107 DEBUG testcase.TC.LOC.5                        - 5: waitForElementClickable(findTestObject("Location/btn_upload"), 120)
+2026-01-26 13:58:23.167 DEBUG testcase.TC.LOC.5                        - 6: click(findTestObject("Location/btn_upload"))
+2026-01-26 13:59:01.865 DEBUG testcase.TC.LOC.5                        - 7: filePath = "D:\Upload\MagiqTowns.json"
+2026-01-26 13:59:01.870 DEBUG testcase.TC.LOC.5                        - 8: robot = new java.awt.Robot()
+2026-01-26 13:59:02.109 DEBUG testcase.TC.LOC.5                        - 9: getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null)
+2026-01-26 13:59:02.263 DEBUG testcase.TC.LOC.5                        - 10: robot.keyPress(VK_CONTROL)
+2026-01-26 13:59:02.302 DEBUG testcase.TC.LOC.5                        - 11: robot.keyPress(VK_V)
+2026-01-26 13:59:02.306 DEBUG testcase.TC.LOC.5                        - 12: robot.keyRelease(VK_V)
+2026-01-26 13:59:02.310 DEBUG testcase.TC.LOC.5                        - 13: robot.keyRelease(VK_CONTROL)
+2026-01-26 13:59:02.314 DEBUG testcase.TC.LOC.5                        - 14: robot.keyPress(VK_ENTER)
+2026-01-26 13:59:02.320 DEBUG testcase.TC.LOC.5                        - 15: robot.keyRelease(VK_ENTER)
+2026-01-26 13:59:02.324 DEBUG testcase.TC.LOC.5                        - 16: delay(30)
+1月 26, 2026 1:59:02 午後 org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+

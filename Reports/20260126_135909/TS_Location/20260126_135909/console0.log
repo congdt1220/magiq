@@ -1,0 +1,45 @@
+2026-01-26 13:59:14.565 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-26 13:59:14.572 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-26 13:59:15.809 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Location
+2026-01-26 13:59:15.973 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-26 13:59:15.975 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-26 13:59:15.976 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-26 13:59:15.977 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-26 13:59:15.979 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-26 13:59:15.980 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-26 13:59:17.974 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-26 13:59:17.975 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Location/TC.LOC.5
+2026-01-26 13:59:18.460 DEBUG testcase.TC.LOC.5                        - 1: openBrowser("")
+2026-01-26 13:59:18.994 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-26 13:59:19.011 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-26 13:59:19.146 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 26, 2026 1:59:20 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 26, 2026 1:59:20 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-26 13:59:21.675 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0d7e129486adc01670f98feb4c2e93ae
+2026-01-26 13:59:21.677 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.60
+2026-01-26 13:59:21.678 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-26 13:59:21.678 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-26 13:59:21.693 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-26 13:59:21.781 DEBUG testcase.TC.LOC.5                        - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-26 13:59:22.823 DEBUG testcase.TC.LOC.5                        - 3: waitForElementClickable(findTestObject("Location/btn_location"), 120)
+2026-01-26 13:59:28.353 DEBUG testcase.TC.LOC.5                        - 4: click(findTestObject("Location/btn_location"))
+2026-01-26 13:59:28.764 DEBUG testcase.TC.LOC.5                        - 5: waitForElementClickable(findTestObject("Location/btn_upload"), 120)
+2026-01-26 13:59:42.381 DEBUG testcase.TC.LOC.5                        - 6: click(findTestObject("Location/btn_upload"))
+2026-01-26 13:59:43.943 DEBUG testcase.TC.LOC.5                        - 7: filePath = "D:\Upload\MagiqTowns.json"
+2026-01-26 13:59:43.948 DEBUG testcase.TC.LOC.5                        - 8: robot = new java.awt.Robot()
+2026-01-26 13:59:44.028 DEBUG testcase.TC.LOC.5                        - 9: getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null)
+2026-01-26 13:59:44.148 DEBUG testcase.TC.LOC.5                        - 10: robot.keyPress(VK_CONTROL)
+2026-01-26 13:59:44.196 DEBUG testcase.TC.LOC.5                        - 11: robot.keyPress(VK_V)
+2026-01-26 13:59:44.200 DEBUG testcase.TC.LOC.5                        - 12: robot.keyRelease(VK_V)
+2026-01-26 13:59:44.208 DEBUG testcase.TC.LOC.5                        - 13: robot.keyRelease(VK_CONTROL)
+2026-01-26 13:59:44.214 DEBUG testcase.TC.LOC.5                        - 14: robot.keyPress(VK_ENTER)
+2026-01-26 13:59:44.223 DEBUG testcase.TC.LOC.5                        - 15: robot.keyRelease(VK_ENTER)
+2026-01-26 13:59:44.229 DEBUG testcase.TC.LOC.5                        - 16: delay(30)
+2026-01-26 14:00:14.306 DEBUG testcase.TC.LOC.5                        - 17: waitForElementPresent(findTestObject("Location/btn_update"), 120)
+2026-01-26 14:00:14.555 DEBUG testcase.TC.LOC.5                        - 18: click(findTestObject("Location/btn_update"))
+2026-01-26 14:00:14.909 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Location/TC.LOC.5
+2026-01-26 14:00:14.914 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-26 14:00:14.915 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Location
+2026-01-26 14:00:14.915 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,40 @@
+2026-01-29 17:07:09.451 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 17:07:09.458 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-29 17:07:10.698 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_HideOrg
+2026-01-29 17:07:10.830 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-29 17:07:10.832 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-29 17:07:10.833 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-29 17:07:10.834 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-29 17:07:10.835 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-29 17:07:10.836 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-29 17:07:12.568 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 17:07:12.568 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HideOrg/TC_HOM_03
+2026-01-29 17:07:12.775 DEBUG testcase.TC_HOM_03                       - 1: openBrowser("")
+2026-01-29 17:07:13.281 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-29 17:07:13.292 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-29 17:07:13.372 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 29, 2026 5:07:15 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 29, 2026 5:07:15 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.98. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-29 17:07:15.927 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5ebe9e588b211635f28000525e2557ec
+2026-01-29 17:07:15.929 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-29 17:07:15.930 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-29 17:07:15.931 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 17:07:15.943 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 17:07:16.017 DEBUG testcase.TC_HOM_03                       - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-29 17:07:16.127 DEBUG testcase.TC_HOM_03                       - 3: waitForElementClickable(findTestObject("HideOrg/btn_hide"), 120)
+2026-01-29 17:07:23.574 DEBUG testcase.TC_HOM_03                       - 4: click(findTestObject("HideOrg/btn_hide"))
+2026-01-29 17:07:24.074 DEBUG testcase.TC_HOM_03                       - 5: waitForElementClickable(findTestObject("HideOrg/input_multisect"), 120)
+2026-01-29 17:07:25.017 DEBUG testcase.TC_HOM_03                       - 6: click(findTestObject("HideOrg/input_multisect"))
+2026-01-29 17:07:25.356 DEBUG testcase.TC_HOM_03                       - 7: waitForElementClickable(findTestObject("HideOrg/li_News"), 120)
+2026-01-29 17:07:25.943 DEBUG testcase.TC_HOM_03                       - 8: click(findTestObject("HideOrg/li_News"))
+2026-01-29 17:07:26.333 DEBUG testcase.TC_HOM_03                       - 9: waitForElementClickable(findTestObject("HideOrg/input_multisect"), 120)
+2026-01-29 17:07:26.840 DEBUG testcase.TC_HOM_03                       - 10: click(findTestObject("HideOrg/input_multisect"))
+2026-01-29 17:07:27.159 DEBUG testcase.TC_HOM_03                       - 11: waitForElementClickable(findTestObject("HideOrg/li_Connect"), 120)
+2026-01-29 17:07:27.648 DEBUG testcase.TC_HOM_03                       - 12: click(findTestObject("HideOrg/li_Connect"))
+2026-01-29 17:07:27.971 DEBUG testcase.TC_HOM_03                       - 13: waitForElementClickable(findTestObject("HideOrg/input_multisect"), 120)
+2026-01-29 17:07:28.579 DEBUG testcase.TC_HOM_03                       - 14: click(findTestObject("HideOrg/input_multisect"))
+2026-01-29 17:07:28.895 DEBUG testcase.TC_HOM_03                       - 15: waitForElementClickable(findTestObject("HideOrg/li_Notices"), 120)
+2026-01-29 17:07:29.381 DEBUG testcase.TC_HOM_03                       - 16: click(findTestObject("HideOrg/li_Notices"))
+2026-01-29 17:07:29.713 DEBUG testcase.TC_HOM_03                       - 17: waitForElementClickable(findTestObject("HideOrg/btn_OK"), 120)

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OP" time="53.309" tests="3" failures="1" errors="0">
+   <testsuite name="TS_OP" tests="3" failures="1" errors="0" time="53.309" skipped="0" timestamp="2026-01-06T03:04:20.622Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TS_OP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\1767668695065.png, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\1767668695213.png, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\1767668701472.png, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\1767668707686.png, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\1767668713819.png"/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.170"/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="sessionId" value="b982552de9135e09652868c81483279c"/>
+         <property name="projectName" value="magiq"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OP/OP1.1" time="18.048" classname="Test Cases/OP/OP1.1" status="PASSED">
+         <system-out><![CDATA[06-01-2026T10:04:21 - [TEST_CASE][PASSED] - Test Cases/OP/OP1.1: Test Cases/OP/OP1.1
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/LG-01' successfully
+
+06-01-2026T10:04:22 - [TEST_CASE][PASSED] - Test Cases/Login/LG-01: Test Cases/Login/LG-01
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - LOCAL_PAGELOAD = 300: null
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - WAIT_ELEMENT_BEFORE_RELOAD = 120: null
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - MAX_RELOAD_ATTEMPTS = 5: null
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - AFTER_LOGIN_WAIT = 120: null
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - SHORT = 5: null
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - MEDIUM = 15: null
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - LONG = 30: null
+
+06-01-2026T10:04:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:04:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:04:23 - [MESSAGE][INFO] - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+
+06-01-2026T10:04:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:04:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:04:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-01-2026T10:04:25 - [MESSAGE][PASSED] - Current window maximized
+
+06-01-2026T10:04:25 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.engagement.magiqdev.cloud/login"): Navigate to 'https://qa.engagement.magiqdev.cloud/login' successfully
+
+06-01-2026T10:04:25 - [MESSAGE][PASSED] - Navigate to 'https://qa.engagement.magiqdev.cloud/login' successfully
+
+06-01-2026T10:04:25 - [TEST_STEP][PASSED] - waitForPageLoad(LOCAL_PAGELOAD): Wait for page load successfully
+
+06-01-2026T10:04:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - userNameInput.addProperty("id", EQUALS, "userName"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://qa.engagement.magiqdev.cloud/login'
+
+06-01-2026T10:04:27 - [MESSAGE][PASSED] - Current window's url is: 'https://qa.engagement.magiqdev.cloud/login'
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - if (currentUrl == "https://qa.engagement.magiqdev.cloud/news"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - userNameField = new com.kms.katalon.core.testobject.TestObject(userName): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - userNameField.addProperty("id", EQUALS, "userName"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - passwordField = new com.kms.katalon.core.testobject.TestObject(password): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - passwordField.addProperty("xpath", EQUALS, "//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - loginBtn.addProperty("css", EQUALS, "button.btn-login"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - loginBtn.addProperty("xpath", EQUALS, "//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - appBar = new com.kms.katalon.core.testobject.TestObject(appBar): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - appBar.addProperty("css", EQUALS, ".mat-app-bar"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - appBar.addProperty("xpath", EQUALS, "//*[contains(@class,'mat-app-bar')]"): null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - usernameVisible = false: null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - attempts = 0: null
+
+06-01-2026T10:04:27 - [TEST_STEP][PASSED] - usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL): Object 'userName' is visible
+
+06-01-2026T10:04:29 - [MESSAGE][PASSED] - Object 'userName' is visible
+
+06-01-2026T10:04:29 - [TEST_STEP][PASSED] - if (!(usernameVisible)): null
+
+06-01-2026T10:04:29 - [TEST_STEP][PASSED] - if (!(usernameVisible)): null
+
+06-01-2026T10:04:29 - [TEST_STEP][PASSED] - setText(userNameField, "admin1test@gmail.com"): Text 'admin1test@gmail.com' is set on object 'userName'
+
+06-01-2026T10:04:30 - [MESSAGE][PASSED] - Text 'admin1test@gmail.com' is set on object 'userName'
+
+06-01-2026T10:04:30 - [TEST_STEP][PASSED] - passwordVisible = waitForElementVisible(passwordField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL): Object 'password' is visible
+
+06-01-2026T10:04:30 - [MESSAGE][PASSED] - Object 'password' is visible
+
+06-01-2026T10:04:30 - [TEST_STEP][PASSED] - if (!(passwordVisible)): null
+
+06-01-2026T10:04:30 - [TEST_STEP][PASSED] - if (!(passwordVisible)): null
+
+06-01-2026T10:04:30 - [TEST_STEP][PASSED] - setEncryptedText(passwordField, "vckfKYHQ/X5a0LrHpsIEKA=="): Text ****** has been set on object 'password'
+
+06-01-2026T10:04:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'password'
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - loginClickable = waitForElementClickable(loginBtn, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL): Object 'loginBtn' is NOT clickable
+
+06-01-2026T10:04:31 - [MESSAGE][PASSED] - Object 'loginBtn' is NOT clickable
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - if (!(loginClickable)): null
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - if (!(loginClickable)): null
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - click(loginBtn): Object: 'loginBtn' is clicked on
+
+06-01-2026T10:04:31 - [MESSAGE][PASSED] - Object: 'loginBtn' is clicked on
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - appBarVisible = false: null
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - waited = 0: null
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - step = 3: null
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - while (waited < AFTER_LOGIN_WAIT || appBarVisible): null
+
+06-01-2026T10:04:31 - [TEST_STEP][PASSED] - if (verifyElementVisible(appBar, OPTIONAL)): null
+
+06-01-2026T10:04:37 - [MESSAGE][PASSED] - Object 'appBar' is visible
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - appBarVisible = true: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - break: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - if (!(appBarVisible)): null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - if (appBarVisible): Login thành công: thấy class 'mat-app-bar'.
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - comment("Login thành công: thấy class 'mat-app-bar'."): Login thành công: thấy class 'mat-app-bar'.
+
+06-01-2026T10:04:37 - [MESSAGE][INFO] - Login thành công: thấy class 'mat-app-bar'.
+
+06-01-2026T10:04:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/LG-01' successfully
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - PAGELOAD_TIMEOUT = 300: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - WAIT_FIELD = 60: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - MAX_RELOAD_ATTEMPTS = 1: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - WAIT_AFTER_CLICK = 90: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - WAIT_TIMEOUT = 120: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - MEDIUM = 15: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - SHORT = 5: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - LONG = 30: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - try: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - screen = getDefaultToolkit().getScreenSize(): null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - x = 5: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - y = height - 5: null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - robot.mouseMove(x, y): null
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y)): 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+
+06-01-2026T10:04:37 - [MESSAGE][INFO] - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+
+06-01-2026T10:04:37 - [TEST_STEP][PASSED] - Thread.sleep(400): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - bodyEl = driver.findElement(By.tagName("body")): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - targetX = 0: null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - targetY = 300: null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - moveToElement(bodyEl, targetX, targetY).perform(): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).): 🖱️ Đã move Actions tới body offset (x=0, y=300).
+
+06-01-2026T10:04:38 - [MESSAGE][INFO] - 🖱️ Đã move Actions tới body offset (x=0, y=300).
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - click().perform(): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).): ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+
+06-01-2026T10:04:38 - [MESSAGE][INFO] - ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - aAccount = new com.kms.katalon.core.testobject.TestObject(a_account): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - aAccount.addProperty("xpath", EQUALS, "//a[@href='account']"): null
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL): Object 'a_account' is present
+
+06-01-2026T10:04:38 - [MESSAGE][PASSED] - Object 'a_account' is present
+
+06-01-2026T10:04:38 - [TEST_STEP][PASSED] - visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL): Object 'a_account' is visible
+
+06-01-2026T10:04:39 - [MESSAGE][PASSED] - Object 'a_account' is visible
+
+06-01-2026T10:04:39 - [TEST_STEP][PASSED] - clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL): Object 'a_account' is NOT clickable
+
+06-01-2026T10:04:39 - [MESSAGE][PASSED] - Object 'a_account' is NOT clickable
+
+06-01-2026T10:04:39 - [TEST_STEP][PASSED] - if (!(present && visible)): null
+
+06-01-2026T10:04:39 - [TEST_STEP][PASSED] - if (clickable): ✅ Đã click vào liên kết account.
+
+06-01-2026T10:04:39 - [TEST_STEP][PASSED] - click(aAccount): Object: 'a_account' is clicked on
+
+06-01-2026T10:04:39 - [MESSAGE][PASSED] - Object: 'a_account' is clicked on
+
+06-01-2026T10:04:39 - [TEST_STEP][PASSED] - comment("✅ Đã click vào liên kết account."): ✅ Đã click vào liên kết account.
+
+06-01-2026T10:04:39 - [MESSAGE][INFO] - ✅ Đã click vào liên kết account.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OP/OP1.6" time="8.383" classname="Test Cases/OP/OP1.6" status="PASSED">
+         <system-out><![CDATA[06-01-2026T10:04:39 - [TEST_CASE][PASSED] - Test Cases/OP/OP1.6: Test Cases/OP/OP1.6
+
+06-01-2026T10:04:39 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("TO_address"), "disabled", 5): Object 'Object Repository/TO_address' has attribute 'disabled'
+
+06-01-2026T10:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/TO_address' has attribute 'disabled'
+
+06-01-2026T10:04:41 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("TO_email"), "disabled", 5): Object 'Object Repository/TO_email' has attribute 'disabled'
+
+06-01-2026T10:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/TO_email' has attribute 'disabled'
+
+06-01-2026T10:04:41 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("TO_full_name"), "disabled", 5): Object 'Object Repository/TO_full_name' has attribute 'disabled'
+
+06-01-2026T10:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/TO_full_name' has attribute 'disabled'
+
+06-01-2026T10:04:41 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("TO_phone_number"), "disabled", 5): Object 'Object Repository/TO_phone_number' has attribute 'disabled'
+
+06-01-2026T10:04:42 - [MESSAGE][PASSED] - Object 'Object Repository/TO_phone_number' has attribute 'disabled'
+
+06-01-2026T10:04:42 - [TEST_STEP][WARNING] - verifyElementHasAttribute(findTestObject("TO_user_role"), "disabled", 5): Object 'Object Repository/TO_user_role' is not present
+
+06-01-2026T10:04:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@aria-label='aria-label="User Role"']
+
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-01-2026T10:04:48 - [MESSAGE][WARNING] - Object 'Object Repository/TO_user_role' is not present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OP/OP1.7" time="6.144" classname="Test Cases/OP/OP1.7" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OP/OP1.7 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/TO_edit_details'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)&#xa;	at OP1.7.run(OP1.7:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1767668656454.run(TempTestSuite1767668656454.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TO_edit_details' located by '//button[@aria-label=&quot;Edit Details&quot; or @aria-label=&quot;apply change&quot;]&#xa;&#xa;' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1567)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[06-01-2026T10:05:07 - [TEST_CASE][FAILED] - Test Cases/OP/OP1.7: Test Cases/OP/OP1.7 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/TO_edit_details'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at OP1.7.run(OP1.7:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767668656454.run(TempTestSuite1767668656454.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TO_edit_details' located by '//button[@aria-label="Edit Details" or @aria-label="apply change"]
+
+' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1567)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+
+06-01-2026T10:05:07 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("TO_edit_details"), 5): Unable to scroll to object 'Object Repository/TO_edit_details' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/TO_edit_details'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at OP1.7.run(OP1.7:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767668656454.run(TempTestSuite1767668656454.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TO_edit_details' located by '//button[@aria-label="Edit Details" or @aria-label="apply change"]
+
+' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1567)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1767667856850.run(Script1767667856850.groovy:20)
+	... 18 more
+)
+
+06-01-2026T10:05:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@aria-label="Edit Details" or @aria-label="apply change"]
+
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-01-2026T10:05:13 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/TO_edit_details' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/TO_edit_details'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at OP1.7.run(OP1.7:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767668656454.run(TempTestSuite1767668656454.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TO_edit_details' located by '//button[@aria-label="Edit Details" or @aria-label="apply change"]
+
+' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1567)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1767667856850.run(Script1767667856850.groovy:20)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_100416\\TS_OP\\20260106_100416\\1767668713819.png]]]]></system-out>
+         <system-err><![CDATA[06-01-2026T10:05:07 - [TEST_CASE][FAILED] - Test Cases/OP/OP1.7: Test Cases/OP/OP1.7 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/TO_edit_details'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at OP1.7.run(OP1.7:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767668656454.run(TempTestSuite1767668656454.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TO_edit_details' located by '//button[@aria-label="Edit Details" or @aria-label="apply change"]
+
+' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1567)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-01-2026T10:04:20 - [TEST_SUITE][FAILED] - TS_OP: null]]></system-out>
+      <system-err><![CDATA[06-01-2026T10:04:20 - [TEST_SUITE][FAILED] - TS_OP: null]]></system-err>
+   </testsuite>
+</testsuites>

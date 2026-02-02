@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_CO,,,,06-01-2026 11:47:39,06-01-2026 11:47:45,5.216s,ERROR
+,,,,,,,
+Test Cases/CO/TC1.1,,,,06-01-2026 11:47:44,06-01-2026 11:47:44,0.392s,FAILED
+"callTestCase(findTestCase(""Login/LG-01""), [:], STOP_ON_FAILURE)",,,,06-01-2026 11:47:44,06-01-2026 11:47:44,0.371s,FAILED
+,,,,,,,
+Test Cases/CO/TC1.2,,,,06-01-2026 11:47:44,06-01-2026 11:47:44,0.032s,ERROR
+"waitForElementVisible(findTestObject(""CO/input_search""), 10)",,,,06-01-2026 11:47:44,06-01-2026 11:47:44,0.013s,ERROR

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_OP,Chrome 143.0.7499.170,,,06-01-2026 09:03:21,06-01-2026 09:05:04,1m - 43.019s,PASSED
+,,,,,,,
+Test Cases/OP/OP1.1,Chrome 143.0.7499.170,,,06-01-2026 09:04:28,06-01-2026 09:05:03,34.541s,PASSED
+"callTestCase(findTestCase(""Login/LG-01""), [:], STOP_ON_FAILURE)",Chrome 143.0.7499.170,,,06-01-2026 09:04:29,06-01-2026 09:04:44,15.147s,PASSED
+"callTestCase(findTestCase(""LGG/LG-13""), [:], STOP_ON_FAILURE)",Chrome 143.0.7499.170,,,06-01-2026 09:04:44,06-01-2026 09:05:03,19.376s,PASSED

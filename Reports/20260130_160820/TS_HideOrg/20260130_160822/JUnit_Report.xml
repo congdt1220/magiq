@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_HideOrg" time="20.963" tests="1" failures="0" errors="0">
+   <testsuite name="TS_HideOrg" tests="1" failures="0" errors="0" time="20.963" skipped="0" timestamp="2026-01-30T09:08:27.785Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TS_HideOrg">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260130_160820\\TS_HideOrg\\20260130_160822"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260130_160820\\TS_HideOrg\\20260130_160822\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260130_160820\\TS_HideOrg\\20260130_160822\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 144.0.7559.110"/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="sessionId" value="677ee8d1e84d4dcc2e5315340eafad38"/>
+         <property name="projectName" value="magiq"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HideOrg/TC_HOM_03" time="19.09" classname="Test Cases/HideOrg/TC_HOM_03" status="PASSED">
+         <system-out><![CDATA[30-01-2026T16:08:29 - [TEST_CASE][PASSED] - Test Cases/HideOrg/TC_HOM_03: Test Cases/HideOrg/TC_HOM_03
+
+30-01-2026T16:08:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2026T16:08:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2026T16:08:30 - [MESSAGE][INFO] - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+
+30-01-2026T16:08:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2026T16:08:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2026T16:08:34 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation"): Navigate to 'https://qa.engagement.magiqdev.cloud/organisation' successfully
+
+30-01-2026T16:08:36 - [MESSAGE][PASSED] - Navigate to 'https://qa.engagement.magiqdev.cloud/organisation' successfully
+
+30-01-2026T16:08:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/btn_hide"), 120): Object 'Object Repository/HideOrg/btn_hide' is NOT clickable
+
+30-01-2026T16:08:41 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/btn_hide' is NOT clickable
+
+30-01-2026T16:08:41 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/btn_hide")): Object: 'Object Repository/HideOrg/btn_hide' is clicked on
+
+30-01-2026T16:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/btn_hide' is clicked on
+
+30-01-2026T16:08:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/input_multisect"), 120): Object 'Object Repository/HideOrg/input_multisect' is NOT clickable
+
+30-01-2026T16:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/input_multisect' is NOT clickable
+
+30-01-2026T16:08:43 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/input_multisect")): Object: 'Object Repository/HideOrg/input_multisect' is clicked on
+
+30-01-2026T16:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/input_multisect' is clicked on
+
+30-01-2026T16:08:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/li_News"), 120): Object 'Object Repository/HideOrg/li_News' is NOT clickable
+
+30-01-2026T16:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/li_News' is NOT clickable
+
+30-01-2026T16:08:44 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/li_News")): Object: 'Object Repository/HideOrg/li_News' is clicked on
+
+30-01-2026T16:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/li_News' is clicked on
+
+30-01-2026T16:08:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/input_multisect"), 120): Object 'Object Repository/HideOrg/input_multisect' is NOT clickable
+
+30-01-2026T16:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/input_multisect' is NOT clickable
+
+30-01-2026T16:08:44 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/input_multisect")): Object: 'Object Repository/HideOrg/input_multisect' is clicked on
+
+30-01-2026T16:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/input_multisect' is clicked on
+
+30-01-2026T16:08:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/li_Connect"), 120): Object 'Object Repository/HideOrg/li_Connect' is NOT clickable
+
+30-01-2026T16:08:45 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/li_Connect' is NOT clickable
+
+30-01-2026T16:08:45 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/li_Connect")): Object: 'Object Repository/HideOrg/li_Connect' is clicked on
+
+30-01-2026T16:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/li_Connect' is clicked on
+
+30-01-2026T16:08:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/input_multisect"), 120): Object 'Object Repository/HideOrg/input_multisect' is NOT clickable
+
+30-01-2026T16:08:46 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/input_multisect' is NOT clickable
+
+30-01-2026T16:08:46 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/input_multisect")): Object: 'Object Repository/HideOrg/input_multisect' is clicked on
+
+30-01-2026T16:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/input_multisect' is clicked on
+
+30-01-2026T16:08:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/li_Notices"), 120): Object 'Object Repository/HideOrg/li_Notices' is NOT clickable
+
+30-01-2026T16:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/li_Notices' is NOT clickable
+
+30-01-2026T16:08:47 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/li_Notices")): Object: 'Object Repository/HideOrg/li_Notices' is clicked on
+
+30-01-2026T16:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/li_Notices' is clicked on
+
+30-01-2026T16:08:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HideOrg/btn_OK"), 120): Object 'Object Repository/HideOrg/btn_OK' is NOT clickable
+
+30-01-2026T16:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/HideOrg/btn_OK' is NOT clickable
+
+30-01-2026T16:08:48 - [TEST_STEP][PASSED] - click(findTestObject("HideOrg/btn_OK")): Object: 'Object Repository/HideOrg/btn_OK' is clicked on
+
+30-01-2026T16:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HideOrg/btn_OK' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2026T16:08:27 - [TEST_SUITE][PASSED] - TS_HideOrg: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

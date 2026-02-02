@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Interest,Chrome 144.0.7559.98,,,29-01-2026 15:19:54,29-01-2026 15:20:47,52.531s,FAILED
+,,,,,,,
+Test Cases/Interests/TC_INT_07,Chrome 144.0.7559.98,,,29-01-2026 15:19:56,29-01-2026 15:20:47,50.727s,FAILED
+"openBrowser("""")",Chrome 144.0.7559.98,,,29-01-2026 15:19:56,29-01-2026 15:20:00,3.084s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 144.0.7559.98,,,29-01-2026 15:20:00,29-01-2026 15:20:00,0.206s,PASSED
+"waitForElementClickable(findTestObject(""Interest/btn_interest""), 120)",Chrome 144.0.7559.98,,,29-01-2026 15:20:00,29-01-2026 15:20:35,35.644s,PASSED
+"click(findTestObject(""Interest/btn_interest""))",Chrome 144.0.7559.98,,,29-01-2026 15:20:35,29-01-2026 15:20:47,11.473s,FAILED

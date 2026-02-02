@@ -1,0 +1,49 @@
+2026-01-26 13:52:09.276 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-26 13:52:09.281 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-26 13:52:10.353 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Location
+2026-01-26 13:52:10.500 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-26 13:52:10.502 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-26 13:52:10.503 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-26 13:52:10.504 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-26 13:52:10.506 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-26 13:52:10.507 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-26 13:52:12.813 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-26 13:52:12.814 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Location/TC.LOC.5
+2026-01-26 13:52:13.397 DEBUG testcase.TC.LOC.5                        - 1: openBrowser("")
+2026-01-26 13:52:14.380 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-26 13:52:14.411 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-26 13:52:14.510 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 26, 2026 1:52:16 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 26, 2026 1:52:16 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-26 13:52:16.759 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d3be1ab133468ba61962fe294361d5a9
+2026-01-26 13:52:16.760 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.60
+2026-01-26 13:52:16.761 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-26 13:52:16.762 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-26 13:52:16.773 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-26 13:52:16.831 DEBUG testcase.TC.LOC.5                        - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-26 13:52:16.956 DEBUG testcase.TC.LOC.5                        - 3: waitForElementVisible(findTestObject("Location/btn_location"), 120)
+2026-01-26 13:52:23.630 DEBUG testcase.TC.LOC.5                        - 4: click(findTestObject("Location/btn_location"))
+2026-01-26 13:52:24.117 DEBUG testcase.TC.LOC.5                        - 5: waitForElementVisible(findTestObject("Location/btn_upload"), 120)
+2026-01-26 13:52:25.349 DEBUG testcase.TC.LOC.5                        - 6: click(findTestObject("Location/btn_upload"))
+2026-01-26 13:52:40.326 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-01-26 13:52:40.400 DEBUG testcase.TC.LOC.5                        - 7: filePath = "D:\Upload\MagiqTowns.json"
+2026-01-26 13:52:40.402 DEBUG testcase.TC.LOC.5                        - 8: robot = new java.awt.Robot()
+2026-01-26 13:52:40.478 DEBUG testcase.TC.LOC.5                        - 9: getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null)
+2026-01-26 13:52:40.682 DEBUG testcase.TC.LOC.5                        - 10: robot.keyPress(VK_CONTROL)
+2026-01-26 13:52:40.770 DEBUG testcase.TC.LOC.5                        - 11: robot.keyPress(VK_V)
+2026-01-26 13:52:40.778 DEBUG testcase.TC.LOC.5                        - 12: robot.keyRelease(VK_V)
+java.lang.OutOfMemoryError
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1350416 bytes. Error detail: Chunk::new
+# An error report file with more information is saved as:
+# C:\Users\Administrator\git\magiq\hs_err_pid25164.log
+2026-01-26 13:52:40.785 DEBUG testcase.TC.LOC.5                        - 13: robot.keyRelease(VK_CONTROL)
+2026-01-26 13:52:40.792 DEBUG testcase.TC.LOC.5                        - 14: robot.keyPress(VK_ENTER)
+2026-01-26 13:52:40.805 DEBUG testcase.TC.LOC.5                        - 15: robot.keyRelease(VK_ENTER)
+2026-01-26 13:52:40.818 DEBUG testcase.TC.LOC.5                        - 16: delay(30)
+#
+# Compiler replay data is saved as:
+# C:\Users\Administrator\git\magiq\replay_pid25164.log

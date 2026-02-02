@@ -1,0 +1,37 @@
+2026-01-06 16:11:35.514 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 16:11:35.519 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-06 16:11:36.073 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TC_CO
+2026-01-06 16:11:36.170 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-06 16:11:36.172 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-06 16:11:36.173 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-06 16:11:36.173 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-06 16:11:36.174 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-06 16:11:36.175 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-06 16:11:37.258 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 16:11:37.258 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CO/TC1.1
+2026-01-06 16:11:38.172 DEBUG testcase.TC1.1                           - 1: callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE)
+2026-01-06 16:11:38.414 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 16:11:38.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/LG-01
+2026-01-06 16:11:38.883 DEBUG testcase.LG-01                           - 1: LOCAL_PAGELOAD = 300
+2026-01-06 16:11:38.893 DEBUG testcase.LG-01                           - 2: WAIT_ELEMENT_BEFORE_RELOAD = 120
+2026-01-06 16:11:38.902 DEBUG testcase.LG-01                           - 3: MAX_RELOAD_ATTEMPTS = 5
+2026-01-06 16:11:38.911 DEBUG testcase.LG-01                           - 4: AFTER_LOGIN_WAIT = 120
+2026-01-06 16:11:38.915 DEBUG testcase.LG-01                           - 5: SHORT = 5
+2026-01-06 16:11:38.919 DEBUG testcase.LG-01                           - 6: MEDIUM = 15
+2026-01-06 16:11:38.931 DEBUG testcase.LG-01                           - 7: LONG = 30
+2026-01-06 16:11:38.941 DEBUG testcase.LG-01                           - 8: openBrowser("")
+2026-01-06 16:11:39.339 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 16:11:39.346 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-06 16:11:39.398 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 06, 2026 4:11:40 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+1月 06, 2026 4:11:40 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 16:11:41.367 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 650ba8a3a6adbe541731f2c252018308
+2026-01-06 16:11:41.368 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 16:11:41.369 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-06 16:11:41.370 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 16:11:41.380 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 16:11:41.441 DEBUG testcase.LG-01                           - 9: maximizeWindow()
+2026-01-06 16:11:41.480 DEBUG testcase.LG-01                           - 10: navigateToUrl("https://qa.engagement.magiqdev.cloud/login")
+2026-01-06 16:11:43.399 DEBUG testcase.LG-01                           - 11: waitForPageLoad(LOCAL_PAGELOAD)

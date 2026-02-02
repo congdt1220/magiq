@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Location,Chrome 143.0.7499.170,,,06-01-2026 16:46:12,06-01-2026 16:46:27,15.926s,PASSED
+,,,,,,,
+Test Cases/Location/TC.LOC.5,Chrome 143.0.7499.170,,,06-01-2026 16:46:13,06-01-2026 16:46:27,14.281s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,06-01-2026 16:46:13,06-01-2026 16:46:15,2.392s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 143.0.7499.170,,,06-01-2026 16:46:15,06-01-2026 16:46:16,1.185s,PASSED
+"click(findTestObject(""Location/btt_location""))",Chrome 143.0.7499.170,,,06-01-2026 16:46:16,06-01-2026 16:46:27,10.600s,PASSED

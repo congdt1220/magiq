@@ -1,0 +1,28 @@
+2026-01-29 16:40:22.810 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 16:40:22.816 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-29 16:40:24.044 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_HideOrg
+2026-01-29 16:40:24.196 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-29 16:40:24.198 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-29 16:40:24.199 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-29 16:40:24.200 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-29 16:40:24.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-29 16:40:24.202 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-29 16:40:25.864 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 16:40:25.865 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HideOrg/TC_HOM_03
+2026-01-29 16:40:26.075 DEBUG testcase.TC_HOM_03                       - 1: openBrowser("")
+2026-01-29 16:40:26.496 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-29 16:40:26.511 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-29 16:40:26.621 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 29, 2026 4:40:28 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 29, 2026 4:40:28 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.98. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-29 16:40:29.142 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 865242c66ef781eb8fca0470d8dbc271
+2026-01-29 16:40:29.144 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-29 16:40:29.145 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-29 16:40:29.146 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 16:40:29.160 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 16:40:29.249 DEBUG testcase.TC_HOM_03                       - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-29 16:40:30.267 DEBUG testcase.TC_HOM_03                       - 3: waitForElementClickable(findTestObject("HideOrg/btn_hide"), 120)
+2026-01-29 16:40:39.412 DEBUG testcase.TC_HOM_03                       - 4: click(findTestObject("HideOrg/btn_hide"))
+2026-01-29 16:40:39.851 DEBUG testcase.TC_HOM_03                       - 5: waitForElementNotClickable(findTestObject("HideOrg/input_multisect"), 120)

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Continue as Guest_mdc-button__ripple</name>
+   <tag></tag>
+   <elementGuidId>b38c6e68-6290-4106-ad37-159a3162c201</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#matBlazor_id_8fadeebb-ee29-451f-9c72-d60ece673c65 > div.mdc-button__ripple</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='matBlazor_id_8fadeebb-ee29-451f-9c72-d60ece673c65']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2ae8a39f-8aa8-4157-b3f0-ec027f576043</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-button__ripple</value>
+      <webElementGuid>e3751715-3e7c-444c-a4de-c3c2fbda253c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;matBlazor_id_8fadeebb-ee29-451f-9c72-d60ece673c65&quot;)/div[@class=&quot;mdc-button__ripple&quot;]</value>
+      <webElementGuid>9aa6642a-4f44-4f66-b08c-5e1079ad447f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='matBlazor_id_8fadeebb-ee29-451f-9c72-d60ece673c65']/div</value>
+      <webElementGuid>45eeec3c-e68e-48f3-84b7-1a924c5202d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/div</value>
+      <webElementGuid>bde74e9e-5e47-4314-a9f7-754c5c016972</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

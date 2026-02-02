@@ -1,0 +1,31 @@
+2026-01-29 16:10:46.286 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Administrator\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 16:10:46.292 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Administrator\git\magiq\Include\config\log.properties
+2026-01-29 16:10:47.471 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_HOM
+2026-01-29 16:10:47.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cong Thanh
+2026-01-29 16:10:47.623 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = magiq
+2026-01-29 16:10:47.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - WINDOWS-10
+2026-01-29 16:10:47.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-01-29 16:10:47.626 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.126.20
+2026-01-29 16:10:47.627 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-29 16:10:49.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 16:10:49.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HOM/TC_HOM_03
+2026-01-29 16:10:49.391 DEBUG testcase.TC_HOM_03                       - 1: openBrowser("")
+2026-01-29 16:10:49.840 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-29 16:10:49.850 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+2026-01-29 16:10:49.941 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+1月 29, 2026 4:10:51 午後 org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+1月 29, 2026 4:10:51 午後 org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.98. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-29 16:10:52.382 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2c4633a9c3c943c814d7c162098d746c
+2026-01-29 16:10:52.384 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-29 16:10:52.385 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-01-29 16:10:52.386 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 16:10:52.401 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 16:10:52.503 DEBUG testcase.TC_HOM_03                       - 2: navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation")
+2026-01-29 16:10:54.316 DEBUG testcase.TC_HOM_03                       - 3: waitForElementVisible(findTestObject("HOM/btn_hide_menu_items"), 60)
+2026-01-29 16:11:00.905 DEBUG testcase.TC_HOM_03                       - 4: click(findTestObject("HOM/btn_hide_menu_items"))
+2026-01-29 16:11:01.419 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HOM/TC_HOM_03
+2026-01-29 16:11:01.433 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-29 16:11:01.433 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_HOM
+2026-01-29 16:11:01.433 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

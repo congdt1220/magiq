@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_CO" time="28.847" tests="2" failures="0" errors="0">
+   <testsuite name="TC_CO" tests="2" failures="0" errors="0" time="28.847" skipped="0" timestamp="2026-01-06T04:50:21.706Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TC_CO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_115015\\TC_CO\\20260106_115016"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_115015\\TC_CO\\20260106_115016\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260106_115015\\TC_CO\\20260106_115016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.170"/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="sessionId" value="d75a677f0a71c13fc7e825995890091f"/>
+         <property name="projectName" value="magiq"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CO/TC1.1" time="21.167" classname="Test Cases/CO/TC1.1" status="PASSED">
+         <system-out><![CDATA[06-01-2026T11:50:23 - [TEST_CASE][PASSED] - Test Cases/CO/TC1.1: Test Cases/CO/TC1.1
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/LG-01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/LG-01' successfully
+
+06-01-2026T11:50:24 - [TEST_CASE][PASSED] - Test Cases/Login/LG-01: Test Cases/Login/LG-01
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - LOCAL_PAGELOAD = 300: null
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - WAIT_ELEMENT_BEFORE_RELOAD = 120: null
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - MAX_RELOAD_ATTEMPTS = 5: null
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - AFTER_LOGIN_WAIT = 120: null
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - SHORT = 5: null
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - MEDIUM = 15: null
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - LONG = 30: null
+
+06-01-2026T11:50:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T11:50:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T11:50:25 - [MESSAGE][INFO] - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+
+06-01-2026T11:50:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T11:50:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T11:50:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-01-2026T11:50:27 - [MESSAGE][PASSED] - Current window maximized
+
+06-01-2026T11:50:27 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.engagement.magiqdev.cloud/login"): Navigate to 'https://qa.engagement.magiqdev.cloud/login' successfully
+
+06-01-2026T11:50:27 - [MESSAGE][PASSED] - Navigate to 'https://qa.engagement.magiqdev.cloud/login' successfully
+
+06-01-2026T11:50:27 - [TEST_STEP][PASSED] - waitForPageLoad(LOCAL_PAGELOAD): Wait for page load successfully
+
+06-01-2026T11:50:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - spanAdmin = new com.kms.katalon.core.testobject.TestObject(obj_span_admin_test_1): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - spanAdmin.addProperty("xpath", EQUALS, "//button[.//span[contains(normalize-space(), 'test')]]"): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - iExitToApp = new com.kms.katalon.core.testobject.TestObject(obj_i_exit_to_app): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - iExitToApp.addProperty("xpath", EQUALS, "//i[normalize-space(text())='exit_to_app']"): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - userNameInput = new com.kms.katalon.core.testobject.TestObject(obj_input_userName): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - userNameInput.addProperty("id", EQUALS, "userName"): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://qa.engagement.magiqdev.cloud/login'
+
+06-01-2026T11:50:28 - [MESSAGE][PASSED] - Current window's url is: 'https://qa.engagement.magiqdev.cloud/login'
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - if (currentUrl == "https://qa.engagement.magiqdev.cloud/news"): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - userNameField = new com.kms.katalon.core.testobject.TestObject(userName): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - userNameField.addProperty("id", EQUALS, "userName"): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - passwordField = new com.kms.katalon.core.testobject.TestObject(password): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - passwordField.addProperty("xpath", EQUALS, "//input[@type='password' or contains(@aria-label,'password') or contains(@placeholder,'Password')]"): null
+
+06-01-2026T11:50:28 - [TEST_STEP][PASSED] - loginBtn = new com.kms.katalon.core.testobject.TestObject(loginBtn): null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - loginBtn.addProperty("css", EQUALS, "button.btn-login"): null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - loginBtn.addProperty("xpath", EQUALS, "//button[contains(@class,'btn-login') or normalize-space(.)='Login' or .//span[normalize-space(.)='Login']]"): null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - appBar = new com.kms.katalon.core.testobject.TestObject(appBar): null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - appBar.addProperty("css", EQUALS, ".mat-app-bar"): null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - appBar.addProperty("xpath", EQUALS, "//*[contains(@class,'mat-app-bar')]"): null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - usernameVisible = false: null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - attempts = 0: null
+
+06-01-2026T11:50:29 - [TEST_STEP][PASSED] - usernameVisible = waitForElementVisible(userNameField, 3, OPTIONAL): Object 'userName' is visible
+
+06-01-2026T11:50:32 - [MESSAGE][PASSED] - Object 'userName' is visible
+
+06-01-2026T11:50:32 - [TEST_STEP][PASSED] - if (!(usernameVisible)): null
+
+06-01-2026T11:50:32 - [TEST_STEP][PASSED] - if (!(usernameVisible)): null
+
+06-01-2026T11:50:32 - [TEST_STEP][PASSED] - setText(userNameField, "admin1test@gmail.com"): Text 'admin1test@gmail.com' is set on object 'userName'
+
+06-01-2026T11:50:32 - [MESSAGE][PASSED] - Text 'admin1test@gmail.com' is set on object 'userName'
+
+06-01-2026T11:50:32 - [TEST_STEP][PASSED] - passwordVisible = waitForElementVisible(passwordField, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL): Object 'password' is visible
+
+06-01-2026T11:50:33 - [MESSAGE][PASSED] - Object 'password' is visible
+
+06-01-2026T11:50:33 - [TEST_STEP][PASSED] - if (!(passwordVisible)): null
+
+06-01-2026T11:50:33 - [TEST_STEP][PASSED] - if (!(passwordVisible)): null
+
+06-01-2026T11:50:33 - [TEST_STEP][PASSED] - setEncryptedText(passwordField, "vckfKYHQ/X5a0LrHpsIEKA=="): Text ****** has been set on object 'password'
+
+06-01-2026T11:50:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'password'
+
+06-01-2026T11:50:33 - [TEST_STEP][PASSED] - loginClickable = waitForElementClickable(loginBtn, WAIT_ELEMENT_BEFORE_RELOAD, OPTIONAL): Object 'loginBtn' is NOT clickable
+
+06-01-2026T11:50:34 - [MESSAGE][PASSED] - Object 'loginBtn' is NOT clickable
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - if (!(loginClickable)): null
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - if (!(loginClickable)): null
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - click(loginBtn): Object: 'loginBtn' is clicked on
+
+06-01-2026T11:50:34 - [MESSAGE][PASSED] - Object: 'loginBtn' is clicked on
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - appBarVisible = false: null
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - waited = 0: null
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - step = 3: null
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - while (waited < AFTER_LOGIN_WAIT || appBarVisible): null
+
+06-01-2026T11:50:34 - [TEST_STEP][PASSED] - if (verifyElementVisible(appBar, OPTIONAL)): null
+
+06-01-2026T11:50:39 - [MESSAGE][PASSED] - Object 'appBar' is visible
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - appBarVisible = true: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - break: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - if (!(appBarVisible)): null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - if (appBarVisible): Login thành công: thấy class 'mat-app-bar'.
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - comment("Login thành công: thấy class 'mat-app-bar'."): Login thành công: thấy class 'mat-app-bar'.
+
+06-01-2026T11:50:39 - [MESSAGE][INFO] - Login thành công: thấy class 'mat-app-bar'.
+
+06-01-2026T11:50:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/LG-01' successfully
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - PAGELOAD_TIMEOUT = 300: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - WAIT_FIELD = 60: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - MAX_RELOAD_ATTEMPTS = 1: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - WAIT_AFTER_CLICK = 90: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - WAIT_TIMEOUT = 120: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - MEDIUM = 15: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - SHORT = 5: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - LONG = 30: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - try: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - screen = getDefaultToolkit().getScreenSize(): null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - x = 5: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - y = height - 5: null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - robot.mouseMove(x, y): null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - comment(🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: ($x, $y)): 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+
+06-01-2026T11:50:39 - [MESSAGE][INFO] - 🖱️ Đã di chuyển trỏ chuột tới góc trái dưới: (5, 1075)
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - Thread.sleep(400): null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+06-01-2026T11:50:39 - [TEST_STEP][PASSED] - bodyEl = driver.findElement(By.tagName("body")): null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - targetX = 0: null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - targetY = 300: null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - moveToElement(bodyEl, targetX, targetY).perform(): null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).): 🖱️ Đã move Actions tới body offset (x=0, y=300).
+
+06-01-2026T11:50:40 - [MESSAGE][INFO] - 🖱️ Đã move Actions tới body offset (x=0, y=300).
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - click().perform(): null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).): ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+
+06-01-2026T11:50:40 - [MESSAGE][INFO] - ✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈300).
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - aAccount = new com.kms.katalon.core.testobject.TestObject(a_account): null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - aAccount.addProperty("xpath", EQUALS, "//a[@href='organisation']"): null
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL): Object 'a_account' is present
+
+06-01-2026T11:50:40 - [MESSAGE][PASSED] - Object 'a_account' is present
+
+06-01-2026T11:50:40 - [TEST_STEP][PASSED] - visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL): Object 'a_account' is visible
+
+06-01-2026T11:50:41 - [MESSAGE][PASSED] - Object 'a_account' is visible
+
+06-01-2026T11:50:41 - [TEST_STEP][PASSED] - clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL): Object 'a_account' is NOT clickable
+
+06-01-2026T11:50:41 - [MESSAGE][PASSED] - Object 'a_account' is NOT clickable
+
+06-01-2026T11:50:41 - [TEST_STEP][PASSED] - if (!(present && visible)): null
+
+06-01-2026T11:50:41 - [TEST_STEP][PASSED] - if (clickable): ✅ Đã click vào liên kết account.
+
+06-01-2026T11:50:41 - [TEST_STEP][PASSED] - click(aAccount): Object: 'a_account' is clicked on
+
+06-01-2026T11:50:41 - [MESSAGE][PASSED] - Object: 'a_account' is clicked on
+
+06-01-2026T11:50:41 - [TEST_STEP][PASSED] - comment("✅ Đã click vào liên kết account."): ✅ Đã click vào liên kết account.
+
+06-01-2026T11:50:41 - [MESSAGE][INFO] - ✅ Đã click vào liên kết account.
+
+06-01-2026T11:50:41 - [TEST_STEP][PASSED] - click(findTestObject("CO/btt_change_org")): Object: 'Object Repository/CO/btt_change_org' is clicked on
+
+06-01-2026T11:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CO/btt_change_org' is clicked on
+
+06-01-2026T11:50:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CO/modal_org"), 30): Object 'Object Repository/CO/modal_org' is visible
+
+06-01-2026T11:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/CO/modal_org' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CO/TC1.2" time="5.689" classname="Test Cases/CO/TC1.2" status="PASSED">
+         <system-out><![CDATA[06-01-2026T11:50:44 - [TEST_CASE][PASSED] - Test Cases/CO/TC1.2: Test Cases/CO/TC1.2
+
+06-01-2026T11:50:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CO/input_search"), 10): Object 'Object Repository/CO/input_search' is visible
+
+06-01-2026T11:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/CO/input_search' is visible
+
+06-01-2026T11:50:45 - [TEST_STEP][PASSED] - setText(findTestObject("CO/input_search"), "Magiq Software"): Text 'Magiq Software' is set on object 'Object Repository/CO/input_search'
+
+06-01-2026T11:50:46 - [MESSAGE][PASSED] - Text 'Magiq Software' is set on object 'Object Repository/CO/input_search'
+
+06-01-2026T11:50:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CO/input_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/CO/input_search'
+
+06-01-2026T11:50:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/CO/input_search'
+
+06-01-2026T11:50:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CO/h6_magiq"), 10): Object 'Object Repository/CO/h6_magiq' is present
+
+06-01-2026T11:50:50 - [MESSAGE][PASSED] - Object 'Object Repository/CO/h6_magiq' is present
+
+06-01-2026T11:50:50 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("CO/h6_not_magiq"), 10): Web element with id: 'Object Repository/CO/h6_not_magiq' located by 'By.xpath: //h6[normalize-space()!='MAGIQ Software']' is not present after '10' second(s)
+
+06-01-2026T11:50:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/CO/h6_not_magiq' located by 'By.xpath: //h6[normalize-space()!='MAGIQ Software']' is not present after '10' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-01-2026T11:50:21 - [TEST_SUITE][PASSED] - TC_CO: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_HideOrg,Chrome 144.0.7559.110,,,30-01-2026 16:08:27,30-01-2026 16:08:48,20.966s,PASSED
+,,,,,,,
+Test Cases/HideOrg/TC_HOM_03,Chrome 144.0.7559.110,,,30-01-2026 16:08:29,30-01-2026 16:08:48,19.090s,PASSED
+"openBrowser("""")",Chrome 144.0.7559.110,,,30-01-2026 16:08:29,30-01-2026 16:08:34,4.355s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 144.0.7559.110,,,30-01-2026 16:08:34,30-01-2026 16:08:36,1.760s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/btn_hide""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:36,30-01-2026 16:08:41,5.775s,PASSED
+"click(findTestObject(""HideOrg/btn_hide""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:41,30-01-2026 16:08:42,0.417s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/input_multisect""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:42,30-01-2026 16:08:43,0.887s,PASSED
+"click(findTestObject(""HideOrg/input_multisect""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:43,30-01-2026 16:08:43,0.327s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/li_News""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:43,30-01-2026 16:08:44,0.573s,PASSED
+"click(findTestObject(""HideOrg/li_News""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:44,30-01-2026 16:08:44,0.358s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/input_multisect""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:44,30-01-2026 16:08:44,0.587s,PASSED
+"click(findTestObject(""HideOrg/input_multisect""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:44,30-01-2026 16:08:45,0.312s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/li_Connect""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:45,30-01-2026 16:08:45,0.498s,PASSED
+"click(findTestObject(""HideOrg/li_Connect""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:45,30-01-2026 16:08:46,0.327s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/input_multisect""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:46,30-01-2026 16:08:46,0.595s,PASSED
+"click(findTestObject(""HideOrg/input_multisect""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:46,30-01-2026 16:08:47,0.316s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/li_Notices""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:47,30-01-2026 16:08:47,0.479s,PASSED
+"click(findTestObject(""HideOrg/li_Notices""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:47,30-01-2026 16:08:47,0.326s,PASSED
+"waitForElementClickable(findTestObject(""HideOrg/btn_OK""), 120)",Chrome 144.0.7559.110,,,30-01-2026 16:08:47,30-01-2026 16:08:48,0.583s,PASSED
+"click(findTestObject(""HideOrg/btn_OK""))",Chrome 144.0.7559.110,,,30-01-2026 16:08:48,30-01-2026 16:08:48,0.345s,PASSED

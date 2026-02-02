@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_CO,,,,06-01-2026 11:17:35,06-01-2026 11:17:38,3.477s,ERROR
+,,,,,,,
+Test Cases/CO/TC1.1,,,,06-01-2026 11:17:38,06-01-2026 11:17:38,0.317s,ERROR

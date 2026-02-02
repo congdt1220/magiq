@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_HOM,Chrome 144.0.7559.98,,,29-01-2026 16:10:47,29-01-2026 16:11:01,13.842s,PASSED
+,,,,,,,
+Test Cases/HOM/TC_HOM_03,Chrome 144.0.7559.98,,,29-01-2026 16:10:49,29-01-2026 16:11:01,12.193s,PASSED
+"openBrowser("""")",Chrome 144.0.7559.98,,,29-01-2026 16:10:49,29-01-2026 16:10:52,3.113s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 144.0.7559.98,,,29-01-2026 16:10:52,29-01-2026 16:10:54,1.810s,PASSED
+"waitForElementVisible(findTestObject(""HOM/btn_hide_menu_items""), 60)",Chrome 144.0.7559.98,,,29-01-2026 16:10:54,29-01-2026 16:11:00,6.588s,PASSED
+"click(findTestObject(""HOM/btn_hide_menu_items""))",Chrome 144.0.7559.98,,,29-01-2026 16:11:00,29-01-2026 16:11:01,0.511s,PASSED

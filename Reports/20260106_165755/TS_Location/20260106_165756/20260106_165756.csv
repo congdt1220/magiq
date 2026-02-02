@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Location,Chrome 143.0.7499.170,,,06-01-2026 16:58:00,06-01-2026 16:58:30,29.836s,PASSED
+,,,,,,,
+Test Cases/Location/TC.LOC.5,Chrome 143.0.7499.170,,,06-01-2026 16:58:01,06-01-2026 16:58:30,28.658s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,06-01-2026 16:58:01,06-01-2026 16:58:04,2.195s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 143.0.7499.170,,,06-01-2026 16:58:04,06-01-2026 16:58:04,0.095s,PASSED
+"click(findTestObject(""Location/btn_location""))",Chrome 143.0.7499.170,,,06-01-2026 16:58:04,06-01-2026 16:58:11,7.256s,PASSED
+"click(findTestObject(""Location/btn_upload""))",Chrome 143.0.7499.170,,,06-01-2026 16:58:11,06-01-2026 16:58:30,18.592s,PASSED
+"filePath = ""C:\Users\CongDo\Documents\testfile.pdf""",Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.004s,PASSED
+robot = new java.awt.Robot(),Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.064s,PASSED
+"getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null)",Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.159s,PASSED
+robot.keyPress(VK_CONTROL),Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.035s,PASSED
+robot.keyPress(VK_V),Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.011s,PASSED
+robot.keyRelease(VK_V),Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.005s,PASSED
+robot.keyRelease(VK_CONTROL),Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.011s,PASSED
+robot.keyPress(VK_ENTER),Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.004s,PASSED
+robot.keyRelease(VK_ENTER),Chrome 143.0.7499.170,,,06-01-2026 16:58:30,06-01-2026 16:58:30,0.002s,PASSED

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Location,Chrome 143.0.7499.170,,,06-01-2026 17:10:57,06-01-2026 17:11:25,28.382s,PASSED
+,,,,,,,
+Test Cases/Location/TC.LOC.5,Chrome 143.0.7499.170,,,06-01-2026 17:10:59,06-01-2026 17:11:25,26.727s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,06-01-2026 17:10:59,06-01-2026 17:11:02,3.266s,PASSED
+"navigateToUrl(""https://qa.engagement.magiqdev.cloud/organisation"")",Chrome 143.0.7499.170,,,06-01-2026 17:11:02,06-01-2026 17:11:04,1.729s,PASSED
+"waitForElementVisible(findTestObject(""Location/btn_location""), 60)",Chrome 143.0.7499.170,,,06-01-2026 17:11:04,06-01-2026 17:11:10,5.625s,PASSED
+"click(findTestObject(""Location/btn_location""))",Chrome 143.0.7499.170,,,06-01-2026 17:11:10,06-01-2026 17:11:10,0.445s,PASSED
+"waitForElementVisible(findTestObject(""Location/btn_upload""), 60)",Chrome 143.0.7499.170,,,06-01-2026 17:11:10,06-01-2026 17:11:12,1.526s,PASSED
+"click(findTestObject(""Location/btn_upload""))",Chrome 143.0.7499.170,,,06-01-2026 17:11:12,06-01-2026 17:11:25,13.431s,PASSED
+"filePath = ""D:\test.pdf""",Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.002s,PASSED
+robot = new java.awt.Robot(),Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.084s,PASSED
+"getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null)",Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.194s,PASSED
+robot.keyPress(VK_CONTROL),Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.055s,PASSED
+robot.keyPress(VK_V),Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.004s,PASSED
+robot.keyRelease(VK_V),Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.010s,PASSED
+robot.keyRelease(VK_CONTROL),Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.004s,PASSED
+robot.keyPress(VK_ENTER),Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.010s,PASSED
+robot.keyRelease(VK_ENTER),Chrome 143.0.7499.170,,,06-01-2026 17:11:25,06-01-2026 17:11:25,0.004s,PASSED

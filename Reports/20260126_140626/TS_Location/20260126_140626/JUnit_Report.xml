@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Location" time="56.452" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Location" tests="1" failures="0" errors="0" time="56.452" skipped="0" timestamp="2026-01-26T07:06:31.900Z" hostname="Administrator - WINDOWS-10" id="Test Suites/TS_Location">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260126_140626\\TS_Location\\20260126_140626"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\magiq\\Reports\\20260126_140626\\TS_Location\\20260126_140626\\console0.log, C:\\Users\\Administrator\\git\\magiq\\Reports\\20260126_140626\\TS_Location\\20260126_140626\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - WINDOWS-10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 144.0.7559.60"/>
+         <property name="userFullName" value="Cong Thanh"/>
+         <property name="hostAddress" value="192.168.126.20"/>
+         <property name="sessionId" value="1ee86c77de054f4b7a39f388462d85f8"/>
+         <property name="projectName" value="magiq"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Location/TC.LOC.5" time="54.748" classname="Test Cases/Location/TC.LOC.5" status="PASSED">
+         <system-out><![CDATA[26-01-2026T14:06:33 - [TEST_CASE][PASSED] - Test Cases/Location/TC.LOC.5: Test Cases/Location/TC.LOC.5
+
+26-01-2026T14:06:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2026T14:06:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2026T14:06:34 - [MESSAGE][INFO] - User set preference: ['args', '[--user-data-dir=C:\QA\Profiles\KatalonChrome, --profile-directory=Default]']
+
+26-01-2026T14:06:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2026T14:06:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2026T14:06:37 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.engagement.magiqdev.cloud/organisation"): Navigate to 'https://qa.engagement.magiqdev.cloud/organisation' successfully
+
+26-01-2026T14:06:40 - [MESSAGE][PASSED] - Navigate to 'https://qa.engagement.magiqdev.cloud/organisation' successfully
+
+26-01-2026T14:06:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Location/btn_location"), 120): Object 'Object Repository/Location/btn_location' is NOT clickable
+
+26-01-2026T14:06:48 - [MESSAGE][PASSED] - Object 'Object Repository/Location/btn_location' is NOT clickable
+
+26-01-2026T14:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Location/btn_location")): Object: 'Object Repository/Location/btn_location' is clicked on
+
+26-01-2026T14:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/btn_location' is clicked on
+
+26-01-2026T14:06:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Location/btn_upload"), 120): Object 'Object Repository/Location/btn_upload' is NOT clickable
+
+26-01-2026T14:07:12 - [MESSAGE][PASSED] - Object 'Object Repository/Location/btn_upload' is NOT clickable
+
+26-01-2026T14:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Location/btn_upload")): Object: 'Object Repository/Location/btn_upload' is clicked on
+
+26-01-2026T14:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/btn_upload' is clicked on
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - filePath = "D:\Upload\MagiqTowns.json": null
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - getSystemClipboard().setContents(new java.awt.datatransfer.StringSelection(filePath), null): null
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - robot.keyPress(VK_CONTROL): null
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - robot.keyPress(VK_V): null
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - robot.keyRelease(VK_V): null
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - robot.keyRelease(VK_CONTROL): null
+
+26-01-2026T14:07:13 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+26-01-2026T14:07:14 - [TEST_STEP][PASSED] - robot.keyRelease(VK_ENTER): null
+
+26-01-2026T14:07:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+26-01-2026T14:07:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+26-01-2026T14:07:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Location/btn_update"), 120): Object 'Object Repository/Location/btn_update' is present
+
+26-01-2026T14:07:24 - [MESSAGE][PASSED] - Object 'Object Repository/Location/btn_update' is present
+
+26-01-2026T14:07:24 - [TEST_STEP][PASSED] - click(findTestObject("Location/btn_update")): Object: 'Object Repository/Location/btn_update' is clicked on
+
+26-01-2026T14:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/btn_update' is clicked on
+
+26-01-2026T14:07:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Location/h4_message"), 120): Object 'Object Repository/Location/h4_message' is present
+
+26-01-2026T14:07:28 - [MESSAGE][PASSED] - Object 'Object Repository/Location/h4_message' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2026T14:06:31 - [TEST_SUITE][PASSED] - TS_Location: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

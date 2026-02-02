@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_OP,Chrome 143.0.7499.170,,,06-01-2026 10:04:20,06-01-2026 10:05:14,53.797s,FAILED
+,,,,,,,
+Test Cases/OP/OP1.1,Chrome 143.0.7499.170,,,06-01-2026 10:04:21,06-01-2026 10:04:39,18.048s,PASSED
+"callTestCase(findTestCase(""Login/LG-01""), [:], STOP_ON_FAILURE)",Chrome 143.0.7499.170,,,06-01-2026 10:04:22,06-01-2026 10:04:37,15.477s,PASSED
+PAGELOAD_TIMEOUT = 300,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.001s,PASSED
+WAIT_FIELD = 60,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.001s,PASSED
+MAX_RELOAD_ATTEMPTS = 1,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.001s,PASSED
+WAIT_AFTER_CLICK = 90,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.002s,PASSED
+WAIT_TIMEOUT = 120,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.003s,PASSED
+MEDIUM = 15,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.000s,PASSED
+SHORT = 5,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.001s,PASSED
+LONG = 30,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:37,0.001s,PASSED
+try,Chrome 143.0.7499.170,,,06-01-2026 10:04:37,06-01-2026 10:04:38,0.593s,PASSED
+driver = getWebDriver(),Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.002s,PASSED
+"bodyEl = driver.findElement(By.tagName(""body""))",Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.243s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.011s,PASSED
+targetX = 0,Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.002s,PASSED
+targetY = 300,Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.001s,PASSED
+"moveToElement(bodyEl, targetX, targetY).perform()",Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.129s,PASSED
+"comment(🖱️ Đã move Actions tới body offset (x=$targetX, y=$targetY).)",Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.003s,PASSED
+click().perform(),Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.013s,PASSED
+"comment(✅ Đã click bằng Actions tại mép trái (x≈0), giữa màn hình (y≈$targetY).)",Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.004s,PASSED
+aAccount = new com.kms.katalon.core.testobject.TestObject(a_account),Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.001s,PASSED
+"aAccount.addProperty(""xpath"", EQUALS, ""//a[@href='account']"")",Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.002s,PASSED
+"present = waitForElementPresent(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:38,0.256s,PASSED
+"visible = waitForElementVisible(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,06-01-2026 10:04:38,06-01-2026 10:04:39,0.252s,PASSED
+"clickable = waitForElementClickable(aAccount, WAIT_TIMEOUT, OPTIONAL)",Chrome 143.0.7499.170,,,06-01-2026 10:04:39,06-01-2026 10:04:39,0.271s,PASSED
+if (!(present && visible)),Chrome 143.0.7499.170,,,06-01-2026 10:04:39,06-01-2026 10:04:39,0.001s,PASSED
+if (clickable),Chrome 143.0.7499.170,,,06-01-2026 10:04:39,06-01-2026 10:04:39,0.345s,PASSED
+,,,,,,,
+Test Cases/OP/OP1.6,Chrome 143.0.7499.170,,,06-01-2026 10:04:39,06-01-2026 10:04:48,8.383s,PASSED
+"verifyElementHasAttribute(findTestObject(""TO_address""), ""disabled"", 5)",Chrome 143.0.7499.170,,,06-01-2026 10:04:39,06-01-2026 10:04:41,1.310s,PASSED
+"verifyElementHasAttribute(findTestObject(""TO_email""), ""disabled"", 5)",Chrome 143.0.7499.170,,,06-01-2026 10:04:41,06-01-2026 10:04:41,0.246s,PASSED
+"verifyElementHasAttribute(findTestObject(""TO_full_name""), ""disabled"", 5)",Chrome 143.0.7499.170,,,06-01-2026 10:04:41,06-01-2026 10:04:41,0.250s,PASSED
+"verifyElementHasAttribute(findTestObject(""TO_phone_number""), ""disabled"", 5)",Chrome 143.0.7499.170,,,06-01-2026 10:04:41,06-01-2026 10:04:42,0.248s,PASSED
+"verifyElementHasAttribute(findTestObject(""TO_user_role""), ""disabled"", 5)",Chrome 143.0.7499.170,,,06-01-2026 10:04:42,06-01-2026 10:04:48,6.217s,WARNING
+,,,,,,,
+Test Cases/OP/OP1.7,Chrome 143.0.7499.170,,,06-01-2026 10:05:07,06-01-2026 10:05:13,6.144s,FAILED
+"scrollToElement(findTestObject(""TO_edit_details""), 5)",Chrome 143.0.7499.170,,,06-01-2026 10:05:07,06-01-2026 10:05:13,6.129s,FAILED
